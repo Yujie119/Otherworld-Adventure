@@ -1,0 +1,249 @@
+{
+  "target": "player",
+  "mode": "attack",
+  "prompt": "Reference-based red-haired martial arts hero compact body-only melee attack, 2x3, preserve crimson spiky hair, navy outfit, orange chest accent, white gloves and boots, no projectile or wide FX, solid magenta background.",
+  "role": "",
+  "input": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_084a9fada0bfb485016a4a3d5510d0819a8235f21221bc4aec.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 110,
+  "rows": 2,
+  "cols": 3,
+  "cell_size": 256,
+  "fit_scale": 0.88,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 2,
+  "min_component_area": 64,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "wukong-attack-1",
+    "wukong-attack-2",
+    "wukong-attack-3",
+    "wukong-attack-4",
+    "wukong-attack-5",
+    "wukong-attack-6"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 49855,
+      "selected_component_bbox": [
+        130,
+        36,
+        379,
+        443
+      ],
+      "crop_bbox": [
+        128,
+        34,
+        381,
+        445
+      ],
+      "edge_touch": false,
+      "output_size": [
+        138,
+        225
+      ],
+      "paste_position": [
+        59,
+        16
+      ]
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 45793,
+      "selected_component_bbox": [
+        85,
+        77,
+        333,
+        443
+      ],
+      "crop_bbox": [
+        83,
+        75,
+        335,
+        445
+      ],
+      "edge_touch": false,
+      "output_size": [
+        138,
+        202
+      ],
+      "paste_position": [
+        59,
+        39
+      ]
+    },
+    {
+      "grid": [
+        0,
+        2
+      ],
+      "source_box": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 48081,
+      "selected_component_bbox": [
+        27,
+        87,
+        389,
+        443
+      ],
+      "crop_bbox": [
+        25,
+        85,
+        391,
+        445
+      ],
+      "edge_touch": false,
+      "output_size": [
+        200,
+        197
+      ],
+      "paste_position": [
+        28,
+        44
+      ]
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 48957,
+      "selected_component_bbox": [
+        87,
+        44,
+        452,
+        416
+      ],
+      "crop_bbox": [
+        85,
+        42,
+        454,
+        418
+      ],
+      "edge_touch": false,
+      "output_size": [
+        202,
+        206
+      ],
+      "paste_position": [
+        27,
+        35
+      ]
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 43622,
+      "selected_component_bbox": [
+        91,
+        44,
+        343,
+        416
+      ],
+      "crop_bbox": [
+        89,
+        42,
+        345,
+        418
+      ],
+      "edge_touch": false,
+      "output_size": [
+        140,
+        206
+      ],
+      "paste_position": [
+        58,
+        35
+      ]
+    },
+    {
+      "grid": [
+        1,
+        2
+      ],
+      "source_box": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 47375,
+      "selected_component_bbox": [
+        60,
+        25,
+        300,
+        416
+      ],
+      "crop_bbox": [
+        58,
+        23,
+        302,
+        418
+      ],
+      "edge_touch": false,
+      "output_size": [
+        133,
+        216
+      ],
+      "paste_position": [
+        61,
+        25
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}
