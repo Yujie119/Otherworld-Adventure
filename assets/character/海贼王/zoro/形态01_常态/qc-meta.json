@@ -1,0 +1,26 @@
+{
+  "ip": "海贼王",
+  "slug": "zoro",
+  "label": "Zoro",
+  "key": "magenta",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9c0cfc488198b088a020eec90a17.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\海贼王\\zoro\\形态01_常态\\zoro.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    77,
+    18,
+    179,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 511,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

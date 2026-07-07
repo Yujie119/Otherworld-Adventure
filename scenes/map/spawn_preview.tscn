@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://bhrrixiuu7mmd"]
+
+[ext_resource type="Script" uid="uid://csmkmp2obj2dl" path="res://AI资源库/特效库/雷电滋滋/lightning_crackle_emitter.gd" id="3_5yms0"]
+[ext_resource type="PackedScene" path="res://assets/map/spawn/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot_package/遮挡关系/蓝色雷电球/portal_orb_element.tscn" id="portal_element"]
+[ext_resource type="PackedScene" path="res://assets/map/spawn/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot_package/PixelworkMapStitch/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663.tscn" id="spawn_map"]
+
+[node name="SpawnMapPreview" type="Node2D" unique_id=1828977207]
+
+[node name="Map" parent="." unique_id=1909118760 instance=ExtResource("spawn_map")]
+process_priority = 1000
+
+[node name="MapElementsLayer" type="Node2D" parent="." unique_id=975169257]
+
+[node name="法阵球元素" parent="MapElementsLayer" unique_id=503144037 instance=ExtResource("portal_element")]
+position = Vector2(8439, 4451)
+
+[node name="EffectsLayer" type="Node2D" parent="." unique_id=24041319]
+position = Vector2(7200, 4705)
+
+[node name="雷电滋滋" type="Node2D" parent="EffectsLayer" unique_id=1389900797]
+position = Vector2(883, -465)
+script = ExtResource("3_5yms0")
+metadata/npc_id = "fx_lightning_crackle"
+metadata/npc_json_path = "res://AI资源库/特效库/雷电滋滋/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "combat"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/雷电滋滋/fx.png",
+"thumbPath": "res://AI资源库/特效库/雷电滋滋/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 1.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/雷电滋滋/lightning_crackle_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "combat",
+"displayName": "雷电滋滋",
+"id": "fx_lightning_crackle",
+"style": "fx",
+"tags": ["雷电", "闪电", "电弧", "滋滋", "战斗特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 20.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="PreviewCamera" type="Camera2D" parent="." unique_id=140588818]
+position = Vector2(7224, 4685)
+zoom = Vector2(0.08, 0.08)

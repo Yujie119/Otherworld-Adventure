@@ -1,0 +1,1 @@
+Create a 2D game map VFX sprite sheet for green poison slime liquid, 7-frame horizontal strip, toxic puddle and bubbles, magenta background.

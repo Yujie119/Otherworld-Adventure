@@ -1,0 +1,374 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_03adbbe0bd201078016a4cbbfa4fe8819aaf65f91273e8f1cb.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 20,
+  "fit_scale": 0.16,
+  "shared_scale": true,
+  "component_mode": "all",
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "output_bbox": [
+        59,
+        61,
+        69,
+        67
+      ],
+      "output_size": [
+        10,
+        6
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames\\green_fragrance_00.png"
+    },
+    {
+      "index": 1,
+      "output_bbox": [
+        55,
+        55,
+        72,
+        72
+      ],
+      "output_size": [
+        17,
+        17
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames\\green_fragrance_01.png"
+    },
+    {
+      "index": 2,
+      "output_bbox": [
+        54,
+        55,
+        73,
+        72
+      ],
+      "output_size": [
+        19,
+        17
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames\\green_fragrance_02.png"
+    },
+    {
+      "index": 3,
+      "output_bbox": [
+        54,
+        54,
+        73,
+        74
+      ],
+      "output_size": [
+        19,
+        20
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames\\green_fragrance_03.png"
+    },
+    {
+      "index": 4,
+      "output_bbox": [
+        57,
+        58,
+        71,
+        70
+      ],
+      "output_size": [
+        14,
+        12
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames\\green_fragrance_04.png"
+    },
+    {
+      "index": 5,
+      "output_bbox": [
+        60,
+        60,
+        68,
+        67
+      ],
+      "output_size": [
+        8,
+        7
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames\\green_fragrance_05.png"
+    },
+    {
+      "index": 6,
+      "output_bbox": [
+        58,
+        62,
+        69,
+        66
+      ],
+      "output_size": [
+        11,
+        4
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames\\green_fragrance_06.png"
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色草木馨香\\green_fragrance_emitter.gd"
+  },
+  "source_pipeline_meta": {
+    "target": "asset",
+    "mode": "fx",
+    "prompt": "",
+    "role": "",
+    "input": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_03adbbe0bd201078016a4cbbfa4fe8819aaf65f91273e8f1cb.png",
+    "threshold": 100,
+    "edge_threshold": 150,
+    "duration": 90,
+    "rows": 1,
+    "cols": 7,
+    "cell_size": 128,
+    "fit_scale": 0.16,
+    "trim_border": 4,
+    "edge_clean_depth": 3,
+    "align": "center",
+    "shared_scale": true,
+    "component_mode": "all",
+    "component_padding": 0,
+    "min_component_area": 3,
+    "edge_touch_margin": 0,
+    "frame_labels": [
+      "green_fragrance-1",
+      "green_fragrance-2",
+      "green_fragrance-3",
+      "green_fragrance-4",
+      "green_fragrance-5",
+      "green_fragrance-6",
+      "green_fragrance-7"
+    ],
+    "frames": [
+      {
+        "grid": [
+          0,
+          0
+        ],
+        "source_box": [
+          0,
+          0,
+          310,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 2,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          123,
+          350,
+          187,
+          388
+        ],
+        "edge_touch": false,
+        "output_size": [
+          10,
+          6
+        ],
+        "paste_position": [
+          59,
+          61
+        ]
+      },
+      {
+        "grid": [
+          0,
+          1
+        ],
+        "source_box": [
+          310,
+          0,
+          620,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 4,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          106,
+          297,
+          214,
+          403
+        ],
+        "edge_touch": false,
+        "output_size": [
+          17,
+          17
+        ],
+        "paste_position": [
+          55,
+          55
+        ]
+      },
+      {
+        "grid": [
+          0,
+          2
+        ],
+        "source_box": [
+          620,
+          0,
+          930,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 5,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          98,
+          301,
+          222,
+          409
+        ],
+        "edge_touch": false,
+        "output_size": [
+          19,
+          17
+        ],
+        "paste_position": [
+          54,
+          55
+        ]
+      },
+      {
+        "grid": [
+          0,
+          3
+        ],
+        "source_box": [
+          930,
+          0,
+          1240,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 6,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          90,
+          285,
+          213,
+          412
+        ],
+        "edge_touch": false,
+        "output_size": [
+          19,
+          20
+        ],
+        "paste_position": [
+          54,
+          54
+        ]
+      },
+      {
+        "grid": [
+          0,
+          4
+        ],
+        "source_box": [
+          1240,
+          0,
+          1550,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 3,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          122,
+          316,
+          215,
+          395
+        ],
+        "edge_touch": false,
+        "output_size": [
+          14,
+          12
+        ],
+        "paste_position": [
+          57,
+          58
+        ]
+      },
+      {
+        "grid": [
+          0,
+          5
+        ],
+        "source_box": [
+          1550,
+          0,
+          1860,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 2,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          120,
+          360,
+          170,
+          406
+        ],
+        "edge_touch": false,
+        "output_size": [
+          8,
+          7
+        ],
+        "paste_position": [
+          60,
+          60
+        ]
+      },
+      {
+        "grid": [
+          0,
+          6
+        ],
+        "source_box": [
+          1860,
+          0,
+          2170,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 2,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          91,
+          350,
+          161,
+          380
+        ],
+        "edge_touch": false,
+        "output_size": [
+          11,
+          4
+        ],
+        "paste_position": [
+          58,
+          62
+        ]
+      }
+    ],
+    "edge_touch_frames": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ip": "鬼灭之刃",
+  "slug": "nezuko_kamado",
+  "label": "Nezuko",
+  "key": "magenta",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_025cb096dbab5378016a4ca2ef95b0819b813a5886b1ecc2c8.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\鬼灭之刃\\nezuko_kamado\\形态01_常态\\nezuko_kamado.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    74,
+    24,
+    181,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

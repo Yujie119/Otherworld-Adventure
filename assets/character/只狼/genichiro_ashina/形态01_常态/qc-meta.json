@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    75,
+    16,
+    180,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "genichiro_ashina",
+  "label": "Genichiro",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7b6a5d8c819ab755ec7e00f38b89.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\genichiro_ashina\\形态01_常态\\genichiro_ashina.png"
+}

@@ -1,0 +1,26 @@
+{
+  "ip": "死神",
+  "slug": "byakuya_kuchiki",
+  "label": "Byakuya",
+  "key": "green",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9d6b5e0c81988e37629e80731f93.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\死神\\byakuya_kuchiki\\形态01_常态\\byakuya_kuchiki.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    70,
+    16,
+    186,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

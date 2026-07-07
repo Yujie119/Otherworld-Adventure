@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c97bf03bc819ab81e7984246fea7a.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 96,
+  "shared_scale": 0.2689075630252101,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        74,
+        316,
+        202,
+        492
+      ],
+      "output_bbox": [
+        47,
+        40,
+        81,
+        87
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        35,
+        258,
+        211,
+        500
+      ],
+      "output_bbox": [
+        40,
+        31,
+        87,
+        96
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        15,
+        213,
+        236,
+        508
+      ],
+      "output_bbox": [
+        34,
+        24,
+        93,
+        103
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        2,
+        168,
+        305,
+        525
+      ],
+      "output_bbox": [
+        23,
+        16,
+        104,
+        112
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        61,
+        182,
+        309,
+        513
+      ],
+      "output_bbox": [
+        30,
+        19,
+        97,
+        108
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        96,
+        272,
+        277,
+        507
+      ],
+      "output_bbox": [
+        39,
+        32,
+        88,
+        95
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        104,
+        332,
+        225,
+        495
+      ],
+      "output_bbox": [
+        47,
+        42,
+        80,
+        86
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\臭气熏天\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\臭气熏天\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\臭气熏天\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\臭气熏天\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\臭气熏天\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\臭气熏天\\stink_cloud_emitter.gd"
+  }
+}

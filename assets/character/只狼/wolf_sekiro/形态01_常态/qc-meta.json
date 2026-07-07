@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    77,
+    18,
+    178,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "wolf_sekiro",
+  "label": "Wolf",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0e1e6408d7c36202016a4c795728b8819ba1680e648a9a2cca.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\wolf_sekiro\\形态01_常态\\wolf_sekiro.png"
+}

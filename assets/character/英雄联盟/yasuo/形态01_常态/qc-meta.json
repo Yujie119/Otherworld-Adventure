@@ -1,0 +1,26 @@
+{
+  "ip": "英雄联盟",
+  "slug": "yasuo",
+  "label": "Yasuo",
+  "key": "green",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4caba1f5548198998b6438649d2d30.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\英雄联盟\\yasuo\\形态01_常态\\yasuo.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    74,
+    18,
+    182,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

@@ -1,0 +1,26 @@
+{
+  "ip": "怪物猎人",
+  "slug": "rathalos",
+  "label": "Rathalos",
+  "key": "green",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cba0dae7881988df59f4a4a59ba41.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\怪物猎人\\rathalos\\形态01_常态\\rathalos.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    33,
+    18,
+    223,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

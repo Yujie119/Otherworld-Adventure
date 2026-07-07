@@ -1,0 +1,26 @@
+{
+  "ip": "进击的巨人",
+  "slug": "mikasa_ackerman",
+  "label": "Mikasa",
+  "key": "magenta",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0f9156ba45ea1581016a4ca79eb7c481989f6b044c7be863f0.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\进击的巨人\\mikasa_ackerman\\形态01_常态\\mikasa_ackerman.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    62,
+    20,
+    193,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

@@ -1,0 +1,26 @@
+{
+  "ip": "咒术回战",
+  "slug": "yuji_itadori",
+  "label": "Yuji",
+  "key": "green",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9e0213a881988ab0f3bf3c2edd64.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\咒术回战\\yuji_itadori\\形态01_常态\\yuji_itadori.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    85,
+    18,
+    171,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

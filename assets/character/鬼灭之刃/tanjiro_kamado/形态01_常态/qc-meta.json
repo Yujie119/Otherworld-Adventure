@@ -1,0 +1,26 @@
+{
+  "ip": "鬼灭之刃",
+  "slug": "tanjiro_kamado",
+  "label": "Tanjiro",
+  "key": "magenta",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_025cb096dbab5378016a4ca29f2b74819ba419dfa7297032b4.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\鬼灭之刃\\tanjiro_kamado\\形态01_常态\\tanjiro_kamado.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    82,
+    18,
+    173,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 5,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

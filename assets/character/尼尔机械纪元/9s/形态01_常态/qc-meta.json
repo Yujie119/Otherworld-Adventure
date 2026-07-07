@@ -1,0 +1,21 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    84,
+    20,
+    171,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "slug": "9s",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_085aac35c103a07c016a4c68dd2d5481998eea8773a6ea930e.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\尼尔机械纪元\\9s\\形态01_常态\\9s.png"
+}

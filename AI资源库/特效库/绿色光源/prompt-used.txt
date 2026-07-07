@@ -1,0 +1,1 @@
+Create a 2D game map VFX sprite sheet for green light source pulse, 7-frame horizontal strip, emerald orb and halo, magenta background.

@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"meta": {
+		"id": "fx_water_ripple",
+		"displayName": "水面波动",
+		"style": "fx",
+		"category": "environment",
+		"tags": [
+			"水面",
+			"波纹",
+			"涟漪",
+			"环境特效"
+		]
+	},
+	"assets": {
+		"spritePath": "res://AI资源库/特效库/水面波动/fx.png",
+		"thumbPath": "res://AI资源库/特效库/水面波动/fx.png"
+	},
+	"spritesheet": {
+		"layoutVersion": "grid_v1",
+		"frameWidth": 128,
+		"frameHeight": 128,
+		"columns": 7,
+		"rows": 1,
+		"margin": 0,
+		"spacing": 0,
+		"defaultFps": 11,
+		"animations": {
+			"fx": {
+				"row": 0,
+				"from": 0,
+				"to": 6,
+				"loop": true
+			}
+		}
+	},
+	"gameplay": {
+		"role": "fx_emitter"
+	},
+	"ext": {
+		"librarySortPriority": 3,
+		"cardPreviewAnim": "fx",
+		"otherPayload": {
+			"emitterScriptPath": "res://AI资源库/特效库/水面波动/water_ripple_emitter.gd"
+		}
+	}
+}

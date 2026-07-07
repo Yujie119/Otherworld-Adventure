@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"meta": {
+		"id": "fx_lightning_crackle",
+		"displayName": "雷电滋滋",
+		"style": "fx",
+		"category": "combat",
+		"tags": ["雷电", "闪电", "电弧", "滋滋", "战斗特效"]
+	},
+	"assets": {
+		"spritePath": "res://AI资源库/特效库/雷电滋滋/fx.png",
+		"thumbPath": "res://AI资源库/特效库/雷电滋滋/fx.png"
+	},
+	"spritesheet": {
+		"layoutVersion": "grid_v1",
+		"frameWidth": 128,
+		"frameHeight": 128,
+		"columns": 7,
+		"rows": 1,
+		"margin": 0,
+		"spacing": 0,
+		"defaultFps": 20,
+		"animations": {
+			"fx": { "row": 0, "from": 0, "to": 6, "loop": true }
+		}
+	},
+	"gameplay": {
+		"role": "fx_emitter"
+	},
+	"ext": {
+		"librarySortPriority": 1,
+		"cardPreviewAnim": "fx",
+		"otherPayload": {
+			"emitterScriptPath": "res://AI资源库/特效库/雷电滋滋/lightning_crackle_emitter.gd"
+		}
+	}
+}

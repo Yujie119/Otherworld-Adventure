@@ -1,0 +1,26 @@
+{
+  "ip": "最终幻想VII",
+  "slug": "tifa_lockhart",
+  "label": "Tifa",
+  "key": "green",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cb8a0b72c8198873ffd539d510f3d.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\最终幻想VII\\tifa_lockhart\\形态01_常态\\tifa_lockhart.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    81,
+    18,
+    174,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

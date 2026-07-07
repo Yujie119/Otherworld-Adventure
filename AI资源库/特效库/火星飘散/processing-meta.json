@@ -1,0 +1,374 @@
+{
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_09858ef585308994016a4cc489bbcc819aa249d3fd0f3c7b97.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 23,
+  "fit_scale": 0.18,
+  "shared_scale": true,
+  "component_mode": "all",
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "output_bbox": [
+        60,
+        63,
+        67,
+        65
+      ],
+      "output_size": [
+        7,
+        2
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames\\ember_sparks_00.png"
+    },
+    {
+      "index": 1,
+      "output_bbox": [
+        59,
+        60,
+        68,
+        68
+      ],
+      "output_size": [
+        9,
+        8
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames\\ember_sparks_01.png"
+    },
+    {
+      "index": 2,
+      "output_bbox": [
+        56,
+        55,
+        71,
+        72
+      ],
+      "output_size": [
+        15,
+        17
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames\\ember_sparks_02.png"
+    },
+    {
+      "index": 3,
+      "output_bbox": [
+        58,
+        52,
+        70,
+        75
+      ],
+      "output_size": [
+        12,
+        23
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames\\ember_sparks_03.png"
+    },
+    {
+      "index": 4,
+      "output_bbox": [
+        59,
+        59,
+        68,
+        68
+      ],
+      "output_size": [
+        9,
+        9
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames\\ember_sparks_04.png"
+    },
+    {
+      "index": 5,
+      "output_bbox": [
+        60,
+        62,
+        67,
+        66
+      ],
+      "output_size": [
+        7,
+        4
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames\\ember_sparks_05.png"
+    },
+    {
+      "index": 6,
+      "output_bbox": [
+        61,
+        63,
+        67,
+        65
+      ],
+      "output_size": [
+        6,
+        2
+      ],
+      "path": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames\\ember_sparks_06.png"
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火星飘散\\ember_sparks_emitter.gd"
+  },
+  "source_pipeline_meta": {
+    "target": "asset",
+    "mode": "fx",
+    "prompt": "",
+    "role": "",
+    "input": "C:\\Users\\宇杰\\.codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_09858ef585308994016a4cc489bbcc819aa249d3fd0f3c7b97.png",
+    "threshold": 100,
+    "edge_threshold": 150,
+    "duration": 85,
+    "rows": 1,
+    "cols": 7,
+    "cell_size": 128,
+    "fit_scale": 0.18,
+    "trim_border": 4,
+    "edge_clean_depth": 3,
+    "align": "center",
+    "shared_scale": true,
+    "component_mode": "all",
+    "component_padding": 0,
+    "min_component_area": 3,
+    "edge_touch_margin": 0,
+    "frame_labels": [
+      "ember_sparks-1",
+      "ember_sparks-2",
+      "ember_sparks-3",
+      "ember_sparks-4",
+      "ember_sparks-5",
+      "ember_sparks-6",
+      "ember_sparks-7"
+    ],
+    "frames": [
+      {
+        "grid": [
+          0,
+          0
+        ],
+        "source_box": [
+          0,
+          0,
+          310,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 2,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          119,
+          395,
+          180,
+          416
+        ],
+        "edge_touch": false,
+        "output_size": [
+          7,
+          2
+        ],
+        "paste_position": [
+          60,
+          63
+        ]
+      },
+      {
+        "grid": [
+          0,
+          1
+        ],
+        "source_box": [
+          310,
+          0,
+          620,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 4,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          117,
+          359,
+          196,
+          434
+        ],
+        "edge_touch": false,
+        "output_size": [
+          9,
+          8
+        ],
+        "paste_position": [
+          59,
+          60
+        ]
+      },
+      {
+        "grid": [
+          0,
+          2
+        ],
+        "source_box": [
+          620,
+          0,
+          930,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 6,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          114,
+          287,
+          241,
+          434
+        ],
+        "edge_touch": false,
+        "output_size": [
+          15,
+          17
+        ],
+        "paste_position": [
+          56,
+          55
+        ]
+      },
+      {
+        "grid": [
+          0,
+          3
+        ],
+        "source_box": [
+          930,
+          0,
+          1240,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 6,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          111,
+          243,
+          218,
+          436
+        ],
+        "edge_touch": false,
+        "output_size": [
+          12,
+          23
+        ],
+        "paste_position": [
+          58,
+          52
+        ]
+      },
+      {
+        "grid": [
+          0,
+          4
+        ],
+        "source_box": [
+          1240,
+          0,
+          1550,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 3,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          119,
+          348,
+          197,
+          426
+        ],
+        "edge_touch": false,
+        "output_size": [
+          9,
+          9
+        ],
+        "paste_position": [
+          59,
+          59
+        ]
+      },
+      {
+        "grid": [
+          0,
+          5
+        ],
+        "source_box": [
+          1550,
+          0,
+          1860,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 3,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          116,
+          396,
+          183,
+          433
+        ],
+        "edge_touch": false,
+        "output_size": [
+          7,
+          4
+        ],
+        "paste_position": [
+          60,
+          62
+        ]
+      },
+      {
+        "grid": [
+          0,
+          6
+        ],
+        "source_box": [
+          1860,
+          0,
+          2170,
+          724
+        ],
+        "component_mode": "all",
+        "component_count": 2,
+        "selected_component_area": null,
+        "selected_component_bbox": null,
+        "crop_bbox": [
+          101,
+          404,
+          158,
+          423
+        ],
+        "edge_touch": false,
+        "output_size": [
+          6,
+          2
+        ],
+        "paste_position": [
+          61,
+          63
+        ]
+      }
+    ],
+    "edge_touch_frames": []
+  }
+}

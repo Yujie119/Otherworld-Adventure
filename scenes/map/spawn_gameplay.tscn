@@ -1,0 +1,479 @@
+[gd_scene format=3 uid="uid://bjfnwdn315rsg"]
+
+[ext_resource type="PackedScene" path="res://assets/map/spawn/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot_package/PixelworkMapStitch/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663.tscn" id="1_map"]
+[ext_resource type="PackedScene" uid="uid://dhlabdsrrsagg" path="res://scenes/characters/spawn_player.tscn" id="2_player"]
+[ext_resource type="Script" uid="uid://dc7n6nomrkkx0" path="res://scripts/map/spawn_map_controller.gd" id="3_controller"]
+[ext_resource type="Script" uid="uid://b13adpkb757t0" path="res://AI资源库/特效库/火焰燃烧/fire_burning_emitter.gd" id="5_67n5t"]
+[ext_resource type="Script" uid="uid://csmkmp2obj2dl" path="res://AI资源库/特效库/雷电滋滋/lightning_crackle_emitter.gd" id="5_lightning_fx"]
+[ext_resource type="PackedScene" path="res://assets/map/spawn/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot_package/遮挡关系/蓝色雷电球/portal_orb_element.tscn" id="6_portal_element"]
+[ext_resource type="Script" uid="uid://bj238snshxr3f" path="res://AI资源库/特效库/符文奥秘/arcane_runes_emitter.gd" id="6_t2of5"]
+[ext_resource type="Script" uid="uid://dloi4vmwa6to2" path="res://AI资源库/特效库/绿色草木馨香/green_fragrance_emitter.gd" id="7_i3ge2"]
+
+[node name="SpawnGameplay" type="Node2D" unique_id=1336375181]
+position = Vector2(-2462, -1527)
+script = ExtResource("3_controller")
+
+[node name="Map" parent="." unique_id=697123232 instance=ExtResource("1_map")]
+process_priority = 1000
+
+[node name="MapElementsLayer" type="Node2D" parent="." unique_id=389470834]
+position = Vector2(7066, 4698)
+
+[node name="法阵球元素" parent="MapElementsLayer" unique_id=44248188 instance=ExtResource("6_portal_element")]
+position = Vector2(1376, -243.99997)
+
+[node name="EffectsLayer" type="Node2D" parent="." unique_id=1611734884]
+position = Vector2(7188, 3687)
+
+[node name="雷电滋滋" type="Node2D" parent="EffectsLayer" unique_id=1389900797]
+position = Vector2(1518, 512)
+script = ExtResource("5_lightning_fx")
+metadata/npc_id = "fx_lightning_crackle"
+metadata/npc_json_path = "res://AI资源库/特效库/雷电滋滋/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "combat"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/雷电滋滋/fx.png",
+"thumbPath": "res://AI资源库/特效库/雷电滋滋/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 1.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/雷电滋滋/lightning_crackle_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "combat",
+"displayName": "雷电滋滋",
+"id": "fx_lightning_crackle",
+"style": "fx",
+"tags": ["雷电", "闪电", "电弧", "滋滋", "战斗特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 20.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="雷电滋滋2" type="Node2D" parent="EffectsLayer" unique_id=1634624424]
+position = Vector2(1047, 494)
+script = ExtResource("5_lightning_fx")
+metadata/npc_id = "fx_lightning_crackle"
+metadata/npc_json_path = "res://AI资源库/特效库/雷电滋滋/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "combat"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/雷电滋滋/fx.png",
+"thumbPath": "res://AI资源库/特效库/雷电滋滋/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 1.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/雷电滋滋/lightning_crackle_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "combat",
+"displayName": "雷电滋滋",
+"id": "fx_lightning_crackle",
+"style": "fx",
+"tags": ["雷电", "闪电", "电弧", "滋滋", "战斗特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 20.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="雷电滋滋3" type="Node2D" parent="EffectsLayer" unique_id=659986329]
+position = Vector2(550, 1276)
+script = ExtResource("5_lightning_fx")
+metadata/npc_id = "fx_lightning_crackle"
+metadata/npc_json_path = "res://AI资源库/特效库/雷电滋滋/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "combat"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/雷电滋滋/fx.png",
+"thumbPath": "res://AI资源库/特效库/雷电滋滋/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 1.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/雷电滋滋/lightning_crackle_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "combat",
+"displayName": "雷电滋滋",
+"id": "fx_lightning_crackle",
+"style": "fx",
+"tags": ["雷电", "闪电", "电弧", "滋滋", "战斗特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 20.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="火焰燃烧" type="Node2D" parent="EffectsLayer" unique_id=944964517]
+position = Vector2(4469, 704)
+script = ExtResource("5_67n5t")
+metadata/npc_id = "fx_fire_burning"
+metadata/npc_json_path = "res://AI资源库/特效库/火焰燃烧/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "environment"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/火焰燃烧/fx.png",
+"thumbPath": "res://AI资源库/特效库/火焰燃烧/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 3.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/火焰燃烧/fire_burning_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "environment",
+"displayName": "火焰燃烧",
+"id": "fx_fire_burning",
+"style": "fx",
+"tags": ["火焰", "燃烧", "火光", "环境特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 14.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="火焰燃烧2" type="Node2D" parent="EffectsLayer" unique_id=1378991480]
+position = Vector2(4736, 712)
+script = ExtResource("5_67n5t")
+metadata/npc_id = "fx_fire_burning"
+metadata/npc_json_path = "res://AI资源库/特效库/火焰燃烧/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "environment"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/火焰燃烧/fx.png",
+"thumbPath": "res://AI资源库/特效库/火焰燃烧/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 3.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/火焰燃烧/fire_burning_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "environment",
+"displayName": "火焰燃烧",
+"id": "fx_fire_burning",
+"style": "fx",
+"tags": ["火焰", "燃烧", "火光", "环境特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 14.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="火焰燃烧3" type="Node2D" parent="EffectsLayer" unique_id=1390575887]
+position = Vector2(5005, 705)
+script = ExtResource("5_67n5t")
+metadata/npc_id = "fx_fire_burning"
+metadata/npc_json_path = "res://AI资源库/特效库/火焰燃烧/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "environment"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/火焰燃烧/fx.png",
+"thumbPath": "res://AI资源库/特效库/火焰燃烧/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 3.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/火焰燃烧/fire_burning_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "environment",
+"displayName": "火焰燃烧",
+"id": "fx_fire_burning",
+"style": "fx",
+"tags": ["火焰", "燃烧", "火光", "环境特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 14.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="火焰燃烧4" type="Node2D" parent="EffectsLayer" unique_id=1184072257]
+position = Vector2(5293, 695)
+script = ExtResource("5_67n5t")
+metadata/npc_id = "fx_fire_burning"
+metadata/npc_json_path = "res://AI资源库/特效库/火焰燃烧/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "environment"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/火焰燃烧/fx.png",
+"thumbPath": "res://AI资源库/特效库/火焰燃烧/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 3.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/火焰燃烧/fire_burning_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "environment",
+"displayName": "火焰燃烧",
+"id": "fx_fire_burning",
+"style": "fx",
+"tags": ["火焰", "燃烧", "火光", "环境特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 14.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="符文奥秘" type="Node2D" parent="EffectsLayer" unique_id=798786912]
+position = Vector2(-3116, -412)
+script = ExtResource("6_t2of5")
+metadata/npc_id = "fx_arcane_runes"
+metadata/npc_json_path = "res://AI资源库/特效库/符文奥秘/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "environment"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/符文奥秘/fx.png",
+"thumbPath": "res://AI资源库/特效库/符文奥秘/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 3.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/符文奥秘/arcane_runes_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "environment",
+"displayName": "符文奥秘",
+"id": "fx_arcane_runes",
+"style": "fx",
+"tags": ["符文", "奥秘", "魔法", "环境特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 14.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="绿色草木馨香" type="Node2D" parent="EffectsLayer" unique_id=2094530226]
+position = Vector2(-4726, -2160)
+script = ExtResource("7_i3ge2")
+metadata/npc_id = "fx_green_fragrance"
+metadata/npc_json_path = "res://AI资源库/特效库/绿色草木馨香/fx.json"
+metadata/npc_style = "fx"
+metadata/npc_category = "environment"
+metadata/npc_data = {
+"assets": {
+"spritePath": "res://AI资源库/特效库/绿色草木馨香/fx.png",
+"thumbPath": "res://AI资源库/特效库/绿色草木馨香/fx.png"
+},
+"ext": {
+"cardPreviewAnim": "fx",
+"librarySortPriority": 3.0,
+"otherPayload": {
+"emitterScriptPath": "res://AI资源库/特效库/绿色草木馨香/green_fragrance_emitter.gd"
+}
+},
+"gameplay": {
+"role": "fx_emitter"
+},
+"meta": {
+"category": "environment",
+"displayName": "绿色草木馨香",
+"id": "fx_green_fragrance",
+"style": "fx",
+"tags": ["草木", "馨香", "绿色", "环境特效"]
+},
+"schemaVersion": 1.0,
+"spritesheet": {
+"animations": {
+"fx": {
+"from": 0.0,
+"loop": true,
+"row": 0.0,
+"to": 6.0
+}
+},
+"columns": 7.0,
+"defaultFps": 12.0,
+"frameHeight": 128.0,
+"frameWidth": 128.0,
+"layoutVersion": "grid_v1",
+"margin": 0.0,
+"rows": 1.0,
+"spacing": 0.0
+}
+}
+
+[node name="Player" parent="." unique_id=183047398 instance=ExtResource("2_player")]
+position = Vector2(7173, 4711)

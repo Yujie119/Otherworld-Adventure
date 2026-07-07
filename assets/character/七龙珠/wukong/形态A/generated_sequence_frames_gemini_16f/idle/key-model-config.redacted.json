@@ -1,0 +1,15 @@
+{
+  "endpoint": "http://43.110.22.121:8320/v1/chat/completions",
+  "model": "gemini-3.1-flash-image",
+  "authorization": "Bearer <redacted key from key.txt>",
+  "modalities": [
+    "image",
+    "text"
+  ],
+  "image_config": {
+    "aspect_ratio": "1:1",
+    "image_size": "1024x1024"
+  },
+  "reference_image": "D:\\游戏\\earth-online\\main\\assets\\character\\wukong\\形态A\\wukong.png",
+  "layout_guide": "D:\\游戏\\earth-online\\main\\assets\\character\\wukong\\形态A\\generated_sequence_frames_gemini_16f\\references\\4x4-layout-guide.png"
+}

@@ -1,0 +1,1 @@
+Sparse orange-yellow ember sparks for forge/fire-source map FX, like the small green motes/leaf particles: tiny points and flecks only, no large flame body. Seven equal frames on solid #FF00FF raw background.

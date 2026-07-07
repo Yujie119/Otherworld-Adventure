@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    81,
+    30,
+    174,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "sculptor",
+  "label": "Sculptor",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7c660958819ab77ea95c8ccd1278.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\sculptor\\形态01_常态\\sculptor.png"
+}

@@ -1,0 +1,106 @@
+{
+  "source": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\雷电滋滋\\raw-image2-sheet.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "shared_scale": 0.34285714285714286,
+  "max_source_bbox": [
+    306,
+    315
+  ],
+  "cells": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "bbox": [
+        91,
+        318,
+        211,
+        419
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "bbox": [
+        33,
+        275,
+        228,
+        445
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "bbox": [
+        17,
+        249,
+        254,
+        472
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "bbox": [
+        27,
+        199,
+        310,
+        488
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "bbox": [
+        0,
+        199,
+        306,
+        514
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "bbox": [
+        68,
+        262,
+        255,
+        447
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "bbox": [
+        87,
+        318,
+        207,
+        419
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\雷电滋滋\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\雷电滋滋\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\雷电滋滋\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\雷电滋滋\\animation-preview-dark.gif"
+  },
+  "resize_adjustment": {
+    "reason": "user requested smaller lightning effect",
+    "content_scale_from_previous_fx": 0.68,
+    "backup_before_resize": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\雷电滋滋\\fx-large-before-resize.png",
+    "edge_touch_frames_after_resize": []
+  }
+}

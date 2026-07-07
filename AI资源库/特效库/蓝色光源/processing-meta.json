@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c9846d5ec819a9dbecd9c6a5e7624.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 78,
+  "shared_scale": 0.3466666666666667,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        110,
+        298,
+        243,
+        418
+      ],
+      "output_bbox": [
+        41,
+        43,
+        87,
+        85
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        73,
+        269,
+        237,
+        449
+      ],
+      "output_bbox": [
+        35,
+        33,
+        92,
+        95
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        58,
+        267,
+        253,
+        458
+      ],
+      "output_bbox": [
+        30,
+        31,
+        98,
+        97
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        51,
+        254,
+        258,
+        479
+      ],
+      "output_bbox": [
+        28,
+        25,
+        100,
+        103
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        59,
+        259,
+        259,
+        457
+      ],
+      "output_bbox": [
+        29,
+        29,
+        98,
+        98
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        63,
+        282,
+        243,
+        447
+      ],
+      "output_bbox": [
+        33,
+        35,
+        95,
+        92
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        68,
+        295,
+        192,
+        418
+      ],
+      "output_bbox": [
+        42,
+        42,
+        85,
+        85
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蓝色光源\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蓝色光源\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蓝色光源\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蓝色光源\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蓝色光源\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蓝色光源\\blue_light_source_emitter.gd"
+  }
+}

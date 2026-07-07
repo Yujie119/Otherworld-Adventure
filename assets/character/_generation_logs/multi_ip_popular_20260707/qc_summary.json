@@ -1,0 +1,1042 @@
+[
+  {
+    "ip": "海贼王",
+    "slug": "luffy",
+    "label": "Luffy",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9bcf9e1881989d7736570a1eb298.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\海贼王\\luffy\\形态01_常态\\luffy.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      78,
+      18,
+      177,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "海贼王",
+    "slug": "zoro",
+    "label": "Zoro",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9c0cfc488198b088a020eec90a17.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\海贼王\\zoro\\形态01_常态\\zoro.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      77,
+      18,
+      179,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 511,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "海贼王",
+    "slug": "nami",
+    "label": "Nami",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9c533694819884525ce5dcdaafc2.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\海贼王\\nami\\形态01_常态\\nami.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      79,
+      18,
+      177,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "海贼王",
+    "slug": "sanji",
+    "label": "Sanji",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9c92b3688198b4d7e55137675cf0.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\海贼王\\sanji\\形态01_常态\\sanji.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      87,
+      18,
+      168,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "死神",
+    "slug": "ichigo_kurosaki",
+    "label": "Ichigo",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9ce27b5c8198b70ccbe4b2ef6e9b.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\死神\\ichigo_kurosaki\\形态01_常态\\ichigo_kurosaki.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      81,
+      16,
+      174,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "死神",
+    "slug": "rukia_kuchiki",
+    "label": "Rukia",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9d2738d88198a84378a3333ab742.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\死神\\rukia_kuchiki\\形态01_常态\\rukia_kuchiki.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      87,
+      24,
+      168,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "死神",
+    "slug": "byakuya_kuchiki",
+    "label": "Byakuya",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9d6b5e0c81988e37629e80731f93.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\死神\\byakuya_kuchiki\\形态01_常态\\byakuya_kuchiki.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      70,
+      16,
+      186,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "死神",
+    "slug": "sosuke_aizen",
+    "label": "Aizen",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9db2b9748198a52f96ad8a296448.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\死神\\sosuke_aizen\\形态01_常态\\sosuke_aizen.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      75,
+      16,
+      181,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "咒术回战",
+    "slug": "yuji_itadori",
+    "label": "Yuji",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9e0213a881988ab0f3bf3c2edd64.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\咒术回战\\yuji_itadori\\形态01_常态\\yuji_itadori.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      85,
+      18,
+      171,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "咒术回战",
+    "slug": "megumi_fushiguro",
+    "label": "Megumi",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9e4293b08198bff66c6348abab21.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\咒术回战\\megumi_fushiguro\\形态01_常态\\megumi_fushiguro.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      82,
+      18,
+      173,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "咒术回战",
+    "slug": "satoru_gojo",
+    "label": "Gojo",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9e836d90819888313e5a97d95aa3.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\咒术回战\\satoru_gojo\\形态01_常态\\satoru_gojo.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      85,
+      16,
+      170,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "咒术回战",
+    "slug": "ryomen_sukuna",
+    "label": "Sukuna",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_026fa4f1c18d1df6016a4c9ec26984819887bd54f28ed54c12.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\咒术回战\\ryomen_sukuna\\形态01_常态\\ryomen_sukuna.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      82,
+      16,
+      174,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "鬼灭之刃",
+    "slug": "tanjiro_kamado",
+    "label": "Tanjiro",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_025cb096dbab5378016a4ca29f2b74819ba419dfa7297032b4.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\鬼灭之刃\\tanjiro_kamado\\形态01_常态\\tanjiro_kamado.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      82,
+      18,
+      173,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 5,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "鬼灭之刃",
+    "slug": "nezuko_kamado",
+    "label": "Nezuko",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_025cb096dbab5378016a4ca2ef95b0819b813a5886b1ecc2c8.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\鬼灭之刃\\nezuko_kamado\\形态01_常态\\nezuko_kamado.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      74,
+      24,
+      181,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "鬼灭之刃",
+    "slug": "zenitsu_agatsuma",
+    "label": "Zenitsu",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_025cb096dbab5378016a4ca3381650819ba76956c4fd0c703e.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\鬼灭之刃\\zenitsu_agatsuma\\形态01_常态\\zenitsu_agatsuma.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      79,
+      18,
+      177,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "鬼灭之刃",
+    "slug": "inosuke_hashibira",
+    "label": "Inosuke",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_023bcaca6db967c1016a4ca5413f14819b8cbbc8aeacc018e4.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\鬼灭之刃\\inosuke_hashibira\\形态01_常态\\inosuke_hashibira.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      60,
+      22,
+      195,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "进击的巨人",
+    "slug": "eren_yeager",
+    "label": "Eren",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0f9156ba45ea1581016a4ca72aa8a481988a1c51ab6299be0d.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\进击的巨人\\eren_yeager\\形态01_常态\\eren_yeager.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      72,
+      18,
+      184,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "进击的巨人",
+    "slug": "mikasa_ackerman",
+    "label": "Mikasa",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0f9156ba45ea1581016a4ca79eb7c481989f6b044c7be863f0.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\进击的巨人\\mikasa_ackerman\\形态01_常态\\mikasa_ackerman.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      62,
+      20,
+      193,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "进击的巨人",
+    "slug": "levi_ackerman",
+    "label": "Levi",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0f9156ba45ea1581016a4ca7f4f0b48198855204a7a9ba1142.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\进击的巨人\\levi_ackerman\\形态01_常态\\levi_ackerman.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      69,
+      24,
+      187,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "进击的巨人",
+    "slug": "armored_titan",
+    "label": "Armored Titan",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4ca91a25e081988faa2e1c22eae038.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\进击的巨人\\armored_titan\\形态01_常态\\armored_titan.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      68,
+      14,
+      188,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "原神",
+    "slug": "aether_traveler",
+    "label": "Aether",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4ca9870f64819889e40d1d2017b2b4.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\原神\\aether_traveler\\形态01_常态\\aether_traveler.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      81,
+      18,
+      175,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "原神",
+    "slug": "paimon",
+    "label": "Paimon",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4ca9f31b148198990facca73ba1962.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\原神\\paimon\\形态01_常态\\paimon.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      65,
+      46,
+      190,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "原神",
+    "slug": "zhongli",
+    "label": "Zhongli",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4caa4115bc8198999a1456a2902e5d.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\原神\\zhongli\\形态01_常态\\zhongli.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      87,
+      16,
+      168,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "原神",
+    "slug": "raiden_shogun",
+    "label": "Raiden",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4caa92d80c81988fab69def76718e5.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\原神\\raiden_shogun\\形态01_常态\\raiden_shogun.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      74,
+      16,
+      182,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 5
+  },
+  {
+    "ip": "英雄联盟",
+    "slug": "jinx",
+    "label": "Jinx",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4caaf952188198b1bbacd14f09079c.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\英雄联盟\\jinx\\形态01_常态\\jinx.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      64,
+      18,
+      192,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 2
+  },
+  {
+    "ip": "英雄联盟",
+    "slug": "ahri",
+    "label": "Ahri",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4cab4c725c8198b3c0a3de375e1a57.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\英雄联盟\\ahri\\形态01_常态\\ahri.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      47,
+      18,
+      209,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "英雄联盟",
+    "slug": "yasuo",
+    "label": "Yasuo",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4caba1f5548198998b6438649d2d30.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\英雄联盟\\yasuo\\形态01_常态\\yasuo.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      74,
+      18,
+      182,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "英雄联盟",
+    "slug": "teemo",
+    "label": "Teemo",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4cac103e908198bcd443ab976b2d93.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\英雄联盟\\teemo\\形态01_常态\\teemo.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      65,
+      46,
+      191,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "我的世界",
+    "slug": "creeper",
+    "label": "Creeper",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0808acc7b9230de7016a4cb4d6f5d8819bb06d1b3a8a52fa51.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\我的世界\\creeper\\形态01_常态\\creeper.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      77,
+      30,
+      179,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 2841,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "我的世界",
+    "slug": "zombie",
+    "label": "Zombie",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0808acc7b9230de7016a4cb52723a4819b9e2b5e070a990f3a.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\我的世界\\zombie\\形态01_常态\\zombie.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      76,
+      30,
+      179,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "我的世界",
+    "slug": "skeleton",
+    "label": "Skeleton",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0808acc7b9230de7016a4cb581d658819b81de1414755da80d.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\我的世界\\skeleton\\形态01_常态\\skeleton.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      86,
+      30,
+      169,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "我的世界",
+    "slug": "enderman",
+    "label": "Enderman",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0808acc7b9230de7016a4cb5d58984819bb8be018af8daad55.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\我的世界\\enderman\\形态01_常态\\enderman.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      88,
+      14,
+      168,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 51
+  },
+  {
+    "ip": "最终幻想VII",
+    "slug": "cloud_strife",
+    "label": "Cloud",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cb83f00308198b4427d6453e067e6.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\最终幻想VII\\cloud_strife\\形态01_常态\\cloud_strife.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      57,
+      16,
+      199,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "最终幻想VII",
+    "slug": "tifa_lockhart",
+    "label": "Tifa",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cb8a0b72c8198873ffd539d510f3d.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\最终幻想VII\\tifa_lockhart\\形态01_常态\\tifa_lockhart.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      81,
+      18,
+      174,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "最终幻想VII",
+    "slug": "aerith_gainsborough",
+    "label": "Aerith",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cb9165b30819887d153b4aad6279f.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\最终幻想VII\\aerith_gainsborough\\形态01_常态\\aerith_gainsborough.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      81,
+      18,
+      175,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "最终幻想VII",
+    "slug": "sephiroth",
+    "label": "Sephiroth",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cb99612fc8198a49e20c48aebf747.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\最终幻想VII\\sephiroth\\形态01_常态\\sephiroth.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      56,
+      14,
+      200,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "怪物猎人",
+    "slug": "rathalos",
+    "label": "Rathalos",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cba0dae7881988df59f4a4a59ba41.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\怪物猎人\\rathalos\\形态01_常态\\rathalos.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      33,
+      18,
+      223,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "怪物猎人",
+    "slug": "rathian",
+    "label": "Rathian",
+    "key": "magenta",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cba6c941881989cacf1097e3a100c.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\怪物猎人\\rathian\\形态01_常态\\rathian.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      46,
+      18,
+      209,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "怪物猎人",
+    "slug": "zinogre",
+    "label": "Zinogre",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cbad16cbc8198be8d58836e8900c5.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\怪物猎人\\zinogre\\形态01_常态\\zinogre.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      9,
+      53,
+      247,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  },
+  {
+    "ip": "怪物猎人",
+    "slug": "nargacuga",
+    "label": "Nargacuga",
+    "key": "green",
+    "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0dda1ef1a2760ad3016a4cbb3003688198a978d163062d27af.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\怪物猎人\\nargacuga\\形态01_常态\\nargacuga.png",
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      9,
+      58,
+      247,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "passed_machine_qc": true,
+    "green_key": 0,
+    "strong_greenish": 0,
+    "magenta_key": 0,
+    "strong_magenta": 0
+  }
+]

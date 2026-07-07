@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c9749cd48819ab2a5b57f30d93029.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 70,
+  "shared_scale": 0.31390134529147984,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        90,
+        322,
+        254,
+        449
+      ],
+      "output_bbox": [
+        38,
+        44,
+        89,
+        84
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        125,
+        314,
+        268,
+        471
+      ],
+      "output_bbox": [
+        41,
+        39,
+        86,
+        88
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        137,
+        257,
+        242,
+        480
+      ],
+      "output_bbox": [
+        47,
+        29,
+        80,
+        99
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        112,
+        294,
+        262,
+        470
+      ],
+      "output_bbox": [
+        40,
+        36,
+        87,
+        91
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        120,
+        298,
+        229,
+        488
+      ],
+      "output_bbox": [
+        47,
+        34,
+        81,
+        94
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        71,
+        310,
+        237,
+        471
+      ],
+      "output_bbox": [
+        38,
+        38,
+        90,
+        89
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        74,
+        330,
+        214,
+        454
+      ],
+      "output_bbox": [
+        42,
+        44,
+        86,
+        83
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蝴蝶飞舞\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蝴蝶飞舞\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蝴蝶飞舞\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蝴蝶飞舞\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蝴蝶飞舞\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蝴蝶飞舞\\butterfly_swarm_emitter.gd"
+  }
+}

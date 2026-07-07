@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/map/spawn/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot_package/遮挡关系/蓝色雷电球/元素图.png" id="1_texture"]
+
+[node name="PortalOrbElement" type="Node2D"]
+z_index = 4
+scale = Vector2(0.34, 0.34)
+metadata/usage = "static_map_element"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_texture")

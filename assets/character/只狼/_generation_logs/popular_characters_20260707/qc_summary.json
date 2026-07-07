@@ -1,0 +1,232 @@
+[
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      77,
+      18,
+      178,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "wolf_sekiro",
+    "label": "Wolf",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0e1e6408d7c36202016a4c795728b8819ba1680e648a9a2cca.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\wolf_sekiro\\形态01_常态\\wolf_sekiro.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      92,
+      48,
+      164,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "kuro",
+    "label": "Kuro",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0e1e6408d7c36202016a4c79c3be38819bb463384cacd3b85d.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\kuro\\形态01_常态\\kuro.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      86,
+      22,
+      169,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "emma",
+    "label": "Emma",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0e1e6408d7c36202016a4c7a0f89b0819ba5c123e85d554de3.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\emma\\形态01_常态\\emma.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      76,
+      18,
+      179,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "isshin_ashina",
+    "label": "Isshin",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7b064d44819a8e958647aa0d191b.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\isshin_ashina\\形态01_常态\\isshin_ashina.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      75,
+      16,
+      180,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "genichiro_ashina",
+    "label": "Genichiro",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7b6a5d8c819ab755ec7e00f38b89.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\genichiro_ashina\\形态01_常态\\genichiro_ashina.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      66,
+      15,
+      189,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "great_shinobi_owl",
+    "label": "Owl",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7bd14c40819a9bc1516f234f44c5.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\great_shinobi_owl\\形态01_常态\\great_shinobi_owl.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      77,
+      22,
+      179,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "lady_butterfly",
+    "label": "Lady Butterfly",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7c1e3e24819aa778ca8efe6ebf6b.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\lady_butterfly\\形态01_常态\\lady_butterfly.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      81,
+      30,
+      174,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "sculptor",
+    "label": "Sculptor",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7c660958819ab77ea95c8ccd1278.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\sculptor\\形态01_常态\\sculptor.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      96,
+      50,
+      159,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "divine_child",
+    "label": "Divine Child",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7cb5e434819a8d573acc6431c6c9.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\divine_child\\形态01_常态\\divine_child.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      73,
+      14,
+      183,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "corrupted_monk",
+    "label": "Corrupted Monk",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_042152bcb92515c9016a4c7d0595c4819aab0f1182b42ee572.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\corrupted_monk\\形态01_常态\\corrupted_monk.png"
+  }
+]

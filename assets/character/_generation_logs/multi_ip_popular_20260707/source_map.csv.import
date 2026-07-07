@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://o4alnnqvqj7t"
+
+[deps]
+
+files=["res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.slug.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.label.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.key.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.source.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.final.translation"]
+
+source_file="res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.csv"
+dest_files=["res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.slug.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.label.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.key.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.source.translation", "res://assets/character/_generation_logs/multi_ip_popular_20260707/source_map.final.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

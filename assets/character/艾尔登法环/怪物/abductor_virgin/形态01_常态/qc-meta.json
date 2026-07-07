@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    54,
+    16,
+    202,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "abductor_virgin",
+  "label": "Abductor Virgin",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c70c62654819a9adeed1f1e11b8f2.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\abductor_virgin\\形态01_常态\\abductor_virgin.png"
+}

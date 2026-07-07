@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"meta": {
+		"id": "fx_green_light_source",
+		"displayName": "绿色光源",
+		"style": "fx",
+		"category": "environment",
+		"tags": [
+			"绿色",
+			"光源",
+			"发光",
+			"环境特效"
+		]
+	},
+	"assets": {
+		"spritePath": "res://AI资源库/特效库/绿色光源/fx.png",
+		"thumbPath": "res://AI资源库/特效库/绿色光源/fx.png"
+	},
+	"spritesheet": {
+		"layoutVersion": "grid_v1",
+		"frameWidth": 128,
+		"frameHeight": 128,
+		"columns": 7,
+		"rows": 1,
+		"margin": 0,
+		"spacing": 0,
+		"defaultFps": 12,
+		"animations": {
+			"fx": {
+				"row": 0,
+				"from": 0,
+				"to": 6,
+				"loop": true
+			}
+		}
+	},
+	"gameplay": {
+		"role": "fx_emitter"
+	},
+	"ext": {
+		"librarySortPriority": 3,
+		"cardPreviewAnim": "fx",
+		"otherPayload": {
+			"emitterScriptPath": "res://AI资源库/特效库/绿色光源/green_light_source_emitter.gd"
+		}
+	}
+}

@@ -1,3 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Local import/runtime verification artifacts
+generated/*.log
+
+# Large handoff packages; commit extracted Godot assets instead.
+assets/map/spawn/*.zip

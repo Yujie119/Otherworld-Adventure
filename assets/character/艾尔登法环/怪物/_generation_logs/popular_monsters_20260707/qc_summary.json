@@ -1,0 +1,232 @@
+[
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      29,
+      20,
+      226,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "runebear",
+    "label": "Runebear",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c6fe61c40819ab28ab146d6f892be.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\runebear\\形态01_常态\\runebear.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      21,
+      18,
+      235,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "grafted_scion",
+    "label": "Grafted Scion",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c7035df50819a979a5ede035e5b43.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\grafted_scion\\形态01_常态\\grafted_scion.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      26,
+      30,
+      230,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "royal_revenant",
+    "label": "Royal Revenant",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c70841a8c819ab9c23edb0c777222.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\royal_revenant\\形态01_常态\\royal_revenant.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      54,
+      16,
+      202,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "abductor_virgin",
+    "label": "Abductor Virgin",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c70c62654819a9adeed1f1e11b8f2.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\abductor_virgin\\形态01_常态\\abductor_virgin.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      24,
+      30,
+      232,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "fingercreeper",
+    "label": "Fingercreeper",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c70fa60ec819a85db59a9ec4fc4db.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\fingercreeper\\形态01_常态\\fingercreeper.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      17,
+      66,
+      238,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "basilisk",
+    "label": "Basilisk",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c7145f8f4819abca3c85d64a62453.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\basilisk\\形态01_常态\\basilisk.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      28,
+      50,
+      228,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "giant_land_octopus",
+    "label": "Giant Land Octopus",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c7194ee84819ab3474bb3a0befeeb.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\giant_land_octopus\\形态01_常态\\giant_land_octopus.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      10,
+      62,
+      246,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "giant_crayfish",
+    "label": "Giant Crayfish",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c71bf0f20819abe80e2096128efdf.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\giant_crayfish\\形态01_常态\\giant_crayfish.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      54,
+      22,
+      201,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "monstrous_crow",
+    "label": "Giant Crow",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c72180664819a92431b3fba61b7ef.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\monstrous_crow\\形态01_常态\\monstrous_crow.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      32,
+      30,
+      224,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "magenta_residual": 0,
+    "slug": "ulcerated_tree_spirit",
+    "label": "Ulcerated Tree Spirit",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c7265bd24819a9c733aac8b528da3.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\ulcerated_tree_spirit\\形态01_常态\\ulcerated_tree_spirit.png"
+  }
+]

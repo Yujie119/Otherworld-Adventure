@@ -1,0 +1,26 @@
+{
+  "ip": "英雄联盟",
+  "slug": "teemo",
+  "label": "Teemo",
+  "key": "magenta",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4cac103e908198bcd443ab976b2d93.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\英雄联盟\\teemo\\形态01_常态\\teemo.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    65,
+    46,
+    191,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

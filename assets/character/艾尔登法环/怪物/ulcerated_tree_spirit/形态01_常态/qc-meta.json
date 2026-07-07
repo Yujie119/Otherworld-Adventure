@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    32,
+    30,
+    224,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "ulcerated_tree_spirit",
+  "label": "Ulcerated Tree Spirit",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c7265bd24819a9c733aac8b528da3.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\ulcerated_tree_spirit\\形态01_常态\\ulcerated_tree_spirit.png"
+}

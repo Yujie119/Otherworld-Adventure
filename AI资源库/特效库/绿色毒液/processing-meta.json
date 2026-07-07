@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c9970c488819a8ca61d1703285a7a.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 92,
+  "shared_scale": 0.34980988593155893,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        82,
+        352,
+        262,
+        445
+      ],
+      "output_bbox": [
+        32,
+        47,
+        95,
+        80
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        53,
+        286,
+        254,
+        452
+      ],
+      "output_bbox": [
+        29,
+        35,
+        99,
+        93
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        25,
+        298,
+        261,
+        456
+      ],
+      "output_bbox": [
+        22,
+        36,
+        105,
+        91
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        17,
+        241,
+        280,
+        468
+      ],
+      "output_bbox": [
+        18,
+        24,
+        110,
+        103
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        38,
+        260,
+        275,
+        464
+      ],
+      "output_bbox": [
+        22,
+        28,
+        105,
+        99
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        48,
+        285,
+        266,
+        452
+      ],
+      "output_bbox": [
+        26,
+        35,
+        102,
+        93
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        55,
+        356,
+        235,
+        445
+      ],
+      "output_bbox": [
+        32,
+        48,
+        95,
+        79
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色毒液\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色毒液\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色毒液\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色毒液\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色毒液\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\绿色毒液\\green_poison_emitter.gd"
+  }
+}

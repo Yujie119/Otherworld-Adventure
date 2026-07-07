@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c98bb2368819ab602a1bbbc38a045.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 86,
+  "shared_scale": 0.26625386996904027,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        111,
+        307,
+        224,
+        509
+      ],
+      "output_bbox": [
+        49,
+        37,
+        79,
+        91
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        83,
+        271,
+        241,
+        509
+      ],
+      "output_bbox": [
+        43,
+        32,
+        85,
+        95
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        92,
+        229,
+        220,
+        509
+      ],
+      "output_bbox": [
+        47,
+        26,
+        81,
+        101
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        71,
+        186,
+        234,
+        509
+      ],
+      "output_bbox": [
+        42,
+        21,
+        85,
+        107
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        73,
+        257,
+        215,
+        509
+      ],
+      "output_bbox": [
+        45,
+        30,
+        83,
+        97
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        79,
+        297,
+        204,
+        509
+      ],
+      "output_bbox": [
+        47,
+        36,
+        80,
+        92
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        70,
+        307,
+        183,
+        509
+      ],
+      "output_bbox": [
+        49,
+        37,
+        79,
+        91
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火焰燃烧\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火焰燃烧\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火焰燃烧\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火焰燃烧\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火焰燃烧\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\火焰燃烧\\fire_burning_emitter.gd"
+  }
+}

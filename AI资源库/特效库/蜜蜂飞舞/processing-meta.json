@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c971d67fc819a8aaeb05a2ddc9a4c.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 62,
+  "shared_scale": 0.38271604938271603,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        86,
+        289,
+        237,
+        420
+      ],
+      "output_bbox": [
+        35,
+        39,
+        93,
+        89
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        86,
+        286,
+        233,
+        417
+      ],
+      "output_bbox": [
+        36,
+        39,
+        92,
+        89
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        77,
+        290,
+        239,
+        415
+      ],
+      "output_bbox": [
+        33,
+        40,
+        95,
+        88
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        83,
+        289,
+        225,
+        426
+      ],
+      "output_bbox": [
+        37,
+        38,
+        91,
+        90
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        83,
+        286,
+        240,
+        419
+      ],
+      "output_bbox": [
+        34,
+        38,
+        94,
+        89
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        80,
+        287,
+        221,
+        421
+      ],
+      "output_bbox": [
+        37,
+        38,
+        91,
+        89
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        62,
+        289,
+        212,
+        420
+      ],
+      "output_bbox": [
+        35,
+        39,
+        92,
+        89
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蜜蜂飞舞\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蜜蜂飞舞\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蜜蜂飞舞\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蜜蜂飞舞\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蜜蜂飞舞\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\蜜蜂飞舞\\bee_swarm_emitter.gd"
+  }
+}

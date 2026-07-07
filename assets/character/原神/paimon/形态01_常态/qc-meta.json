@@ -1,0 +1,26 @@
+{
+  "ip": "原神",
+  "slug": "paimon",
+  "label": "Paimon",
+  "key": "green",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4ca9f31b148198990facca73ba1962.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\原神\\paimon\\形态01_常态\\paimon.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    65,
+    46,
+    190,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 0
+}

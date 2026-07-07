@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    78,
+    24,
+    178,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "red_boy",
+  "label": "Red Boy",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0670f81e72c81f90016a4c922410a4819898208b6f6f63a61c.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\黑神话悟空\\red_boy\\形态01_常态\\red_boy.png"
+}

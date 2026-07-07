@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    10,
+    62,
+    246,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "giant_crayfish",
+  "label": "Giant Crayfish",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_013d9cdcdf849340016a4c71bf0f20819abe80e2096128efdf.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\艾尔登法环\\怪物\\giant_crayfish\\形态01_常态\\giant_crayfish.png"
+}

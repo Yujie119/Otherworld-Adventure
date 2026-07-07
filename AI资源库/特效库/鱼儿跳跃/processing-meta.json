@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c99384238819a8440ff179ec1b88a.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 96,
+  "shared_scale": 0.3622641509433962,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        99,
+        398,
+        235,
+        488
+      ],
+      "output_bbox": [
+        39,
+        47,
+        88,
+        80
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        89,
+        380,
+        230,
+        490
+      ],
+      "output_bbox": [
+        38,
+        44,
+        89,
+        84
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        76,
+        298,
+        217,
+        490
+      ],
+      "output_bbox": [
+        38,
+        29,
+        89,
+        99
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        70,
+        225,
+        226,
+        490
+      ],
+      "output_bbox": [
+        35,
+        16,
+        92,
+        112
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        62,
+        274,
+        220,
+        489
+      ],
+      "output_bbox": [
+        35,
+        25,
+        92,
+        103
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        72,
+        359,
+        217,
+        490
+      ],
+      "output_bbox": [
+        37,
+        40,
+        90,
+        87
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        59,
+        421,
+        215,
+        493
+      ],
+      "output_bbox": [
+        35,
+        51,
+        92,
+        77
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\鱼儿跳跃\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\鱼儿跳跃\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\鱼儿跳跃\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\鱼儿跳跃\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\鱼儿跳跃\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\鱼儿跳跃\\fish_jump_emitter.gd"
+  }
+}

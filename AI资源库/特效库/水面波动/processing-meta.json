@@ -1,0 +1,142 @@
+{
+  "source": "D:\\codex\\generated_images\\019f31f6-922c-7f82-8b02-f6007f5687de\\ig_06d0aa9959ced4c2016a4c9900c644819aad4e85b5a43e4019.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "columns": 7,
+  "frame_width": 128,
+  "frame_height": 128,
+  "target_max_content_size": 108,
+  "shared_scale": 0.3956043956043956,
+  "edge_touch_frames": [],
+  "frames": [
+    {
+      "index": 0,
+      "source_left": 0,
+      "source_right": 310,
+      "source_bbox": [
+        122,
+        347,
+        190,
+        390
+      ],
+      "output_bbox": [
+        50,
+        55,
+        77,
+        72
+      ]
+    },
+    {
+      "index": 1,
+      "source_left": 310,
+      "source_right": 621,
+      "source_bbox": [
+        61,
+        323,
+        198,
+        412
+      ],
+      "output_bbox": [
+        37,
+        46,
+        91,
+        81
+      ]
+    },
+    {
+      "index": 2,
+      "source_left": 621,
+      "source_right": 931,
+      "source_bbox": [
+        18,
+        293,
+        245,
+        450
+      ],
+      "output_bbox": [
+        19,
+        33,
+        109,
+        95
+      ]
+    },
+    {
+      "index": 3,
+      "source_left": 931,
+      "source_right": 1241,
+      "source_bbox": [
+        29,
+        279,
+        282,
+        462
+      ],
+      "output_bbox": [
+        14,
+        28,
+        114,
+        100
+      ]
+    },
+    {
+      "index": 4,
+      "source_left": 1241,
+      "source_right": 1551,
+      "source_bbox": [
+        37,
+        261,
+        310,
+        474
+      ],
+      "output_bbox": [
+        10,
+        22,
+        118,
+        106
+      ]
+    },
+    {
+      "index": 5,
+      "source_left": 1551,
+      "source_right": 1862,
+      "source_bbox": [
+        0,
+        326,
+        265,
+        421
+      ],
+      "output_bbox": [
+        11,
+        45,
+        116,
+        83
+      ]
+    },
+    {
+      "index": 6,
+      "source_left": 1862,
+      "source_right": 2172,
+      "source_bbox": [
+        116,
+        347,
+        186,
+        390
+      ],
+      "output_bbox": [
+        50,
+        55,
+        78,
+        72
+      ]
+    }
+  ],
+  "outputs": {
+    "fx_png": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\水面波动\\fx.png",
+    "frames_dir": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\水面波动\\frames",
+    "animation_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\水面波动\\animation.gif",
+    "dark_preview_gif": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\水面波动\\animation-preview-dark.gif",
+    "fx_json": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\水面波动\\fx.json",
+    "emitter_script": "D:\\游戏\\earth-online\\main\\AI资源库\\特效库\\水面波动\\water_ripple_emitter.gd"
+  }
+}

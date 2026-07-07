@@ -1,0 +1,26 @@
+{
+  "ip": "原神",
+  "slug": "raiden_shogun",
+  "label": "Raiden",
+  "key": "green",
+  "source": "C:\\Users\\宇杰\\.codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0db2aea1bc37106f016a4caa92d80c81988fab69def76718e5.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\原神\\raiden_shogun\\形态01_常态\\raiden_shogun.png",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    74,
+    16,
+    182,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "passed_machine_qc": true,
+  "green_key": 0,
+  "strong_greenish": 0,
+  "magenta_key": 0,
+  "strong_magenta": 5
+}

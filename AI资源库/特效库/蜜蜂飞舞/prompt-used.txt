@@ -1,0 +1,1 @@
+Create a 2D game map VFX sprite sheet for bees flying around, 7-frame horizontal strip, small golden bees, magenta background.

@@ -1,0 +1,23 @@
+Use the first input image as the character identity reference. Preserve these exact stable traits:
+spiky crimson-red upward hair, stern side/profile face, orange collar and chest accent,
+dark navy sleeveless martial outfit with loose pants, blue sash, white gloves, and white boots
+with yellow/gold toe accents. Keep the same pixel-art fighting-game sprite language and a side-view
+pose facing right. Do not redesign the character.
+
+Asset: 16-frame compact body-only melee attack animation for a player character, side-view facing right.
+Make one coherent punch-combo sequence: guarded stance, slight knee bend, fist chamber, short jab,
+jab peak, pullback, second fist chamber, short cross punch, cross peak, recoil, guard reset, settle,
+return to guarded stance. Keep every frame facing right. Hands stay normal white gloves and feet stay
+normal white boots. No weapon, no elongated glove barrel, no slash arc, no projectile, no impact burst,
+no dust cloud, no aura, no high kick, no deep crouch, no back view.
+
+Create exactly one 4x4 sprite animation sheet, 1024x1024 pixels, 16 equal cells, each cell 256x256.
+Frames read left-to-right across each row, then continue on the next row. Use a solid flat #FF00FF
+magenta background in every cell. No visible grid lines, no borders, no labels, no text, no UI,
+no watermark. Keep the character centered in every cell, full body visible, same body height and
+same pixel scale across all frames. Leave generous magenta margin around the silhouette. No hair,
+glove, boot, sash, limb, or effect may touch or cross a cell edge.
+
+If a second input image is provided, treat it only as an invisible layout guide for 4 rows, 4 columns,
+equal cell spacing, centering, and safe padding. Do not copy its boxes, cross marks, gray background,
+labels, borders, or guide graphics into the final sprite sheet.

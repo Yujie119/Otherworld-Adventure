@@ -1,0 +1,1 @@
+Create a 2D game map VFX sprite sheet for butterflies flying around, 7-frame horizontal strip, small colorful butterflies, magenta background.

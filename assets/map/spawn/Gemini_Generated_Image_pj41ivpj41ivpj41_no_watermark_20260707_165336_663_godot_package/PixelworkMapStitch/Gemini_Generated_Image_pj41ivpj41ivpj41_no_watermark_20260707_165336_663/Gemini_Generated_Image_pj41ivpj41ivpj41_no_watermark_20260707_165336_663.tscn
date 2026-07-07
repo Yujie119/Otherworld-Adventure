@@ -1,0 +1,2245 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://assets/map/spawn/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot_package/PixelworkMapStitch/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_runtime.gd" id="script_runtime"]
+
+[node name="Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663" type="Node2D"]
+
+script = ExtResource("script_runtime")
+enable_runtime_regions = false
+map_display_mode = 0
+metadata/map_stitch_manifest_path = "res://assets/map/spawn/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot_package/PixelworkMapStitch/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663/Gemini_Generated_Image_pj41ivpj41ivpj41_no_watermark_20260707_165336_663_godot.json"
+
+[node name="overall" type="Node2D" parent="."]
+visible = true
+z_index = -10
+
+[node name="top" type="Node2D" parent="."]
+visible = true
+z_index = 160
+
+[node name="Annotations" type="Node2D" parent="."]
+visible = false
+
+[node name="occlusion" type="Node2D" parent="Annotations"]
+z_index = 100
+
+[node name="occlusion_1" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8401, 6806, 8423, 6806, 8423, 6865, 8401, 6865)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_2" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8542, 6805, 8562, 6805, 8562, 6868, 8542, 6868)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_3" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8674, 6808, 8695, 6808, 8695, 6870, 8674, 6870)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_4" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8677, 6804, 8695, 6804, 8695, 6817, 8677, 6817)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_5" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8421, 6824, 8425, 6825, 8431, 6827, 8436, 6829, 8441, 6830, 8445, 6832, 8449, 6832, 8454, 6833, 8458, 6834, 8463, 6836, 8467, 6836, 8472, 6837, 8477, 6837, 8481, 6837, 8486, 6837, 8490, 6836, 8495, 6836, 8500, 6836, 8505, 6836, 8509, 6836, 8513, 6834, 8517, 6832, 8522, 6831, 8526, 6830, 8530, 6828, 8534, 6826, 8538, 6824, 8541, 6822, 8546, 6821, 8550, 6820, 8555, 6821, 8559, 6823, 8563, 6823, 8567, 6825, 8570, 6827, 8574, 6828, 8579, 6830, 8583, 6832, 8587, 6833, 8592, 6834, 8595, 6836, 8600, 6836, 8605, 6837, 8609, 6838, 8614, 6839, 8618, 6839, 8622, 6839, 8626, 6839, 8630, 6839, 8635, 6839, 8639, 6837, 8644, 6836, 8648, 6834, 8652, 6832, 8656, 6832, 8660, 6831, 8665, 6829, 8668, 6826, 8670, 6822, 8674, 6823, 8675, 6827, 8673, 6831, 8671, 6834, 8667, 6836, 8662, 6838, 8658, 6840, 8654, 6842, 8650, 6843, 8645, 6844, 8640, 6844, 8636, 6845, 8631, 6846, 8627, 6847, 8622, 6847, 8618, 6847, 8614, 6846, 8610, 6846, 8605, 6846, 8600, 6845, 8595, 6844, 8591, 6843, 8587, 6843, 8582, 6842, 8578, 6840, 8574, 6839, 8570, 6837, 8566, 6836, 8562, 6835, 8557, 6834, 8553, 6833, 8548, 6833, 8544, 6833, 8540, 6833, 8536, 6833, 8531, 6834, 8527, 6835, 8523, 6836, 8518, 6838, 8514, 6839, 8510, 6840, 8506, 6841, 8502, 6841, 8498, 6842, 8493, 6843, 8489, 6843, 8484, 6843, 8480, 6843, 8476, 6843, 8472, 6843, 8467, 6843, 8463, 6843, 8458, 6843, 8453, 6842, 8449, 6841, 8444, 6840, 8440, 6839, 8435, 6838, 8431, 6836, 8426, 6835, 8422, 6834, 8418, 6833)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_6" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(7941, 6863, 7941, 6857, 7941, 6853, 7941, 6848, 7941, 6844, 7941, 6840, 7942, 6834, 7943, 6830, 7943, 6825, 7943, 6821, 7943, 6816, 7943, 6812, 7943, 6808, 7947, 6806, 7952, 6805, 7956, 6806, 7960, 6808, 7962, 6812, 7962, 6816, 7962, 6820, 7963, 6824, 7968, 6827, 7972, 6828, 7977, 6829, 7981, 6831, 7986, 6832, 7992, 6834, 7996, 6835, 8002, 6836, 8007, 6837, 8012, 6837, 8016, 6838, 8020, 6838, 8025, 6838, 8029, 6838, 8034, 6838, 8038, 6838, 8044, 6838, 8048, 6838, 8053, 6838, 8058, 6836, 8062, 6834, 8065, 6831, 8069, 6828, 8072, 6825, 8076, 6823, 8079, 6820, 8081, 6816, 8081, 6812, 8085, 6808, 8089, 6808, 8094, 6808, 8098, 6808, 8100, 6813, 8101, 6817, 8101, 6822, 8101, 6828, 8100, 6833, 8100, 6837, 8100, 6842, 8100, 6847, 8100, 6852, 8099, 6857, 8099, 6861, 8100, 6866, 8095, 6866, 8089, 6866, 8085, 6866, 8081, 6866, 8079, 6861, 8079, 6856, 8080, 6851, 8080, 6847, 8080, 6843, 8080, 6839, 8080, 6834, 8075, 6834, 8071, 6837, 8068, 6839, 8063, 6841, 8059, 6843, 8054, 6844, 8050, 6845, 8045, 6845, 8041, 6845, 8037, 6846, 8032, 6846, 8028, 6846, 8023, 6846, 8019, 6846, 8014, 6846, 8010, 6846, 8006, 6846, 8001, 6845, 7996, 6844, 7992, 6843, 7987, 6841, 7982, 6840, 7978, 6839, 7974, 6837, 7969, 6836, 7965, 6834, 7961, 6835, 7961, 6840, 7961, 6845, 7961, 6849, 7961, 6853, 7961, 6858, 7961, 6862, 7958, 6865, 7953, 6867, 7949, 6868, 7943, 6868, 7939, 6868)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_7" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8042, 6838, 8049, 6836, 8054, 6835, 8059, 6834, 8063, 6832, 8068, 6831, 8072, 6830, 8068, 6834, 8064, 6836, 8059, 6837, 8055, 6838, 8050, 6839, 8044, 6840, 8039, 6840, 8034, 6840)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_8" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8220, 6863, 8220, 6857, 8220, 6852, 8219, 6847, 8219, 6843, 8219, 6839, 8219, 6834, 8216, 6831, 8213, 6834, 8209, 6837, 8205, 6839, 8201, 6841, 8196, 6842, 8192, 6842, 8188, 6842, 8184, 6843, 8180, 6843, 8175, 6844, 8171, 6844, 8167, 6844, 8162, 6844, 8157, 6844, 8153, 6844, 8149, 6844, 8145, 6844, 8140, 6844, 8136, 6844, 8132, 6843, 8128, 6842, 8124, 6841, 8119, 6840, 8114, 6838, 8111, 6837, 8106, 6836, 8102, 6834, 8101, 6830, 8101, 6825, 8104, 6823, 8108, 6825, 8112, 6827, 8116, 6829, 8120, 6831, 8125, 6832, 8129, 6834, 8133, 6835, 8138, 6836, 8142, 6836, 8146, 6836, 8150, 6836, 8156, 6836, 8160, 6836, 8164, 6836, 8169, 6836, 8173, 6836, 8178, 6836, 8182, 6836, 8186, 6836, 8190, 6835, 8194, 6834, 8198, 6832, 8203, 6831, 8206, 6829, 8210, 6827, 8214, 6824, 8218, 6822, 8218, 6818, 8219, 6813, 8219, 6809, 8223, 6807, 8227, 6806, 8231, 6806, 8236, 6807, 8239, 6809, 8240, 6813, 8241, 6817, 8241, 6821, 8241, 6826, 8241, 6830, 8241, 6835, 8241, 6839, 8241, 6843, 8241, 6847, 8241, 6853, 8241, 6857, 8241, 6861, 8241, 6865, 8236, 6865, 8232, 6866, 8228, 6866, 8224, 6867, 8220, 6865, 8219, 6861)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_9" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8674, 6957, 8697, 6957, 8697, 7024, 8674, 7024)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_10" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8676, 7127, 8694, 7127, 8694, 7193, 8676, 7193)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_11" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8679, 6954, 8697, 6954, 8697, 6961, 8679, 6961)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_12" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8678, 7124, 8692, 7124, 8692, 7131, 8678, 7131)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_13" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(6931, 6553, 6928, 6550, 6928, 6545, 6928, 6541, 6928, 6537, 6931, 6533, 6934, 6529, 6936, 6526, 6941, 6524, 6945, 6524, 6949, 6526, 6951, 6530, 6952, 6534, 6952, 6539, 6956, 6542, 6962, 6542, 6967, 6542, 6972, 6542, 6976, 6542, 6980, 6542, 6985, 6542, 6989, 6542, 6993, 6542, 6998, 6543, 7002, 6543, 7007, 6544, 7007, 6548, 7005, 6552, 7003, 6557, 7003, 6561, 7003, 6565, 7003, 6569, 7003, 6573, 7003, 6577, 7003, 6581, 7005, 6586, 7008, 6588, 7011, 6592, 7009, 6596, 7008, 6600, 7007, 6604, 7005, 6608, 7004, 6613, 7000, 6615, 6996, 6616, 6992, 6617, 6988, 6617, 6985, 6614, 6985, 6610, 6985, 6605, 6985, 6601, 6982, 6598, 6978, 6596, 6977, 6592, 6977, 6588, 6979, 6584, 6980, 6580, 6983, 6576, 6986, 6573, 6989, 6569, 6990, 6565, 6990, 6561, 6987, 6557, 6983, 6557, 6978, 6558, 6974, 6559, 6969, 6560, 6965, 6560, 6961, 6562, 6957, 6565, 6954, 6568, 6951, 6572, 6950, 6576, 6950, 6580, 6950, 6584, 6950, 6589, 6949, 6594, 6949, 6599, 6949, 6604, 6949, 6608, 6949, 6613, 6949, 6617, 6949, 6621, 6949, 6627, 6949, 6631, 6949, 6636, 6949, 6642, 6949, 6646, 6949, 6650, 6949, 6655, 6949, 6660, 6949, 6664, 6949, 6669, 6949, 6674, 6949, 6678, 6949, 6682, 6949, 6686, 6952, 6690, 6955, 6693, 6955, 6697, 6955, 6701, 6954, 6705, 6954, 6710, 6954, 6714, 6953, 6718, 6948, 6719, 6944, 6720, 6940, 6721, 6936, 6722, 6932, 6722, 6928, 6722, 6927, 6717, 6927, 6713, 6927, 6709, 6927, 6704, 6927, 6700, 6926, 6696, 6928, 6692, 6932, 6691, 6935, 6688, 6935, 6684, 6935, 6680, 6935, 6675, 6935, 6671, 6936, 6666, 6937, 6661, 6937, 6656, 6937, 6651, 6937, 6646, 6937, 6642, 6937, 6637, 6937, 6633, 6937, 6628, 6936, 6624, 6936, 6619, 6936, 6614, 6936, 6609, 6936, 6605, 6936, 6600, 6936, 6595, 6937, 6590, 6938, 6584, 6938, 6578, 6938, 6573, 6938, 6569, 6936, 6565, 6932, 6562, 6930, 6558, 6929, 6553, 6929, 6548)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_14" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(9932, 6686, 9935, 6682, 9937, 6678, 9937, 6673, 9937, 6668, 9937, 6664, 9937, 6659, 9939, 6655, 9940, 6651, 9942, 6647, 9943, 6643, 9943, 6638, 9944, 6634, 9944, 6629, 9944, 6624, 9944, 6619, 9944, 6614, 9944, 6609, 9944, 6605, 9945, 6599, 9945, 6594, 9945, 6589, 9945, 6584, 9945, 6580, 9945, 6575, 9945, 6570, 9945, 6565, 9945, 6561, 9945, 6556, 9944, 6551, 9944, 6546, 9944, 6542, 9943, 6538, 9940, 6535, 9937, 6531, 9935, 6528, 9932, 6525, 9929, 6522, 9925, 6521, 9921, 6520, 9917, 6520, 9912, 6520, 9907, 6521, 9905, 6525, 9905, 6529, 9908, 6532, 9911, 6535, 9911, 6540, 9913, 6543, 9916, 6546, 9917, 6550, 9917, 6555, 9917, 6559, 9915, 6563, 9913, 6567, 9914, 6572, 9913, 6577, 9911, 6581, 9909, 6585, 9907, 6588, 9902, 6588, 9898, 6586, 9895, 6583, 9892, 6580, 9890, 6576, 9890, 6572, 9886, 6569, 9886, 6565, 9886, 6560, 9886, 6556, 9882, 6555, 9881, 6551, 9882, 6547, 9886, 6544, 9887, 6540, 9886, 6535, 9886, 6531, 9887, 6527, 9889, 6523, 9890, 6519, 9891, 6515, 9895, 6512, 9900, 6510, 9904, 6509, 9909, 6508, 9913, 6508, 9918, 6508, 9922, 6508, 9927, 6508, 9932, 6508, 9937, 6508, 9939, 6504, 9940, 6500, 9941, 6496, 9943, 6493, 9947, 6491, 9952, 6491, 9957, 6491, 9960, 6493, 9963, 6496, 9965, 6500, 9966, 6504, 9965, 6508, 9963, 6512, 9962, 6516, 9965, 6519, 9965, 6524, 9962, 6528, 9960, 6532, 9959, 6536, 9960, 6540, 9959, 6544, 9958, 6548, 9958, 6553, 9958, 6558, 9958, 6562, 9958, 6567, 9958, 6572, 9958, 6577, 9958, 6581, 9958, 6585, 9958, 6590, 9958, 6595, 9958, 6599, 9958, 6604, 9958, 6608, 9958, 6613, 9958, 6619, 9959, 6623, 9959, 6628, 9959, 6632, 9959, 6637, 9959, 6641, 9959, 6645, 9960, 6649, 9965, 6650, 9969, 6652, 9971, 6655, 9971, 6660, 9971, 6665, 9971, 6670, 9971, 6674, 9971, 6679, 9971, 6683, 9971, 6687, 9966, 6688, 9960, 6688, 9955, 6688, 9951, 6688, 9947, 6688, 9943, 6688, 9938, 6689, 9934, 6689)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_15" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8861, 7339, 9092, 7339, 9092, 7389, 8861, 7389)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_16" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(9061, 7387, 9093, 7387, 9093, 7467, 9061, 7467)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_17" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(9089, 7447, 9254, 7602, 9209, 7603, 9071, 7457, 9082, 7441)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_18" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8401, 7266, 8425, 7266, 8425, 7331, 8401, 7331)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_19" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8541, 7267, 8561, 7267, 8561, 7333, 8541, 7333)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_20" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8675, 7267, 8697, 7267, 8697, 7332, 8675, 7332)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_21" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8402, 7264, 8407, 7263, 8411, 7261, 8416, 7262, 8419, 7266, 8421, 7269)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_22" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8427, 7281, 8431, 7284, 8436, 7287, 8440, 7289, 8443, 7291, 8447, 7292, 8451, 7293, 8456, 7293, 8460, 7295, 8465, 7296, 8470, 7296, 8474, 7297, 8478, 7297, 8482, 7297, 8487, 7296, 8491, 7295, 8495, 7295, 8500, 7294, 8504, 7293, 8508, 7292, 8513, 7291, 8518, 7290, 8523, 7289, 8527, 7288, 8530, 7286, 8535, 7284, 8539, 7283, 8543, 7281, 8543, 7286, 8541, 7290, 8538, 7293, 8535, 7296, 8531, 7297, 8527, 7299, 8522, 7300, 8518, 7301, 8514, 7303, 8510, 7304, 8505, 7305, 8501, 7305, 8496, 7305, 8492, 7305, 8487, 7305, 8482, 7305, 8477, 7304, 8472, 7304, 8467, 7304, 8462, 7303, 8458, 7303, 8453, 7302, 8448, 7301, 8443, 7300, 8438, 7299, 8435, 7297, 8431, 7295, 8426, 7293, 8423, 7291)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_23" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8542, 7265, 8546, 7262, 8550, 7261, 8555, 7261, 8559, 7262, 8562, 7265)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_24" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8566, 7283, 8570, 7284, 8576, 7287, 8581, 7288, 8586, 7289, 8591, 7291, 8596, 7292, 8601, 7293, 8605, 7294, 8609, 7294, 8614, 7294, 8620, 7294, 8625, 7294, 8630, 7294, 8634, 7294, 8639, 7293, 8643, 7292, 8648, 7290, 8652, 7289, 8656, 7287, 8660, 7285, 8666, 7287, 8668, 7284, 8671, 7281, 8676, 7281, 8677, 7286, 8676, 7290, 8674, 7293, 8669, 7296, 8664, 7297, 8661, 7299, 8656, 7300, 8651, 7301, 8647, 7302, 8642, 7303, 8638, 7303, 8633, 7304, 8629, 7304, 8625, 7304, 8620, 7304, 8616, 7304, 8612, 7304, 8607, 7304, 8602, 7304, 8598, 7304, 8592, 7303, 8588, 7302, 8584, 7301, 8580, 7300, 8576, 7298, 8571, 7297, 8567, 7295, 8563, 7293, 8560, 7290)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_25" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8544, 7263, 8541, 7266, 8541, 7270, 8546, 7270, 8551, 7270, 8555, 7270, 8559, 7270, 8563, 7270, 8562, 7266)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_26" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8678, 7267, 8680, 7263, 8684, 7262, 8688, 7262, 8692, 7264, 8694, 7268)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_27" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8219, 7291, 8214, 7293, 8210, 7295, 8206, 7297, 8202, 7298, 8198, 7300, 8193, 7300, 8189, 7301, 8185, 7303, 8181, 7303, 8176, 7304, 8172, 7304, 8167, 7304, 8162, 7304, 8158, 7304, 8154, 7304, 8150, 7304, 8145, 7303, 8140, 7301, 8135, 7300, 8131, 7300, 8126, 7299, 8122, 7298, 8118, 7297, 8114, 7296, 8110, 7294, 8106, 7292, 8104, 7288, 8103, 7284, 8106, 7282, 8111, 7284, 8114, 7286, 8118, 7288, 8122, 7290, 8127, 7292, 8131, 7292, 8135, 7293, 8139, 7294, 8143, 7294, 8148, 7294, 8152, 7294, 8156, 7294, 8161, 7294, 8165, 7294, 8171, 7294, 8175, 7294, 8179, 7293, 8185, 7293, 8190, 7293, 8195, 7292, 8199, 7290, 8203, 7288, 8207, 7286, 8211, 7284, 8214, 7282, 8218, 7279, 8221, 7276, 8221, 7272, 8221, 7268, 8221, 7264, 8224, 7261, 8229, 7261, 8233, 7261, 8236, 7263, 8238, 7267, 8239, 7271, 8240, 7276, 8240, 7281, 8240, 7285, 8240, 7289, 8240, 7294, 8240, 7298, 8240, 7303, 8240, 7307, 8240, 7312, 8241, 7316, 8238, 7319, 8233, 7320, 8228, 7320, 8223, 7320, 8220, 7317, 8220, 7312, 8220, 7308, 8220, 7304, 8220, 7299, 8221, 7295, 8223, 7291)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_28" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8081, 7320, 8086, 7320, 8090, 7320, 8094, 7320, 8099, 7319, 8101, 7315, 8101, 7310, 8100, 7305, 8100, 7300, 8100, 7296, 8100, 7292, 8100, 7287, 8100, 7283, 8101, 7277, 8101, 7273, 8100, 7268, 8098, 7265, 8094, 7263, 8090, 7262, 8085, 7262, 8081, 7264, 8079, 7268, 8079, 7272, 8078, 7276, 8075, 7279, 8072, 7282, 8069, 7284, 8064, 7286, 8060, 7287, 8055, 7288, 8051, 7289, 8047, 7290, 8043, 7291, 8039, 7293, 8035, 7294, 8030, 7295, 8026, 7295, 8022, 7295, 8017, 7295, 8013, 7295, 8008, 7295, 8004, 7294, 8000, 7293, 7996, 7293, 7991, 7292, 7987, 7291, 7983, 7290, 7979, 7289, 7974, 7288, 7970, 7286, 7965, 7284, 7962, 7281, 7961, 7277, 7961, 7272, 7960, 7268, 7958, 7264, 7954, 7261, 7950, 7260, 7947, 7262, 7943, 7263, 7941, 7267, 7941, 7271, 7941, 7275, 7941, 7280, 7941, 7284, 7941, 7288, 7941, 7292, 7941, 7296, 7941, 7300, 7941, 7304, 7941, 7308, 7941, 7313, 7941, 7317, 7943, 7321, 7948, 7322, 7952, 7322, 7956, 7322, 7960, 7322, 7962, 7318, 7963, 7314, 7963, 7309, 7963, 7305, 7962, 7301, 7962, 7297, 7962, 7293, 7967, 7293, 7971, 7295, 7975, 7296, 7979, 7298, 7984, 7299, 7988, 7300, 7992, 7300, 7997, 7301, 8001, 7301, 8006, 7302, 8010, 7303, 8015, 7303, 8019, 7303, 8023, 7304, 8027, 7304, 8031, 7304, 8035, 7303, 8040, 7303, 8044, 7303, 8048, 7301, 8052, 7300, 8057, 7299, 8061, 7297, 8065, 7295, 8069, 7294, 8073, 7292, 8077, 7291, 8082, 7290, 8082, 7296, 8082, 7300, 8081, 7304, 8081, 7308, 8081, 7313, 8081, 7317)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_29" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(7940, 7313, 7964, 7313, 7964, 7325, 7940, 7325)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_30" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8079, 7317, 8103, 7317, 8103, 7330, 8079, 7330)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_31" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(8220, 7315, 8242, 7315, 8242, 7328, 8220, 7328)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_32" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(6936, 7225, 6950, 7225, 6950, 7046, 6936, 7046)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_33" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(6936, 7092, 6931, 7091, 6930, 7087, 6930, 7082, 6930, 7078, 6930, 7073, 6929, 7069, 6928, 7065, 6928, 7061, 6928, 7056, 6930, 7052, 6932, 7049, 6934, 7045, 6938, 7043, 6942, 7043, 6947, 7044, 6950, 7047, 6953, 7050, 6955, 7054, 6957, 7058, 6961, 7058, 6966, 7059, 6971, 7059, 6976, 7059, 6980, 7059, 6984, 7059, 6988, 7059, 6993, 7059, 6997, 7059, 7000, 7062, 7000, 7066, 7000, 7070, 7001, 7074, 7005, 7077, 7004, 7082, 7003, 7087, 7005, 7091, 7008, 7094, 7010, 7097, 7013, 7101, 7013, 7105, 7010, 7108, 7009, 7112, 7008, 7117, 7008, 7122, 7008, 7126, 7008, 7130, 7005, 7134, 7001, 7135, 6997, 7137, 6993, 7137, 6989, 7135, 6986, 7130, 6983, 7126, 6984, 7122, 6985, 7118, 6985, 7113, 6982, 7110, 6978, 7110, 6977, 7106, 6977, 7102, 6979, 7097, 6983, 7093, 6986, 7090, 6990, 7088, 6990, 7083, 6988, 7080, 6986, 7076, 6985, 7072, 6981, 7070, 6976, 7071, 6972, 7073, 6968, 7074, 6964, 7076, 6961, 7079, 6958, 7082, 6956, 7086, 6954, 7089, 6952, 7093)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_34" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(6928, 7208, 6932, 7205, 6936, 7205, 6940, 7204, 6945, 7204, 6949, 7205, 6953, 7206, 6956, 7210, 6957, 7215, 6957, 7219, 6957, 7223, 6956, 7228, 6953, 7231, 6949, 7232, 6945, 7232, 6940, 7233, 6936, 7233, 6932, 7233, 6929, 7230, 6928, 7226, 6928, 7221, 6928, 7217, 6929, 7213)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_35" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(6930, 7233, 6960, 7233, 6960, 7246, 6930, 7246)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="occlusion_36" type="Polygon2D" parent="Annotations/occlusion"]
+polygon = PackedVector2Array(6931, 7232, 6924, 7232, 6924, 7245, 6931, 7245)
+color = Color(0.949020, 0.788235, 0.298039, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="collision" type="Node2D" parent="Annotations"]
+z_index = 110
+
+[node name="collision_1" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_1"]
+polygon = PackedVector2Array(7646, 4050, 7832, 4048, 7894, 4100, 7899, 4199, 7896, 4212, 8103, 4397, 8139, 4373, 8254, 4468, 8193, 4546, 8064, 4451, 8030, 4488, 7794, 4293, 7697, 4294, 7588, 4218, 7583, 4131, 7596, 4094, 7644, 4050)
+
+[node name="collision_2" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_2"]
+polygon = PackedVector2Array(9062, 4045, 9229, 4043, 9244, 4050, 9298, 4102, 9313, 4129, 9297, 4181, 9312, 4135, 9313, 4213, 9213, 4298, 9110, 4306, 8987, 4211, 8986, 4120, 9059, 4044)
+
+[node name="collision_3" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_3"]
+polygon = PackedVector2Array(8644, 4462, 8761, 4373, 8780, 4384, 9014, 4206, 9112, 4295, 8864, 4500, 8852, 4470, 8826, 4454, 8718, 4552, 8644, 4464)
+
+[node name="collision_4" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_4"]
+polygon = PackedVector2Array(8249, 4470, 8367, 4424, 8420, 4424, 8401, 4413, 8403, 4308, 8495, 4306, 8496, 4415, 8656, 4461, 8758, 4606, 8755, 4621, 8781, 4620, 8823, 4650, 8894, 4648, 8919, 4666, 8918, 4738, 8867, 4744, 8853, 4734, 8773, 4732, 8749, 4693, 8757, 4766, 8713, 4827, 8581, 4927, 8493, 4934, 8493, 5103, 8404, 5107, 8408, 4942, 8255, 4892, 8159, 4802, 8138, 4734, 7980, 4743, 7975, 4666, 8009, 4644, 8081, 4648, 8114, 4617, 8158, 4618, 8189, 4544, 8209, 4534)
+
+[node name="collision_5" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_5"]
+polygon = PackedVector2Array(8196, 4825, 8040, 4958, 8033, 5001, 7688, 5304, 7662, 5363, 7744, 5433, 8143, 5076, 8140, 5026, 8274, 4891)
+
+[node name="collision_6" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_6"]
+polygon = PackedVector2Array(7504, 5447, 7543, 5403, 7583, 5381, 7688, 5378, 7742, 5444, 7749, 5451, 7743, 5533, 7686, 5584, 7578, 5586, 7508, 5530, 7505, 5446)
+
+[node name="collision_7" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_7"]
+polygon = PackedVector2Array(9177, 5403, 9343, 5399, 9380, 5430, 9385, 5525, 9314, 5586, 9212, 5589, 9145, 5532, 9144, 5447, 9172, 5408, 9178, 5404)
+
+[node name="collision_8" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_8"]
+polygon = PackedVector2Array(8708, 4833, 8708, 4833, 8850, 4952, 8863, 5005, 9266, 5373, 9264, 5405, 9161, 5431, 8754, 5076, 8756, 5026, 8608, 4889)
+
+[node name="collision_9" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_9"]
+polygon = PackedVector2Array(7366, 4099, 7403, 4095, 7416, 4070, 7424, 4068, 7424, 4179, 7417, 4231, 7369, 4226, 7365, 4101)
+
+[node name="collision_10" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_10"]
+polygon = PackedVector2Array(6917, 4068, 6931, 4093, 6965, 4097, 6967, 4231, 6914, 4231, 6911, 4069)
+
+[node name="collision_11" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_11"]
+polygon = PackedVector2Array(7377, 4478, 7409, 4476, 7419, 4487, 7417, 4513, 7376, 4519, 7366, 4508, 7375, 4483)
+
+[node name="collision_12" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_12"]
+polygon = PackedVector2Array(6915, 4483, 6965, 4483, 6965, 4521, 6915, 4521)
+
+[node name="collision_13" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_13"]
+polygon = PackedVector2Array(6661, 4476, 6774, 4476, 6774, 4509, 6661, 4509)
+
+[node name="collision_14" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_14"]
+polygon = PackedVector2Array(6799, 4496, 6859, 4496, 6859, 4517, 6799, 4517)
+
+[node name="collision_15" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_15"]
+polygon = PackedVector2Array(6560, 4489, 6626, 4489, 6626, 4516, 6560, 4516)
+
+[node name="collision_16" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_16"]
+polygon = PackedVector2Array(6916, 4005, 6967, 4005, 6967, 4041, 6916, 4041)
+
+[node name="collision_17" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_17"]
+polygon = PackedVector2Array(6559, 4895, 6623, 4895, 6623, 4941, 6559, 4941)
+
+[node name="collision_18" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_18"]
+polygon = PackedVector2Array(6662, 4908, 6776, 4908, 6776, 4943, 6662, 4943)
+
+[node name="collision_19" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_19"]
+polygon = PackedVector2Array(6886, 4887, 6964, 4887, 6964, 4934, 6886, 4934)
+
+[node name="collision_20" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_20"]
+polygon = PackedVector2Array(7366, 4911, 7433, 4911, 7433, 4954, 7366, 4954)
+
+[node name="collision_21" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_21"]
+polygon = PackedVector2Array(9476, 4076, 9491, 4076, 9491, 4232, 9476, 4232)
+
+[node name="collision_22" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_22"]
+polygon = PackedVector2Array(9481, 4095, 9535, 4095, 9535, 4229, 9481, 4229)
+
+[node name="collision_23" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_23"]
+polygon = PackedVector2Array(9925, 4097, 9982, 4097, 9982, 4231, 9925, 4231)
+
+[node name="collision_24" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_24"]
+polygon = PackedVector2Array(9962, 4074, 9982, 4074, 9982, 4134, 9962, 4134)
+
+[node name="collision_25" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_25"]
+polygon = PackedVector2Array(9926, 4478, 9978, 4478, 9978, 4520, 9926, 4520)
+
+[node name="collision_26" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_26"]
+polygon = PackedVector2Array(9481, 4481, 9532, 4481, 9532, 4518, 9481, 4518)
+
+[node name="collision_27" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_27"]
+polygon = PackedVector2Array(9469, 4904, 9538, 4904, 9538, 4959, 9469, 4959)
+
+[node name="collision_28" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_28"]
+polygon = PackedVector2Array(9929, 4884, 10003, 4884, 10003, 4932, 9929, 4932)
+
+[node name="collision_29" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_29"]
+polygon = PackedVector2Array(10121, 4907, 10233, 4907, 10233, 4944, 10121, 4944)
+
+[node name="collision_30" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_30"]
+polygon = PackedVector2Array(10270, 4902, 10334, 4902, 10334, 4944, 10270, 4944)
+
+[node name="collision_31" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_31"]
+polygon = PackedVector2Array(9476, 5232, 9526, 5232, 9526, 5278, 9476, 5278)
+
+[node name="collision_32" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_32"]
+polygon = PackedVector2Array(9923, 5235, 9982, 5235, 9982, 5274, 9923, 5274)
+
+[node name="collision_33" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_33"]
+polygon = PackedVector2Array(9472, 5378, 9488, 5378, 9488, 5498, 9472, 5498)
+
+[node name="collision_34" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_34"]
+polygon = PackedVector2Array(9475, 5393, 9526, 5393, 9526, 5500, 9475, 5500)
+
+[node name="collision_35" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_35"]
+polygon = PackedVector2Array(9927, 5577, 9980, 5577, 9980, 5619, 9927, 5619)
+
+[node name="collision_36" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_36"]
+polygon = PackedVector2Array(8683, 5660, 8733, 5660, 8733, 5699, 8683, 5699)
+
+[node name="collision_37" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_37"]
+polygon = PackedVector2Array(10121, 4476, 10236, 4476, 10236, 4524, 10121, 4524)
+
+[node name="collision_38" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_38"]
+polygon = PackedVector2Array(10271, 4484, 10337, 4484, 10337, 4516, 10271, 4516)
+
+[node name="collision_39" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_39"]
+polygon = PackedVector2Array(8162, 5655, 8215, 5655, 8215, 5700, 8162, 5700)
+
+[node name="collision_40" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_40"]
+polygon = PackedVector2Array(7372, 5397, 7423, 5397, 7423, 5499, 7372, 5499)
+
+[node name="collision_41" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_41"]
+polygon = PackedVector2Array(7411, 5374, 7426, 5374, 7426, 5483, 7411, 5483)
+
+[node name="collision_42" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_42"]
+polygon = PackedVector2Array(6919, 5612, 6968, 5612, 6968, 5654, 6919, 5654)
+
+[node name="collision_43" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_43"]
+polygon = PackedVector2Array(6916, 5203, 6971, 5203, 6971, 5248, 6916, 5248)
+
+[node name="collision_44" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_44"]
+polygon = PackedVector2Array(7370, 5233, 7422, 5233, 7422, 5276, 7370, 5276)
+
+[node name="collision_45" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_45"]
+polygon = PackedVector2Array(6864, 5243, 6908, 5243, 6908, 5349, 6864, 5349)
+
+[node name="collision_46" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_46"]
+polygon = PackedVector2Array(6880, 5344, 6856, 5344, 6856, 5247, 6880, 5247)
+
+[node name="collision_47" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_47"]
+polygon = PackedVector2Array(6857, 5243, 6867, 5243, 6867, 5220, 6857, 5220)
+
+[node name="collision_48" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_48"]
+polygon = PackedVector2Array(8163, 5736, 8178, 5736, 8178, 5786, 8163, 5786)
+
+[node name="collision_49" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_49"]
+polygon = PackedVector2Array(8173, 5763, 8217, 5763, 8217, 5786, 8173, 5786)
+
+[node name="collision_50" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_50"]
+polygon = PackedVector2Array(8676, 5763, 8733, 5763, 8733, 5783, 8676, 5783)
+
+[node name="collision_51" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_51"]
+polygon = PackedVector2Array(8719, 5735, 8733, 5735, 8733, 5771, 8719, 5771)
+
+[node name="collision_52" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_52"]
+polygon = PackedVector2Array(10102, 5160, 10368, 5160, 10368, 5405, 10102, 5405)
+
+[node name="collision_53" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_53"]
+polygon = PackedVector2Array(10090, 5177, 10190, 5177, 10190, 5408, 10090, 5408)
+
+[node name="collision_54" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_54"]
+polygon = PackedVector2Array(10092, 5087, 10368, 5087, 10368, 5315, 10092, 5315)
+
+[node name="collision_55" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_55"]
+polygon = PackedVector2Array(10110, 3899, 10368, 3899, 10368, 4367, 10110, 4367)
+
+[node name="collision_56" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_56"]
+polygon = PackedVector2Array(10101, 4334, 10142, 4334, 10142, 4389, 10101, 4389)
+
+[node name="collision_57" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_57"]
+polygon = PackedVector2Array(10229, 4353, 10264, 4353, 10264, 4338, 10229, 4338)
+
+[node name="collision_58" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_58"]
+polygon = PackedVector2Array(10235, 4338, 10274, 4338, 10274, 4390, 10235, 4390)
+
+[node name="collision_59" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_59"]
+polygon = PackedVector2Array(10026, 3843, 10050, 3843, 10050, 3643, 10026, 3643)
+
+[node name="collision_60" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_60"]
+polygon = PackedVector2Array(10028, 3643, 9998, 3643, 9998, 3742, 10028, 3742)
+
+[node name="collision_61" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_61"]
+polygon = PackedVector2Array(9931, 4000, 9977, 4000, 9977, 4042, 9931, 4042)
+
+[node name="collision_62" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_62"]
+polygon = PackedVector2Array(9479, 3779, 9525, 3779, 9525, 3817, 9479, 3817)
+
+[node name="collision_63" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_63"]
+polygon = PackedVector2Array(9268, 3717, 9339, 3717, 9339, 3761, 9268, 3761)
+
+[node name="collision_64" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_64"]
+polygon = PackedVector2Array(9365, 3682, 9409, 3682, 9409, 3747, 9365, 3747)
+
+[node name="collision_65" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_65"]
+polygon = PackedVector2Array(9193, 3666, 9464, 3666, 9464, 3721, 9193, 3721)
+
+[node name="collision_66" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_66"]
+polygon = PackedVector2Array(8684, 3783, 8735, 3783, 8735, 3818, 8684, 3818)
+
+[node name="collision_67" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_67"]
+polygon = PackedVector2Array(8167, 3780, 8211, 3780, 8211, 3815, 8167, 3815)
+
+[node name="collision_68" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_68"]
+polygon = PackedVector2Array(7371, 3782, 7418, 3782, 7418, 3815, 7371, 3815)
+
+[node name="collision_69" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_69"]
+polygon = PackedVector2Array(8166, 5761, 8224, 5761, 8224, 5890, 8166, 5890)
+
+[node name="collision_70" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_70"]
+polygon = PackedVector2Array(8166, 6010, 8213, 6010, 8213, 6049, 8166, 6049)
+
+[node name="collision_71" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_71"]
+polygon = PackedVector2Array(8685, 6010, 8737, 6010, 8737, 6054, 8685, 6054)
+
+[node name="collision_72" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_72"]
+polygon = PackedVector2Array(8676, 5780, 8730, 5780, 8730, 5890, 8676, 5890)
+
+[node name="collision_73" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_73"]
+polygon = PackedVector2Array(7483, 6100, 8133, 6100, 8133, 6144, 7483, 6144)
+
+[node name="collision_74" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_74"]
+polygon = PackedVector2Array(7450, 5720, 8119, 5720, 8119, 6089, 7450, 6089)
+
+[node name="collision_75" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_75"]
+polygon = PackedVector2Array(7369, 6008, 7426, 6008, 7426, 6052, 7369, 6052)
+
+[node name="collision_76" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_76"]
+polygon = PackedVector2Array(7422, 5728, 7455, 5728, 7455, 5891, 7422, 5891)
+
+[node name="collision_77" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_77"]
+polygon = PackedVector2Array(7369, 5728, 7451, 5728, 7451, 5890, 7369, 5890)
+
+[node name="collision_78" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_78"]
+polygon = PackedVector2Array(6922, 5796, 6969, 5796, 6969, 5889, 6922, 5889)
+
+[node name="collision_79" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_79"]
+polygon = PackedVector2Array(6917, 5771, 6934, 5771, 6934, 5891, 6917, 5891)
+
+[node name="collision_80" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_80"]
+polygon = PackedVector2Array(6916, 6012, 6970, 6012, 6970, 6052, 6916, 6052)
+
+[node name="collision_81" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_81"]
+polygon = PackedVector2Array(9489, 6001, 9532, 6001, 9532, 6048, 9489, 6048)
+
+[node name="collision_82" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_82"]
+polygon = PackedVector2Array(9928, 6010, 9981, 6010, 9981, 6046, 9928, 6046)
+
+[node name="collision_83" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_83"]
+polygon = PackedVector2Array(9928, 5767, 9972, 5767, 9972, 5888, 9928, 5888)
+
+[node name="collision_84" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_84"]
+polygon = PackedVector2Array(9178, 6131, 9242, 6131, 9242, 6177, 9178, 6177)
+
+[node name="collision_85" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_85"]
+polygon = PackedVector2Array(9261, 6112, 9428, 6112, 9428, 6181, 9261, 6181)
+
+[node name="collision_86" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_86"]
+polygon = PackedVector2Array(9043, 6153, 9110, 6153, 9110, 6203, 9043, 6203)
+
+[node name="collision_87" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_87"]
+polygon = PackedVector2Array(8912, 6115, 9019, 6115, 9019, 6187, 8912, 6187)
+
+[node name="collision_88" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_88"]
+polygon = PackedVector2Array(8780, 6138, 8873, 6138, 8873, 6222, 8780, 6222)
+
+[node name="collision_89" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_89"]
+polygon = PackedVector2Array(8770, 6140, 8824, 6140, 8824, 6221, 8770, 6221)
+
+[node name="collision_90" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_90"]
+polygon = PackedVector2Array(8866, 6200, 8937, 6200, 8937, 6278, 8866, 6278)
+
+[node name="collision_91" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_91"]
+polygon = PackedVector2Array(8953, 6199, 9050, 6199, 9050, 6278, 8953, 6278)
+
+[node name="collision_92" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_92"]
+polygon = PackedVector2Array(8780, 5861, 9481, 5861, 9481, 5947, 8780, 5947)
+
+[node name="collision_93" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_93"]
+polygon = PackedVector2Array(8780, 5934, 8843, 5934, 8843, 5975, 8780, 5975)
+
+[node name="collision_94" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_94"]
+polygon = PackedVector2Array(8815, 5969, 9141, 5969, 9141, 6067, 8815, 6067)
+
+[node name="collision_95" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_95"]
+polygon = PackedVector2Array(8836, 5933, 9472, 5933, 9472, 6049, 8836, 6049)
+
+[node name="collision_96" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_96"]
+polygon = PackedVector2Array(8785, 5775, 9480, 5775, 9480, 5892, 8785, 5892)
+
+[node name="collision_97" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_97"]
+polygon = PackedVector2Array(7488, 6348, 8192, 6348, 8192, 6453, 7488, 6453)
+
+[node name="collision_98" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_98"]
+polygon = PackedVector2Array(7499, 6447, 8186, 6447, 8186, 6481, 7499, 6481)
+
+[node name="collision_99" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_99"]
+polygon = PackedVector2Array(7491, 6566, 8060, 6566, 8060, 6661, 7491, 6661)
+
+[node name="collision_100" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_100"]
+polygon = PackedVector2Array(8077, 6552, 8171, 6552, 8171, 6635, 8077, 6635)
+
+[node name="collision_101" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_101"]
+polygon = PackedVector2Array(7501, 6653, 7952, 6653, 7952, 6689, 7501, 6689)
+
+[node name="collision_102" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_102"]
+polygon = PackedVector2Array(9363, 6217, 9456, 6217, 9456, 6373, 9363, 6373)
+
+[node name="collision_103" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_103"]
+polygon = PackedVector2Array(8615, 6651, 8687, 6651, 8687, 6722, 8615, 6722)
+
+[node name="collision_104" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_104"]
+polygon = PackedVector2Array(8712, 6629, 8818, 6629, 8818, 6736, 8712, 6736)
+
+[node name="collision_105" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_105"]
+polygon = PackedVector2Array(8847, 6653, 8930, 6653, 8930, 6805, 8847, 6805)
+
+[node name="collision_106" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_106"]
+polygon = PackedVector2Array(8397, 6867, 8427, 6867, 8427, 6887, 8397, 6887)
+
+[node name="collision_107" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_107"]
+polygon = PackedVector2Array(8536, 6868, 8567, 6868, 8567, 6889, 8536, 6889)
+
+[node name="collision_108" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_108"]
+polygon = PackedVector2Array(8667, 6867, 8699, 6867, 8699, 6889, 8667, 6889)
+
+[node name="collision_109" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_109"]
+polygon = PackedVector2Array(8215, 6865, 8244, 6865, 8244, 6889, 8215, 6889)
+
+[node name="collision_110" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_110"]
+polygon = PackedVector2Array(8074, 6867, 8104, 6867, 8104, 6888, 8074, 6888)
+
+[node name="collision_111" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_111"]
+polygon = PackedVector2Array(7936, 6867, 7968, 6867, 7968, 6887, 7936, 6887)
+
+[node name="collision_112" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_112"]
+polygon = PackedVector2Array(8749, 6835, 8832, 6835, 8832, 6922, 8749, 6922)
+
+[node name="collision_113" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_113"]
+polygon = PackedVector2Array(8852, 6838, 8927, 6838, 8927, 6920, 8852, 6920)
+
+[node name="collision_114" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_114"]
+polygon = PackedVector2Array(8674, 7026, 8698, 7026, 8698, 7050, 8674, 7050)
+
+[node name="collision_115" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_115"]
+polygon = PackedVector2Array(8676, 7193, 8697, 7193, 8697, 7204, 8676, 7204)
+
+[node name="collision_116" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_116"]
+polygon = PackedVector2Array(7434, 7039, 7729, 7039, 7729, 7096, 7434, 7096)
+
+[node name="collision_117" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_117"]
+polygon = PackedVector2Array(7466, 7094, 7481, 7135, 7524, 7166, 7553, 7172, 7553, 7186, 7604, 7191, 7604, 7169, 7667, 7148, 7702, 7090, 7467, 7092)
+
+[node name="collision_118" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_118"]
+polygon = PackedVector2Array(7432, 7039, 7453, 7018, 7468, 7016, 7696, 7014, 7725, 7035)
+
+[node name="collision_119" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_119"]
+polygon = PackedVector2Array(6919, 6727, 6967, 6727, 6967, 6764, 6919, 6764)
+
+[node name="collision_120" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_120"]
+polygon = PackedVector2Array(6923, 6718, 6959, 6718, 6959, 6740, 6923, 6740)
+
+[node name="collision_121" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_121"]
+polygon = PackedVector2Array(9928, 6688, 9979, 6688, 9979, 6722, 9928, 6722)
+
+[node name="collision_122" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_122"]
+polygon = PackedVector2Array(9311, 7221, 9363, 7339, 9320, 7395, 9413, 7475, 9438, 7448, 9468, 7370, 9643, 7419, 9802, 7410, 9851, 7369, 9912, 7482, 10002, 7407, 9954, 7337, 10010, 7181, 10018, 7043, 9974, 7031, 9954, 6958, 9993, 6925, 9908, 6833, 9857, 6846, 9730, 6795, 9711, 6752, 9610, 6753, 9596, 6791, 9470, 6845, 9415, 6834, 9334, 6911, 9328, 6934, 9375, 6964, 9341, 7041, 9304, 7041, 9296, 7182, 9312, 7180, 9313, 7221)
+
+[node name="collision_123" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_123"]
+polygon = PackedVector2Array(8865, 7391, 9094, 7391, 9094, 7469, 8865, 7469)
+
+[node name="collision_124" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_124"]
+polygon = PackedVector2Array(9082, 7457, 9225, 7602, 9058, 7608, 9058, 7455)
+
+[node name="collision_125" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_125"]
+polygon = PackedVector2Array(8398, 7330, 8425, 7330, 8425, 7347, 8398, 7347)
+
+[node name="collision_126" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_126"]
+polygon = PackedVector2Array(8535, 7332, 8565, 7332, 8565, 7347, 8535, 7347)
+
+[node name="collision_127" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_127"]
+polygon = PackedVector2Array(8670, 7332, 8699, 7332, 8699, 7345, 8670, 7345)
+
+[node name="collision_128" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_128"]
+polygon = PackedVector2Array(7937, 7325, 7966, 7325, 7966, 7346, 7937, 7346)
+
+[node name="collision_129" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_129"]
+polygon = PackedVector2Array(8075, 7327, 8105, 7327, 8105, 7346, 8075, 7346)
+
+[node name="collision_130" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_130"]
+polygon = PackedVector2Array(8214, 7325, 8246, 7325, 8246, 7346, 8214, 7346)
+
+[node name="collision_131" type="StaticBody2D" parent="Annotations/collision"]
+collision_layer = 0
+collision_mask = 0
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+metadata/map_stitch_collision_layer = 1
+metadata/map_stitch_collision_mask = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Annotations/collision/collision_131"]
+polygon = PackedVector2Array(6917, 7245, 6965, 7245, 6965, 7280, 6917, 7280)
+
+[node name="top" type="Node2D" parent="Annotations"]
+z_index = 130
+
+[node name="top_1" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7678, 3764, 7680, 3759, 7683, 3756, 7686, 3752, 7688, 3748, 7690, 3744, 7692, 3740, 7695, 3737, 7698, 3734, 7702, 3731, 7705, 3729, 7709, 3727, 7714, 3724, 7718, 3722, 7722, 3721, 7726, 3719, 7731, 3717, 7735, 3716, 7739, 3715, 7744, 3715, 7748, 3715, 7753, 3715, 7757, 3715, 7761, 3716, 7765, 3718, 7769, 3719, 7773, 3721, 7777, 3722, 7781, 3724, 7785, 3727, 7789, 3730, 7793, 3733, 7797, 3736, 7799, 3739, 7802, 3742, 7804, 3746, 7807, 3749, 7810, 3754, 7812, 3757, 7814, 3761, 7815, 3765, 7818, 3769, 7820, 3765, 7821, 3761, 7825, 3759, 7829, 3760, 7833, 3761, 7837, 3763, 7839, 3767, 7842, 3770, 7844, 3774, 7846, 3777, 7849, 3781, 7852, 3784, 7852, 3790, 7852, 3795, 7852, 3800, 7853, 3804, 7853, 3809, 7853, 3813, 7853, 3819, 7853, 3823, 7853, 3828, 7853, 3832, 7853, 3837, 7853, 3842, 7853, 3847, 7852, 3851, 7849, 3855, 7846, 3858, 7843, 3860, 7839, 3862, 7834, 3865, 7830, 3867, 7827, 3869, 7824, 3872, 7827, 3875, 7830, 3878, 7830, 3883, 7830, 3887, 7831, 3892, 7831, 3896, 7831, 3901, 7830, 3906, 7829, 3910, 7827, 3914, 7827, 3918, 7827, 3923, 7827, 3927, 7827, 3932, 7828, 3936, 7825, 3939, 7823, 3942, 7819, 3946, 7815, 3948, 7812, 3952, 7808, 3954, 7804, 3957, 7801, 3960, 7798, 3963, 7795, 3966, 7792, 3969, 7789, 3972, 7785, 3975, 7783, 3978, 7778, 3978, 7774, 3976, 7768, 3976, 7763, 3976, 7759, 3976, 7754, 3977, 7750, 3977, 7745, 3977, 7740, 3978, 7736, 3978, 7731, 3977, 7723, 3976, 7718, 3976, 7714, 3975, 7710, 3974, 7705, 3973, 7701, 3971, 7697, 3969, 7694, 3965, 7692, 3961, 7689, 3956, 7686, 3952, 7683, 3949, 7680, 3947, 7677, 3943, 7674, 3940, 7672, 3936, 7669, 3933, 7666, 3930, 7666, 3925, 7666, 3920, 7666, 3916, 7665, 3911, 7662, 3908, 7660, 3904, 7660, 3898, 7660, 3894, 7660, 3889, 7660, 3885, 7660, 3881, 7662, 3876, 7662, 3872, 7664, 3868, 7663, 3864, 7660, 3861, 7658, 3858, 7655, 3854, 7651, 3851, 7647, 3849, 7644, 3846, 7642, 3843, 7639, 3839, 7639, 3835, 7639, 3829, 7639, 3824, 7639, 3819, 7639, 3815, 7639, 3810, 7639, 3806, 7639, 3801, 7639, 3797, 7639, 3792, 7639, 3788, 7640, 3783, 7644, 3780, 7647, 3777, 7649, 3774, 7651, 3770, 7653, 3766, 7655, 3762, 7658, 3759, 7662, 3758, 7666, 3758, 7671, 3758, 7674, 3761, 7677, 3765, 7681, 3763)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_2" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7670, 3939, 7670, 3944, 7670, 3949, 7670, 3954, 7670, 3959, 7670, 3963, 7670, 3968, 7670, 3972, 7670, 3977, 7670, 3983, 7670, 3987, 7670, 3992, 7670, 3997, 7670, 4002, 7670, 4007, 7670, 4012, 7670, 4017, 7669, 4021, 7666, 4024, 7664, 4029, 7663, 4033, 7663, 4038, 7663, 4042, 7665, 4046, 7668, 4049, 7673, 4050, 7677, 4050, 7681, 4050, 7686, 4049, 7690, 4049, 7695, 4049, 7699, 4049, 7704, 4050, 7709, 4050, 7714, 4050, 7718, 4050, 7723, 4050, 7730, 4050, 7736, 4051, 7741, 4051, 7746, 4051, 7751, 4051, 7755, 4051, 7762, 4051, 7769, 4051, 7774, 4051, 7779, 4051, 7785, 4051, 7790, 4051, 7794, 4051, 7802, 4051, 7807, 4051, 7811, 4051, 7816, 4050, 7820, 4049, 7824, 4049, 7829, 4049, 7832, 4046, 7834, 4043, 7834, 4039, 7833, 4034, 7831, 4031, 7829, 4027, 7828, 4023, 7827, 4019, 7825, 4015, 7825, 4011, 7826, 4006, 7826, 4001, 7827, 3997, 7828, 3992, 7828, 3988, 7828, 3984, 7828, 3979, 7828, 3974, 7828, 3969, 7828, 3965, 7828, 3961, 7827, 3957, 7827, 3952, 7827, 3947, 7826, 3943, 7826, 3939, 7826, 3943, 7827, 3947, 7827, 3952, 7828, 3956, 7828, 3961, 7828, 3965, 7828, 3969, 7828, 3974, 7828, 3979, 7828, 3983, 7828, 3989, 7828, 3994, 7827, 3998, 7827, 4003, 7824, 3999, 7823, 3991, 7823, 3986, 7821, 3982, 7821, 3976, 7821, 3971, 7821, 3965, 7822, 3961, 7823, 3954, 7823, 3949, 7823, 3943, 7822, 3939)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_3" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7822, 3937, 7824, 3940, 7826, 3944, 7827, 3948, 7828, 3953, 7828, 3957, 7828, 3962, 7828, 3967, 7829, 3972, 7829, 3976, 7829, 3981, 7828, 3985, 7826, 3989, 7823, 3992, 7821, 3996, 7816, 3996, 7814, 3992, 7812, 3987, 7811, 3979, 7808, 3970, 7806, 3958, 7805, 3952, 7805, 3948, 7805, 3941, 7805, 3935, 7807, 3930, 7809, 3925, 7812, 3920)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_4" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9127, 3716, 9131, 3716, 9136, 3716, 9140, 3715, 9145, 3715, 9149, 3715, 9155, 3715, 9161, 3715, 9166, 3715, 9171, 3716, 9175, 3716, 9179, 3719, 9183, 3721, 9187, 3724, 9190, 3727, 9193, 3730, 9196, 3733, 9200, 3737, 9202, 3741, 9206, 3744, 9209, 3748, 9210, 3752, 9212, 3757, 9214, 3760, 9216, 3764, 9219, 3768, 9219, 3763, 9223, 3761, 9228, 3760, 9232, 3760, 9236, 3762, 9240, 3765, 9242, 3769, 9243, 3773, 9247, 3776, 9251, 3777, 9253, 3781, 9254, 3786, 9254, 3790, 9254, 3795, 9254, 3800, 9254, 3805, 9255, 3809, 9256, 3815, 9257, 3819, 9257, 3824, 9257, 3828, 9256, 3834, 9254, 3838, 9254, 3843, 9253, 3847, 9252, 3852, 9251, 3856, 9247, 3858, 9243, 3862, 9242, 3866, 9239, 3869, 9237, 3873, 9234, 3877, 9233, 3882, 9233, 3887, 9233, 3891, 9233, 3896, 9233, 3901, 9233, 3905, 9232, 3910, 9232, 3914, 9231, 3919, 9230, 3923, 9230, 3928, 9230, 3933, 9229, 3937, 9226, 3941, 9226, 3947, 9226, 3952, 9226, 3957, 9226, 3962, 9226, 3967, 9226, 3971, 9226, 3976, 9225, 3982, 9224, 3987, 9223, 3992, 9223, 3996, 9223, 4001, 9223, 4006, 9223, 4010, 9223, 4015, 9223, 4020, 9223, 4025, 9223, 4029, 9223, 4034, 9219, 4035, 9214, 4035, 9209, 4036, 9204, 4036, 9200, 4036, 9194, 4037, 9187, 4038, 9181, 4038, 9173, 4038, 9165, 4038, 9157, 4038, 9152, 4038, 9145, 4038, 9136, 4038, 9130, 4039, 9124, 4039, 9118, 4039, 9114, 4040, 9108, 4040, 9104, 4040, 9099, 4040, 9094, 4040, 9089, 4040, 9085, 4040, 9082, 4043, 9078, 4045, 9073, 4046, 9069, 4045, 9066, 4042, 9064, 4038, 9063, 4034, 9063, 4029, 9066, 4025, 9069, 4022, 9073, 4019, 9075, 4015, 9076, 4011, 9076, 4006, 9077, 4002, 9078, 3996, 9078, 3992, 9078, 3987, 9077, 3983, 9076, 3977, 9074, 3973, 9073, 3968, 9073, 3963, 9073, 3958, 9073, 3953, 9073, 3949, 9073, 3955, 9073, 3960, 9073, 3964, 9073, 3969, 9073, 3974, 9073, 3980, 9073, 3984, 9073, 3990, 9073, 3994, 9074, 3999, 9075, 4003, 9076, 4008, 9079, 4006, 9081, 4003, 9082, 3997, 9082, 3992, 9082, 3987, 9082, 3980, 9082, 3976, 9082, 3971, 9081, 3966, 9081, 3961, 9079, 3955, 9078, 3949, 9076, 3945, 9075, 3940, 9073, 3936, 9070, 3933, 9068, 3929, 9066, 3923, 9066, 3919, 9066, 3914, 9066, 3909, 9063, 3905, 9060, 3901, 9060, 3895, 9060, 3891, 9062, 3886, 9063, 3882, 9063, 3877, 9063, 3872, 9064, 3869, 9064, 3864, 9062, 3860, 9058, 3857, 9055, 3854, 9052, 3850, 9050, 3846, 9048, 3842, 9046, 3838, 9044, 3834, 9044, 3830, 9044, 3824, 9044, 3819, 9044, 3815, 9044, 3810, 9043, 3805, 9043, 3800, 9043, 3795, 9043, 3791, 9044, 3786, 9044, 3781, 9046, 3777, 9050, 3773, 9051, 3769, 9053, 3765, 9056, 3762, 9060, 3760, 9063, 3757, 9068, 3757, 9073, 3759, 9076, 3762, 9079, 3765, 9082, 3760, 9082, 3756, 9084, 3752, 9085, 3748, 9089, 3744, 9091, 3741, 9094, 3738, 9096, 3733, 9100, 3731, 9102, 3727, 9105, 3724, 9108, 3721, 9112, 3718, 9116, 3716, 9120, 3715, 9124, 3714, 9129, 3714, 9127, 3718, 9123, 3720, 9119, 3722, 9114, 3725, 9110, 3728, 9105, 3731)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_5" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7541, 5000, 7546, 5000, 7550, 5002, 7554, 5005, 7556, 5009, 7558, 5004, 7560, 4999, 7564, 4995, 7567, 4990, 7570, 4987, 7572, 4982, 7574, 4978, 7576, 4974, 7580, 4972, 7585, 4968, 7589, 4966, 7593, 4963, 7598, 4960, 7602, 4958, 7606, 4957, 7611, 4955, 7615, 4953, 7621, 4952, 7625, 4951, 7630, 4951, 7635, 4950, 7640, 4950, 7646, 4950, 7650, 4950, 7655, 4951, 7659, 4953, 7662, 4957, 7666, 4959, 7669, 4962, 7672, 4965, 7675, 4967, 7679, 4970, 7683, 4973, 7686, 4977, 7690, 4980, 7694, 4984, 7696, 4988, 7698, 4993, 7701, 4996, 7702, 5001, 7705, 5004, 7709, 5001, 7712, 4998, 7716, 4996, 7720, 4997, 7723, 5002, 7724, 5006, 7726, 5009, 7727, 5014, 7729, 5019, 7729, 5023, 7730, 5028, 7732, 5031, 7732, 5037, 7732, 5042, 7732, 5047, 7733, 5053, 7733, 5057, 7733, 5063, 7733, 5068, 7732, 5073, 7731, 5079, 7729, 5085, 7729, 5089, 7726, 5093, 7723, 5097, 7720, 5101, 7717, 5104, 7713, 5107, 7712, 5111, 7713, 5114, 7713, 5119, 7715, 5124, 7715, 5128, 7715, 5133, 7713, 5137, 7712, 5140, 7710, 5146, 7710, 5150, 7710, 5155, 7710, 5159, 7710, 5164, 7713, 5166, 7715, 5170, 7716, 5175, 7715, 5181, 7715, 5185, 7715, 5190, 7715, 5194, 7713, 5198, 7710, 5202, 7708, 5206, 7707, 5210, 7707, 5215, 7707, 5220, 7707, 5224, 7707, 5229, 7706, 5235, 7706, 5239, 7705, 5245, 7705, 5249, 7705, 5254, 7705, 5259, 7705, 5264, 7705, 5268, 7705, 5274, 7705, 5279, 7706, 5283, 7706, 5289, 7706, 5293, 7706, 5298, 7706, 5303, 7706, 5308, 7706, 5312, 7706, 5317, 7706, 5322, 7706, 5326, 7706, 5331, 7706, 5336, 7705, 5342, 7705, 5347, 7704, 5351, 7704, 5356, 7704, 5360, 7704, 5366, 7704, 5370, 7704, 5375, 7706, 5379, 7706, 5383, 7704, 5388, 7702, 5392, 7702, 5396, 7704, 5400, 7706, 5404, 7707, 5408, 7710, 5411, 7711, 5415, 7713, 5419, 7713, 5425, 7714, 5430, 7714, 5436, 7714, 5441, 7710, 5444, 7706, 5445, 7701, 5445, 7695, 5445, 7688, 5443, 7684, 5443, 7680, 5442, 7675, 5441, 7669, 5440, 7663, 5439, 7657, 5438, 7650, 5437, 7646, 5437, 7637, 5436, 7633, 5435, 7624, 5435, 7617, 5435, 7611, 5435, 7605, 5435, 7600, 5435, 7595, 5433, 7588, 5432, 7580, 5431, 7575, 5431, 7570, 5431, 7566, 5430, 7561, 5428, 7557, 5423, 7554, 5419, 7553, 5415, 7550, 5411, 7548, 5406, 7547, 5400, 7546, 5395, 7546, 5389, 7546, 5385, 7547, 5380, 7547, 5376, 7548, 5370, 7548, 5366, 7548, 5361, 7551, 5358, 7553, 5354, 7554, 5349, 7554, 5343, 7554, 5338, 7554, 5333, 7554, 5328, 7554, 5323, 7554, 5318, 7554, 5313, 7553, 5309, 7553, 5303, 7552, 5298, 7552, 5293, 7552, 5287, 7552, 5282, 7552, 5277, 7552, 5271, 7552, 5264, 7553, 5256, 7554, 5252, 7554, 5247, 7554, 5242, 7554, 5238, 7554, 5233, 7552, 5229, 7552, 5224, 7552, 5217, 7552, 5213, 7552, 5208, 7552, 5204, 7551, 5199, 7547, 5197, 7546, 5193, 7546, 5188, 7546, 5183, 7546, 5178, 7546, 5174, 7546, 5169, 7546, 5165, 7546, 5159, 7548, 5155, 7549, 5149, 7550, 5144, 7550, 5140, 7545, 5139, 7544, 5134, 7544, 5129, 7545, 5124, 7546, 5120, 7546, 5115, 7546, 5111, 7549, 5108, 7548, 5104, 7545, 5100, 7542, 5097, 7538, 5095, 7537, 5091, 7534, 5086, 7532, 5083, 7530, 5077, 7528, 5073, 7527, 5069, 7525, 5065, 7525, 5060, 7525, 5056, 7525, 5051, 7525, 5047, 7525, 5042, 7525, 5038, 7528, 5032, 7530, 5028, 7532, 5022, 7535, 5019, 7536, 5014, 7537, 5009, 7538, 5005, 7538, 5000, 7541, 4997)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_6" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9212, 4969, 9217, 4965, 9220, 4962, 9223, 4959, 9226, 4956, 9230, 4954, 9235, 4952, 9239, 4951, 9243, 4950, 9247, 4949, 9251, 4948, 9255, 4948, 9260, 4948, 9264, 4948, 9268, 4949, 9272, 4949, 9276, 4951, 9281, 4953, 9285, 4955, 9289, 4956, 9293, 4957, 9297, 4958, 9302, 4959, 9305, 4963, 9309, 4967, 9313, 4970, 9316, 4974, 9321, 4978, 9324, 4981, 9327, 4985, 9330, 4990, 9332, 4994, 9333, 4998, 9335, 5002, 9338, 5006, 9339, 5002, 9342, 4999, 9346, 4998, 9350, 4997, 9355, 5000, 9357, 5005, 9360, 5008, 9363, 5011, 9365, 5015, 9368, 5019, 9369, 5023, 9370, 5027, 9371, 5031, 9371, 5035, 9371, 5040, 9373, 5045, 9373, 5050, 9373, 5054, 9373, 5058, 9373, 5062, 9373, 5067, 9372, 5072, 9371, 5078, 9371, 5082, 9371, 5087, 9368, 5092, 9365, 5095, 9361, 5098, 9356, 5099, 9353, 5103, 9352, 5107, 9352, 5111, 9352, 5115, 9352, 5119, 9353, 5123, 9353, 5127, 9352, 5131, 9352, 5136, 9351, 5140, 9347, 5140, 9346, 5144, 9346, 5149, 9346, 5153, 9346, 5157, 9346, 5161, 9347, 5165, 9350, 5168, 9352, 5172, 9352, 5177, 9352, 5181, 9351, 5185, 9348, 5189, 9347, 5193, 9345, 5197, 9344, 5201, 9343, 5205, 9343, 5209, 9343, 5213, 9343, 5217, 9343, 5221, 9343, 5225, 9343, 5229, 9340, 5234, 9338, 5238, 9336, 5243, 9336, 5247, 9336, 5251, 9336, 5255, 9336, 5260, 9336, 5264, 9336, 5268, 9336, 5272, 9336, 5276, 9338, 5271, 9339, 5265, 9340, 5260, 9340, 5256, 9340, 5252, 9340, 5248, 9342, 5244, 9342, 5240, 9339, 5237, 9337, 5233, 9340, 5237, 9341, 5241, 9342, 5246, 9343, 5250, 9343, 5254, 9343, 5259, 9343, 5263, 9343, 5268, 9343, 5273, 9343, 5277, 9343, 5281, 9343, 5285, 9343, 5289, 9343, 5293, 9343, 5297, 9343, 5302, 9343, 5306, 9343, 5310, 9342, 5314, 9342, 5318, 9342, 5322, 9342, 5326, 9342, 5331, 9342, 5335, 9342, 5339, 9342, 5343, 9342, 5347, 9344, 5351, 9346, 5355, 9347, 5359, 9347, 5363, 9347, 5367, 9347, 5372, 9347, 5376, 9347, 5380, 9347, 5384, 9347, 5388, 9346, 5392, 9342, 5394, 9338, 5396, 9334, 5397, 9329, 5399, 9324, 5400, 9317, 5404, 9311, 5406, 9307, 5407, 9303, 5409, 9297, 5410, 9293, 5410, 9286, 5410, 9278, 5410, 9273, 5410, 9265, 5408, 9261, 5407, 9256, 5406, 9252, 5405, 9247, 5404, 9243, 5404, 9236, 5404, 9232, 5404, 9228, 5404, 9223, 5404, 9218, 5404, 9213, 5405, 9208, 5406, 9203, 5406, 9197, 5406, 9193, 5406, 9189, 5405, 9185, 5403, 9182, 5400, 9178, 5400, 9176, 5396, 9174, 5391, 9174, 5387, 9174, 5383, 9174, 5379, 9174, 5375, 9177, 5372, 9180, 5369, 9184, 5366, 9187, 5362, 9189, 5358, 9189, 5354, 9189, 5350, 9189, 5345, 9189, 5341, 9189, 5336, 9189, 5332, 9190, 5328, 9190, 5324, 9190, 5319, 9190, 5314, 9190, 5310, 9191, 5306, 9191, 5302, 9192, 5297, 9192, 5293, 9192, 5289, 9192, 5285, 9191, 5280, 9191, 5276, 9191, 5272, 9190, 5267, 9190, 5263, 9190, 5258, 9190, 5254, 9190, 5250, 9190, 5246, 9190, 5242, 9190, 5237, 9190, 5233, 9190, 5229, 9190, 5224, 9190, 5220, 9191, 5216, 9191, 5212, 9191, 5208, 9187, 5208, 9186, 5204, 9184, 5199, 9184, 5195, 9183, 5191, 9182, 5187, 9181, 5183, 9181, 5179, 9180, 5175, 9180, 5171, 9180, 5167, 9180, 5163, 9181, 5159, 9183, 5155, 9183, 5151, 9183, 5147, 9184, 5142, 9184, 5138, 9183, 5134, 9182, 5130, 9182, 5125, 9182, 5120, 9183, 5116, 9183, 5111, 9184, 5107, 9184, 5103, 9183, 5099, 9180, 5096, 9177, 5093, 9176, 5089, 9175, 5085, 9174, 5081, 9173, 5076, 9170, 5073, 9168, 5077, 9173, 5080, 9177, 5081, 9181, 5083, 9184, 5087, 9185, 5092, 9185, 5096, 9181, 5099, 9176, 5099, 9172, 5095, 9169, 5092, 9166, 5089, 9163, 5086, 9161, 5082, 9158, 5077, 9157, 5073, 9156, 5069, 9155, 5065, 9155, 5060, 9155, 5056, 9155, 5052, 9155, 5045, 9155, 5041, 9155, 5037, 9155, 5032, 9155, 5028, 9157, 5024, 9159, 5020, 9161, 5016, 9163, 5012, 9165, 5008, 9168, 5005, 9171, 5002, 9175, 4999, 9179, 4998, 9183, 5000, 9187, 5000, 9192, 5000, 9196, 4996, 9197, 4990, 9198, 4986, 9201, 4981, 9204, 4978, 9209, 4975, 9213, 4972, 9216, 4969, 9220, 4967)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_7" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7331, 4372, 7341, 4385, 7356, 4380, 7363, 4371, 7363, 4337, 7354, 4333, 7349, 4319, 7366, 4321, 7376, 4327, 7382, 4341, 7388, 4341, 7388, 4447, 7379, 4450, 7379, 4474, 7409, 4477, 7409, 4449, 7401, 4441, 7401, 4341, 7403, 4334, 7402, 4324, 7409, 4320, 7408, 4300, 7395, 4289, 7385, 4292, 7376, 4302, 7347, 4300, 7334, 4296, 7333, 4309, 7341, 4319)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_8" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7330, 4371, 7329, 4343, 7342, 4328)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_9" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6924, 4321, 6923, 4316, 6923, 4311, 6924, 4307, 6924, 4303, 6924, 4299, 6926, 4296, 6931, 4293, 6934, 4290, 6939, 4288, 6943, 4288, 6946, 4290, 6950, 4292, 6953, 4295, 6956, 4299, 6959, 4301, 6963, 4302, 6968, 4302, 6974, 4302, 6978, 4302, 6982, 4302, 6987, 4301, 6990, 4298, 6994, 4297, 6998, 4299, 7002, 4301, 7003, 4305, 7003, 4309, 7001, 4313, 6998, 4316, 6997, 4320, 6993, 4322, 6993, 4327, 6993, 4331, 6996, 4334, 6999, 4337, 7001, 4341, 7003, 4344, 7003, 4348, 7003, 4352, 7003, 4357, 7003, 4361, 7003, 4365, 7003, 4369, 7002, 4373, 7000, 4378, 6997, 4381, 6993, 4383, 6989, 4384, 6984, 4384, 6980, 4382, 6977, 4378, 6974, 4376, 6971, 4372, 6971, 4366, 6971, 4362, 6972, 4357, 6972, 4353, 6972, 4348, 6974, 4344, 6974, 4340, 6977, 4337, 6979, 4334, 6984, 4333, 6985, 4329, 6984, 4325, 6983, 4321, 6980, 4318, 6976, 4318, 6971, 4319, 6968, 4321, 6964, 4324, 6961, 4327, 6957, 4330, 6954, 4333, 6952, 4336, 6950, 4340, 6947, 4343, 6947, 4347, 6947, 4351, 6947, 4356, 6947, 4360, 6947, 4364, 6947, 4368, 6947, 4373, 6948, 4377, 6948, 4381, 6948, 4386, 6948, 4390, 6948, 4394, 6948, 4398, 6948, 4402, 6948, 4407, 6948, 4411, 6948, 4415, 6949, 4420, 6949, 4424, 6949, 4429, 6949, 4434, 6949, 4438, 6949, 4442, 6949, 4446, 6953, 4448, 6956, 4451, 6956, 4455, 6956, 4460, 6956, 4464, 6957, 4468, 6956, 4472, 6955, 4476, 6951, 4478, 6947, 4479, 6942, 4479, 6938, 4479, 6933, 4479, 6928, 4479, 6925, 4477, 6925, 4473, 6925, 4469, 6925, 4464, 6926, 4460, 6926, 4456, 6926, 4452, 6927, 4448, 6931, 4446, 6933, 4442, 6935, 4437, 6935, 4432, 6935, 4428, 6936, 4423, 6936, 4419, 6936, 4415, 6935, 4411, 6935, 4407, 6935, 4403, 6935, 4399, 6934, 4393, 6934, 4389, 6934, 4385, 6933, 4380, 6933, 4376, 6933, 4372, 6933, 4367, 6933, 4363, 6934, 4357, 6934, 4352, 6934, 4348, 6934, 4344, 6931, 4341, 6930, 4337, 6928, 4333, 6927, 4329, 6924, 4326)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_10" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6800, 4495, 6804, 4495, 6809, 4495, 6815, 4495, 6819, 4495, 6824, 4495, 6828, 4495, 6832, 4495, 6837, 4495, 6843, 4495, 6848, 4495, 6852, 4495, 6856, 4492, 6857, 4488, 6857, 4483, 6857, 4478, 6856, 4474, 6856, 4470, 6856, 4465, 6856, 4459, 6856, 4455, 6857, 4451, 6856, 4447, 6854, 4443, 6850, 4442, 6845, 4442, 6841, 4441, 6835, 4441, 6829, 4440, 6825, 4440, 6821, 4440, 6816, 4440, 6812, 4440, 6808, 4440, 6804, 4440, 6800, 4443, 6800, 4447, 6797, 4450, 6796, 4454, 6795, 4460, 6795, 4466, 6796, 4470, 6797, 4476, 6797, 4482, 6798, 4487, 6798, 4492, 6798, 4496)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_11" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6659, 4439, 6774, 4439, 6774, 4475, 6659, 4475)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_12" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6564, 4375, 6622, 4375, 6622, 4458, 6564, 4458)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_13" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6555, 4414, 6628, 4414, 6628, 4488, 6555, 4488)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_14" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6924, 3996, 6924, 3969, 6930, 3962, 6932, 3867, 6922, 3856, 6918, 3830, 6912, 3810, 6926, 3807, 6939, 3798, 6956, 3802, 6957, 3808, 7001, 3811, 7003, 3822, 6996, 3827, 6996, 3848, 7007, 3858, 7005, 3888, 6991, 3895, 6976, 3889, 6973, 3852, 6982, 3841, 6984, 3826, 6966, 3828, 6950, 3869, 6948, 3965, 6956, 3981, 6962, 4003, 6924, 3998)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_15" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6559, 4856, 6626, 4856, 6626, 4887, 6559, 4887)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_16" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6657, 4871, 6776, 4871, 6776, 4907, 6657, 4907)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_17" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6892, 4806, 6954, 4806, 6954, 4887, 6892, 4887)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_18" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7363, 4817, 7425, 4817, 7425, 4898, 7363, 4898)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_19" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7359, 4866, 7434, 4866, 7434, 4908, 7359, 4908)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_20" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9470, 4816, 9527, 4816, 9527, 4899, 9470, 4899)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_21" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9461, 4866, 9536, 4866, 9536, 4928, 9461, 4928)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_22" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9934, 4807, 10000, 4807, 10000, 4898, 9934, 4898)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_23" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10122, 4872, 10239, 4872, 10239, 4908, 10122, 4908)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_24" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10274, 4863, 10324, 4863, 10324, 4898, 10274, 4898)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_25" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10270, 4875, 10337, 4875, 10337, 4907, 10270, 4907)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_26" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9489, 5071, 9487, 5066, 9487, 5062, 9487, 5058, 9485, 5054, 9483, 5049, 9484, 5045, 9485, 5041, 9488, 5037, 9491, 5033, 9493, 5029, 9497, 5027, 9501, 5026, 9505, 5027, 9507, 5031, 9508, 5035, 9511, 5038, 9515, 5039, 9516, 5043, 9520, 5044, 9525, 5044, 9529, 5044, 9533, 5044, 9537, 5044, 9542, 5044, 9547, 5044, 9551, 5044, 9555, 5044, 9558, 5047, 9560, 5052, 9560, 5056, 9560, 5061, 9560, 5065, 9560, 5069, 9562, 5073, 9565, 5076, 9566, 5080, 9567, 5084, 9568, 5089, 9569, 5093, 9570, 5098, 9570, 5102, 9571, 5106, 9571, 5110, 9571, 5114, 9571, 5118, 9570, 5123, 9567, 5127, 9564, 5129, 9560, 5132, 9556, 5132, 9551, 5132, 9548, 5129, 9545, 5125, 9542, 5123, 9540, 5119, 9539, 5115, 9539, 5111, 9539, 5106, 9539, 5102, 9539, 5098, 9538, 5094, 9537, 5089, 9537, 5085, 9537, 5081, 9541, 5078, 9545, 5078, 9549, 5076, 9551, 5072, 9551, 5067, 9549, 5062, 9548, 5058, 9544, 5058, 9540, 5059, 9536, 5059, 9531, 5061, 9529, 5063, 9525, 5066, 9523, 5070, 9520, 5074, 9518, 5077, 9515, 5081, 9512, 5084, 9511, 5088, 9510, 5093, 9509, 5098, 9509, 5103, 9509, 5107, 9509, 5112, 9509, 5116, 9509, 5120, 9509, 5124, 9509, 5128, 9509, 5132, 9509, 5137, 9509, 5141, 9509, 5146, 9509, 5151, 9509, 5157, 9509, 5163, 9509, 5167, 9509, 5172, 9509, 5176, 9509, 5180, 9509, 5185, 9509, 5189, 9511, 5193, 9514, 5196, 9515, 5201, 9515, 5205, 9515, 5209, 9515, 5214, 9516, 5218, 9516, 5222, 9516, 5226, 9516, 5230, 9511, 5232, 9507, 5233, 9503, 5234, 9497, 5235, 9492, 5235, 9487, 5233, 9484, 5229, 9484, 5225, 9483, 5219, 9483, 5215, 9484, 5211, 9484, 5207, 9484, 5203, 9484, 5198, 9485, 5194, 9487, 5191, 9491, 5188, 9493, 5185, 9494, 5180, 9494, 5176, 9494, 5172, 9494, 5167, 9494, 5163, 9494, 5159, 9494, 5154, 9494, 5150, 9494, 5145, 9493, 5141, 9493, 5136, 9493, 5132, 9493, 5128, 9493, 5124, 9494, 5120, 9494, 5115, 9494, 5110, 9494, 5106, 9494, 5102, 9494, 5098, 9494, 5093, 9494, 5088, 9492, 5084, 9491, 5079, 9490, 5075, 9487, 5072)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_27" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9880, 5096, 9880, 5092, 9880, 5087, 9880, 5083, 9883, 5078, 9887, 5077, 9890, 5074, 9893, 5070, 9894, 5066, 9895, 5061, 9893, 5057, 9890, 5054, 9890, 5050, 9890, 5046, 9893, 5044, 9897, 5043, 9901, 5042, 9906, 5041, 9911, 5041, 9915, 5041, 9920, 5041, 9924, 5041, 9928, 5041, 9933, 5041, 9937, 5041, 9940, 5038, 9943, 5035, 9946, 5032, 9949, 5027, 9953, 5026, 9957, 5026, 9961, 5026, 9964, 5029, 9964, 5033, 9966, 5036, 9970, 5037, 9971, 5041, 9971, 5045, 9971, 5050, 9970, 5055, 9968, 5059, 9968, 5063, 9968, 5068, 9968, 5072, 9966, 5076, 9963, 5080, 9961, 5084, 9960, 5088, 9959, 5092, 9959, 5096, 9959, 5100, 9959, 5104, 9959, 5109, 9959, 5113, 9959, 5118, 9959, 5123, 9959, 5128, 9959, 5132, 9959, 5136, 9959, 5140, 9959, 5146, 9959, 5150, 9959, 5156, 9959, 5160, 9959, 5164, 9959, 5170, 9959, 5174, 9959, 5178, 9959, 5182, 9959, 5187, 9959, 5191, 9963, 5193, 9967, 5195, 9968, 5199, 9968, 5203, 9968, 5208, 9968, 5212, 9968, 5216, 9970, 5220, 9971, 5224, 9971, 5228, 9972, 5232, 9971, 5236, 9967, 5236, 9963, 5237, 9959, 5237, 9953, 5237, 9948, 5237, 9944, 5237, 9939, 5238, 9935, 5239, 9931, 5236, 9930, 5232, 9930, 5227, 9932, 5224, 9935, 5221, 9936, 5217, 9936, 5212, 9936, 5208, 9936, 5204, 9936, 5200, 9938, 5196, 9941, 5193, 9944, 5189, 9944, 5184, 9944, 5180, 9944, 5176, 9944, 5171, 9944, 5167, 9943, 5163, 9943, 5159, 9942, 5154, 9942, 5150, 9942, 5146, 9942, 5142, 9942, 5136, 9942, 5132, 9942, 5128, 9942, 5124, 9942, 5120, 9942, 5116, 9942, 5112, 9942, 5106, 9942, 5102, 9942, 5098, 9942, 5094, 9942, 5089, 9942, 5084, 9942, 5080, 9941, 5076, 9938, 5072, 9935, 5069, 9931, 5066, 9928, 5063, 9925, 5061, 9921, 5059, 9916, 5058, 9912, 5057, 9908, 5056, 9906, 5060, 9906, 5064, 9906, 5068, 9908, 5072, 9912, 5074, 9914, 5078, 9917, 5081, 9920, 5085, 9921, 5089, 9921, 5094, 9919, 5098, 9916, 5101, 9914, 5105, 9914, 5109, 9914, 5114, 9914, 5118, 9914, 5122, 9913, 5126, 9911, 5130, 9908, 5134, 9904, 5135, 9900, 5134, 9896, 5134, 9892, 5134, 9889, 5129, 9887, 5124, 9887, 5120, 9885, 5116, 9882, 5111, 9881, 5106, 9881, 5102, 9882, 5097, 9882, 5093)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_28" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9932, 5575, 9936, 5575, 9941, 5574, 9946, 5573, 9950, 5572, 9954, 5571, 9958, 5571, 9963, 5571, 9967, 5571, 9970, 5569, 9971, 5564, 9970, 5559, 9970, 5555, 9970, 5551, 9969, 5546, 9966, 5543, 9964, 5538, 9962, 5534, 9961, 5530, 9961, 5525, 9961, 5521, 9961, 5517, 9961, 5513, 9962, 5508, 9962, 5504, 9962, 5500, 9962, 5495, 9961, 5490, 9960, 5486, 9960, 5482, 9960, 5478, 9960, 5474, 9960, 5469, 9960, 5464, 9960, 5459, 9960, 5455, 9960, 5450, 9960, 5445, 9960, 5440, 9960, 5436, 9960, 5431, 9960, 5427, 9961, 5423, 9963, 5419, 9963, 5415, 9964, 5411, 9966, 5406, 9967, 5402, 9969, 5397, 9969, 5393, 9969, 5389, 9968, 5385, 9965, 5382, 9962, 5379, 9958, 5376, 9954, 5374, 9950, 5373, 9946, 5374, 9943, 5377, 9939, 5379, 9936, 5382, 9932, 5385, 9928, 5387, 9924, 5387, 9920, 5387, 9915, 5387, 9910, 5387, 9906, 5387, 9902, 5387, 9898, 5387, 9894, 5387, 9891, 5390, 9891, 5394, 9893, 5398, 9893, 5403, 9893, 5407, 9891, 5411, 9891, 5415, 9889, 5419, 9886, 5422, 9884, 5426, 9881, 5429, 9881, 5433, 9881, 5437, 9883, 5441, 9884, 5446, 9884, 5450, 9884, 5454, 9886, 5459, 9888, 5463, 9890, 5467, 9894, 5471, 9898, 5474, 9902, 5474, 9908, 5474, 9912, 5472, 9917, 5470, 9918, 5465, 9919, 5461, 9919, 5456, 9917, 5451, 9917, 5446, 9917, 5441, 9918, 5437, 9918, 5433, 9917, 5429, 9914, 5426, 9911, 5422, 9909, 5419, 9907, 5415, 9907, 5410, 9907, 5405, 9907, 5401, 9911, 5399, 9915, 5399, 9919, 5399, 9922, 5402, 9923, 5407, 9927, 5409, 9931, 5411, 9934, 5415, 9936, 5419, 9938, 5423, 9941, 5426, 9943, 5430, 9944, 5434, 9945, 5438, 9945, 5443, 9945, 5447, 9945, 5453, 9945, 5458, 9945, 5462, 9945, 5467, 9945, 5471, 9945, 5476, 9945, 5480, 9945, 5484, 9945, 5488, 9944, 5493, 9944, 5498, 9943, 5502, 9943, 5506, 9943, 5510, 9943, 5514, 9943, 5518, 9943, 5523, 9943, 5528, 9943, 5532, 9943, 5536, 9939, 5540, 9938, 5544, 9937, 5548, 9936, 5552, 9934, 5556, 9933, 5560, 9933, 5564, 9933, 5568, 9932, 5572, 9930, 5576)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_29" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10119, 4442, 10236, 4442, 10236, 4477, 10119, 4477)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_30" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10276, 4375, 10336, 4375, 10336, 4480, 10276, 4480)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_31" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10266, 4412, 10341, 4412, 10341, 4487, 10266, 4487)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_32" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9488, 4321, 9490, 4315, 9490, 4309, 9491, 4305, 9491, 4301, 9491, 4296, 9493, 4292, 9497, 4290, 9500, 4289, 9504, 4288, 9509, 4288, 9512, 4290, 9516, 4294, 9517, 4298, 9521, 4300, 9526, 4301, 9530, 4301, 9536, 4301, 9541, 4301, 9546, 4301, 9550, 4301, 9554, 4300, 9557, 4296, 9562, 4296, 9566, 4300, 9567, 4303, 9568, 4307, 9567, 4311, 9564, 4314, 9560, 4317, 9560, 4321, 9560, 4325, 9560, 4330, 9562, 4333, 9566, 4336, 9567, 4340, 9567, 4345, 9567, 4350, 9567, 4355, 9568, 4359, 9568, 4364, 9567, 4368, 9567, 4373, 9564, 4377, 9560, 4380, 9556, 4383, 9552, 4385, 9548, 4383, 9545, 4380, 9543, 4376, 9540, 4372, 9540, 4367, 9540, 4363, 9540, 4358, 9538, 4354, 9538, 4349, 9538, 4345, 9538, 4340, 9540, 4336, 9544, 4334, 9546, 4330, 9546, 4325, 9546, 4321, 9540, 4321, 9536, 4321, 9531, 4321, 9528, 4323, 9524, 4327, 9520, 4330, 9519, 4334, 9518, 4338, 9514, 4339, 9510, 4342, 9510, 4347, 9510, 4351, 9509, 4356, 9508, 4360, 9508, 4365, 9508, 4370, 9509, 4374, 9510, 4379, 9510, 4385, 9510, 4390, 9510, 4394, 9510, 4400, 9510, 4404, 9510, 4410, 9510, 4414, 9510, 4418, 9509, 4422, 9508, 4426, 9508, 4430, 9508, 4435, 9508, 4440, 9508, 4444, 9511, 4447, 9515, 4448, 9516, 4454, 9516, 4458, 9516, 4463, 9516, 4468, 9518, 4472, 9520, 4475, 9521, 4479, 9518, 4482, 9512, 4484, 9507, 4484, 9503, 4484, 9497, 4484, 9492, 4484, 9489, 4481, 9488, 4477, 9488, 4472, 9488, 4467, 9488, 4462, 9488, 4457, 9488, 4452, 9489, 4448, 9492, 4445, 9494, 4441, 9495, 4437, 9497, 4433, 9497, 4428, 9497, 4422, 9497, 4418, 9498, 4414, 9498, 4408, 9498, 4404, 9498, 4399, 9497, 4395, 9497, 4389, 9497, 4384, 9497, 4379, 9497, 4374, 9497, 4369, 9497, 4364, 9497, 4359, 9497, 4355, 9497, 4349, 9497, 4343, 9495, 4339, 9492, 4335, 9491, 4331, 9491, 4326, 9491, 4321, 9487, 4318)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_33" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9900, 4334, 9900, 4328, 9899, 4323, 9896, 4320, 9893, 4317, 9892, 4313, 9892, 4309, 9889, 4305, 9892, 4302, 9895, 4300, 9899, 4297, 9903, 4296, 9906, 4299, 9910, 4300, 9914, 4301, 9919, 4301, 9924, 4301, 9929, 4301, 9934, 4301, 9938, 4301, 9940, 4297, 9943, 4294, 9947, 4292, 9950, 4290, 9954, 4288, 9958, 4291, 9960, 4294, 9963, 4298, 9966, 4300, 9970, 4301, 9972, 4305, 9972, 4309, 9972, 4314, 9970, 4318, 9969, 4322, 9967, 4326, 9966, 4331, 9965, 4335, 9963, 4339, 9961, 4342, 9961, 4347, 9961, 4352, 9961, 4357, 9960, 4361, 9959, 4367, 9959, 4371, 9959, 4376, 9959, 4381, 9959, 4385, 9959, 4390, 9959, 4394, 9959, 4400, 9959, 4404, 9959, 4410, 9959, 4414, 9959, 4419, 9959, 4424, 9959, 4430, 9959, 4434, 9959, 4440, 9961, 4444, 9964, 4448, 9967, 4452, 9969, 4456, 9969, 4460, 9969, 4466, 9969, 4470, 9969, 4474, 9966, 4478, 9962, 4480, 9958, 4480, 9953, 4482, 9949, 4482, 9944, 4482, 9941, 4478, 9940, 4474, 9940, 4468, 9940, 4464, 9939, 4459, 9938, 4455, 9939, 4450, 9942, 4446, 9945, 4442, 9946, 4438, 9948, 4434, 9948, 4430, 9948, 4425, 9948, 4420, 9948, 4416, 9948, 4410, 9948, 4406, 9948, 4401, 9948, 4396, 9948, 4391, 9948, 4387, 9948, 4381, 9948, 4375, 9948, 4371, 9948, 4366, 9948, 4361, 9948, 4355, 9948, 4350, 9947, 4345, 9944, 4341, 9942, 4337, 9940, 4333, 9937, 4329, 9933, 4326, 9929, 4323, 9925, 4323, 9921, 4321, 9917, 4320, 9912, 4320, 9910, 4323, 9909, 4327, 9909, 4332, 9913, 4334, 9918, 4337, 9920, 4341, 9922, 4345, 9922, 4349, 9921, 4353, 9921, 4358, 9921, 4363, 9921, 4368, 9920, 4372, 9917, 4376, 9914, 4380, 9911, 4383, 9907, 4383, 9902, 4383, 9896, 4383, 9892, 4380, 9890, 4376, 9890, 4372, 9889, 4367, 9888, 4363, 9887, 4359, 9887, 4355, 9888, 4350, 9889, 4346, 9890, 4341, 9892, 4337, 9895, 4334, 9899, 4331)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_34" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8692, 5658, 8693, 5653, 8694, 5648, 8694, 5643, 8694, 5638, 8694, 5633, 8694, 5629, 8694, 5624, 8695, 5620, 8697, 5617, 8700, 5613, 8700, 5609, 8700, 5604, 8700, 5600, 8700, 5595, 8700, 5590, 8700, 5584, 8700, 5580, 8700, 5576, 8701, 5570, 8701, 5566, 8702, 5560, 8702, 5555, 8702, 5549, 8702, 5544, 8702, 5540, 8702, 5535, 8702, 5531, 8702, 5526, 8702, 5518, 8702, 5514, 8701, 5508, 8698, 5505, 8694, 5501, 8691, 5498, 8688, 5494, 8684, 5491, 8681, 5488, 8677, 5485, 8672, 5484, 8668, 5484, 8665, 5487, 8662, 5491, 8661, 5495, 8665, 5498, 8668, 5501, 8670, 5505, 8670, 5509, 8671, 5514, 8673, 5519, 8673, 5523, 8673, 5528, 8673, 5532, 8673, 5536, 8673, 5541, 8672, 5545, 8670, 5549, 8668, 5554, 8665, 5557, 8661, 5559, 8656, 5559, 8652, 5559, 8647, 5556, 8646, 5552, 8643, 5549, 8642, 5544, 8641, 5540, 8641, 5535, 8641, 5531, 8641, 5527, 8640, 5522, 8639, 5518, 8640, 5514, 8642, 5510, 8645, 5507, 8646, 5502, 8647, 5498, 8647, 5493, 8647, 5488, 8650, 5484, 8650, 5480, 8651, 5475, 8655, 5474, 8660, 5473, 8664, 5473, 8669, 5473, 8675, 5472, 8679, 5472, 8684, 5472, 8689, 5472, 8693, 5473, 8694, 5467, 8696, 5464, 8701, 5462, 8705, 5461, 8709, 5460, 8714, 5461, 8718, 5465, 8721, 5468, 8724, 5471, 8726, 5475, 8726, 5480, 8723, 5483, 8721, 5487, 8718, 5492, 8717, 5496, 8716, 5501, 8716, 5505, 8716, 5509, 8716, 5514, 8716, 5519, 8716, 5523, 8716, 5528, 8716, 5532, 8716, 5537, 8716, 5542, 8716, 5546, 8716, 5550, 8716, 5555, 8716, 5559, 8716, 5564, 8716, 5570, 8716, 5575, 8716, 5579, 8716, 5583, 8716, 5588, 8716, 5593, 8716, 5597, 8716, 5602, 8716, 5607, 8716, 5612, 8716, 5617, 8720, 5619, 8723, 5622, 8725, 5626, 8725, 5631, 8725, 5635, 8725, 5639, 8725, 5644, 8728, 5648, 8730, 5652, 8730, 5657, 8730, 5661, 8728, 5665, 8723, 5666, 8719, 5666, 8714, 5667, 8709, 5667, 8705, 5667, 8700, 5666, 8696, 5664, 8692, 5661, 8691, 5657)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_35" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8172, 5471, 8169, 5474, 8169, 5478, 8170, 5482, 8172, 5486, 8174, 5491, 8174, 5495, 8176, 5499, 8178, 5503, 8178, 5508, 8178, 5512, 8178, 5516, 8178, 5520, 8179, 5524, 8179, 5529, 8179, 5533, 8180, 5537, 8180, 5541, 8180, 5545, 8180, 5549, 8180, 5553, 8180, 5558, 8180, 5562, 8180, 5566, 8180, 5570, 8180, 5575, 8180, 5580, 8180, 5584, 8180, 5588, 8181, 5593, 8182, 5598, 8182, 5602, 8182, 5606, 8182, 5610, 8180, 5614, 8178, 5618, 8176, 5621, 8175, 5626, 8175, 5630, 8175, 5634, 8175, 5638, 8175, 5643, 8174, 5647, 8174, 5651, 8173, 5655, 8175, 5659, 8180, 5661, 8185, 5662, 8189, 5664, 8194, 5664, 8199, 5664, 8203, 5664, 8205, 5660, 8205, 5655, 8204, 5650, 8204, 5645, 8204, 5641, 8204, 5636, 8204, 5631, 8203, 5626, 8202, 5622, 8201, 5618, 8199, 5614, 8198, 5610, 8197, 5605, 8197, 5601, 8197, 5597, 8197, 5592, 8197, 5588, 8197, 5583, 8197, 5579, 8197, 5575, 8197, 5570, 8197, 5566, 8197, 5561, 8197, 5556, 8197, 5552, 8197, 5548, 8196, 5544, 8196, 5540, 8196, 5535, 8196, 5531, 8196, 5527, 8196, 5523, 8196, 5519, 8197, 5515, 8198, 5510, 8201, 5505, 8203, 5502, 8204, 5498, 8207, 5495, 8209, 5491, 8213, 5489, 8216, 5485, 8220, 5484, 8224, 5484, 8228, 5484, 8230, 5489, 8231, 5493, 8231, 5497, 8231, 5501, 8230, 5505, 8228, 5509, 8225, 5512, 8223, 5516, 8222, 5520, 8222, 5524, 8222, 5528, 8223, 5533, 8224, 5537, 8225, 5541, 8225, 5546, 8225, 5550, 8227, 5554, 8230, 5557, 8233, 5559, 8237, 5560, 8241, 5560, 8248, 5560, 8252, 5560, 8255, 5556, 8255, 5551, 8255, 5547, 8255, 5542, 8255, 5538, 8255, 5533, 8256, 5529, 8256, 5524, 8256, 5520, 8256, 5516, 8256, 5512, 8253, 5508, 8251, 5504, 8250, 5500, 8249, 5496, 8248, 5492, 8248, 5488, 8248, 5484, 8247, 5480, 8247, 5476, 8242, 5475, 8238, 5475, 8234, 5475, 8227, 5475, 8222, 5474, 8218, 5474, 8213, 5474, 8209, 5474, 8205, 5474, 8203, 5470, 8200, 5467, 8196, 5463, 8191, 5461, 8187, 5460, 8183, 5460, 8179, 5462, 8176, 5464, 8174, 5468, 8171, 5471)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_36" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6923, 5608, 6924, 5603, 6924, 5599, 6924, 5595, 6925, 5590, 6926, 5586, 6927, 5581, 6929, 5576, 6930, 5572, 6931, 5568, 6931, 5564, 6931, 5560, 6931, 5556, 6931, 5552, 6931, 5548, 6931, 5543, 6931, 5539, 6931, 5535, 6931, 5531, 6931, 5527, 6931, 5523, 6931, 5518, 6931, 5514, 6929, 5509, 6929, 5505, 6929, 5500, 6929, 5496, 6929, 5491, 6929, 5486, 6929, 5482, 6929, 5477, 6929, 5473, 6929, 5468, 6929, 5463, 6929, 5459, 6929, 5454, 6929, 5450, 6929, 5446, 6929, 5442, 6926, 5439, 6925, 5435, 6922, 5431, 6922, 5427, 6922, 5423, 6922, 5419, 6924, 5415, 6927, 5410, 6930, 5407, 6934, 5404, 6938, 5402, 6942, 5402, 6946, 5404, 6948, 5408, 6950, 5412, 6953, 5415, 6957, 5417, 6961, 5418, 6965, 5419, 6970, 5419, 6974, 5419, 6978, 5419, 6982, 5419, 6987, 5419, 6991, 5419, 6995, 5419, 6999, 5419, 7000, 5423, 7000, 5427, 7000, 5431, 7000, 5435, 7000, 5439, 7000, 5443, 7002, 5447, 7006, 5450, 7008, 5454, 7009, 5458, 7010, 5462, 7010, 5467, 7010, 5471, 7010, 5475, 7010, 5479, 7010, 5483, 7010, 5487, 7010, 5491, 7008, 5495, 7005, 5499, 7002, 5502, 6997, 5504, 6993, 5503, 6989, 5500, 6986, 5497, 6983, 5493, 6982, 5488, 6982, 5483, 6982, 5479, 6982, 5475, 6979, 5472, 6978, 5468, 6978, 5464, 6978, 5460, 6981, 5457, 6984, 5453, 6987, 5450, 6991, 5449, 6993, 5443, 6993, 5439, 6993, 5435, 6989, 5433, 6985, 5433, 6980, 5433, 6976, 5434, 6973, 5438, 6970, 5441, 6966, 5443, 6962, 5444, 6960, 5448, 6957, 5451, 6954, 5454, 6952, 5458, 6951, 5462, 6950, 5466, 6950, 5470, 6950, 5476, 6950, 5480, 6949, 5485, 6949, 5489, 6948, 5493, 6948, 5497, 6948, 5501, 6948, 5505, 6948, 5509, 6948, 5513, 6948, 5517, 6948, 5522, 6949, 5526, 6949, 5530, 6949, 5534, 6949, 5538, 6949, 5542, 6949, 5547, 6949, 5552, 6949, 5556, 6949, 5560, 6949, 5564, 6950, 5568, 6952, 5572, 6954, 5576, 6954, 5581, 6954, 5585, 6954, 5589, 6954, 5593, 6956, 5597, 6958, 5601, 6959, 5605, 6958, 5609, 6954, 5610, 6949, 5610, 6943, 5610, 6939, 5610, 6935, 5610, 6931, 5610, 6927, 5610)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_37" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7326, 5084, 7326, 5088, 7324, 5094, 7323, 5100, 7323, 5105, 7323, 5110, 7324, 5115, 7325, 5119, 7327, 5123, 7330, 5126, 7334, 5129, 7337, 5132, 7341, 5132, 7346, 5132, 7350, 5130, 7354, 5126, 7356, 5123, 7359, 5118, 7360, 5114, 7360, 5109, 7360, 5103, 7360, 5099, 7359, 5094, 7358, 5089, 7356, 5084, 7352, 5082, 7349, 5078, 7347, 5074, 7346, 5070, 7346, 5066, 7348, 5062, 7348, 5058, 7352, 5058, 7357, 5058, 7361, 5059, 7365, 5059, 7369, 5060, 7372, 5064, 7374, 5068, 7375, 5072, 7378, 5075, 7382, 5077, 7385, 5080, 7385, 5085, 7385, 5089, 7385, 5093, 7385, 5097, 7385, 5102, 7385, 5107, 7385, 5111, 7385, 5115, 7385, 5120, 7385, 5124, 7386, 5129, 7386, 5133, 7387, 5137, 7387, 5141, 7387, 5145, 7387, 5150, 7387, 5154, 7387, 5158, 7387, 5162, 7386, 5166, 7386, 5171, 7386, 5175, 7385, 5179, 7384, 5183, 7383, 5187, 7385, 5191, 7382, 5195, 7380, 5198, 7379, 5202, 7379, 5206, 7379, 5211, 7378, 5215, 7378, 5219, 7378, 5223, 7381, 5227, 7385, 5230, 7389, 5231, 7393, 5231, 7397, 5231, 7401, 5232, 7406, 5232, 7409, 5230, 7411, 5226, 7412, 5222, 7412, 5216, 7412, 5212, 7412, 5208, 7412, 5203, 7412, 5199, 7411, 5195, 7410, 5190, 7407, 5186, 7406, 5182, 7406, 5178, 7406, 5172, 7406, 5168, 7406, 5164, 7406, 5160, 7406, 5155, 7406, 5149, 7406, 5143, 7406, 5139, 7406, 5135, 7406, 5130, 7406, 5125, 7406, 5120, 7405, 5116, 7405, 5111, 7404, 5107, 7404, 5103, 7404, 5098, 7404, 5093, 7403, 5089, 7403, 5084, 7403, 5080, 7406, 5077, 7408, 5074, 7410, 5069, 7410, 5064, 7410, 5060, 7410, 5056, 7412, 5052, 7414, 5049, 7414, 5045, 7413, 5040, 7411, 5036, 7408, 5032, 7406, 5029, 7404, 5025, 7400, 5023, 7396, 5024, 7392, 5026, 7388, 5029, 7385, 5031, 7383, 5035, 7381, 5038, 7377, 5041, 7372, 5041, 7368, 5042, 7364, 5042, 7360, 5042, 7355, 5042, 7350, 5042, 7346, 5042, 7342, 5042, 7338, 5042, 7334, 5046, 7334, 5050, 7333, 5055, 7333, 5059, 7333, 5064, 7333, 5068, 7332, 5072, 7330, 5076, 7328, 5080, 7328, 5084)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_38" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6928, 5031, 6925, 5026, 6923, 5023, 6924, 5018, 6927, 5014, 6928, 5010, 6930, 5007, 6934, 5004, 6937, 5001, 6941, 5000, 6945, 5001, 6948, 5003, 6952, 5006, 6955, 5009, 6955, 5013, 6960, 5015, 6964, 5016, 6969, 5016, 6973, 5017, 6977, 5018, 6981, 5018, 6985, 5018, 6990, 5018, 6995, 5018, 7000, 5018, 7002, 5021, 7001, 5026, 7000, 5030, 7000, 5034, 7000, 5039, 7000, 5043, 7002, 5047, 7006, 5049, 7007, 5054, 7009, 5058, 7011, 5061, 7013, 5065, 7013, 5069, 7012, 5074, 7011, 5079, 7011, 5083, 7010, 5088, 7010, 5093, 7009, 5097, 7006, 5101, 7005, 5105, 7001, 5106, 6997, 5105, 6993, 5104, 6988, 5104, 6985, 5101, 6983, 5097, 6981, 5093, 6979, 5090, 6977, 5086, 6976, 5081, 6976, 5077, 6975, 5073, 6973, 5069, 6974, 5064, 6975, 5059, 6976, 5055, 6979, 5051, 6983, 5048, 6985, 5045, 6987, 5040, 6987, 5036, 6986, 5032, 6982, 5031, 6978, 5031, 6974, 5033, 6971, 5036, 6968, 5039, 6964, 5041, 6962, 5045, 6959, 5048, 6957, 5052, 6955, 5056, 6953, 5060, 6952, 5064, 6951, 5069, 6951, 5073, 6951, 5078, 6951, 5082, 6951, 5088, 6952, 5092, 6952, 5096, 6952, 5101, 6953, 5105, 6953, 5110, 6953, 5114, 6952, 5118, 6952, 5122, 6952, 5126, 6952, 5131, 6952, 5136, 6952, 5140, 6952, 5145, 6952, 5150, 6952, 5155, 6952, 5159, 6952, 5163, 6953, 5168, 6955, 5172, 6957, 5175, 6957, 5180, 6957, 5184, 6957, 5189, 6957, 5193, 6958, 5198, 6957, 5202, 6952, 5203, 6947, 5203, 6942, 5203, 6938, 5203, 6933, 5203, 6929, 5202, 6925, 5201, 6923, 5196, 6923, 5192, 6923, 5187, 6924, 5182, 6925, 5178, 6926, 5174, 6929, 5171, 6932, 5167, 6933, 5163, 6934, 5158, 6934, 5154, 6934, 5150, 6934, 5145, 6934, 5141, 6935, 5136, 6935, 5132, 6935, 5127, 6935, 5123, 6934, 5119, 6934, 5114, 6934, 5110, 6933, 5105, 6933, 5100, 6932, 5095, 6932, 5091, 6933, 5086, 6933, 5081, 6933, 5076, 6934, 5071, 6934, 5066, 6934, 5062, 6934, 5058, 6933, 5054, 6932, 5050, 6930, 5046, 6930, 5041, 6930, 5036)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_39" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10076, 4998, 10375, 4998, 10375, 5260, 10076, 5260)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_40" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10064, 5243, 10123, 5243, 10123, 5263, 10064, 5263)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_41" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10133, 4996, 10176, 4970, 10401, 4968, 10478, 5005, 10523, 4996, 10525, 5010, 10515, 5012, 10513, 5236, 10523, 5253, 10520, 5267, 10503, 5258, 10335, 5260)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_42" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(10076, 4189, 10083, 3769, 10073, 3754, 10076, 3745, 10107, 3745, 10208, 3659, 10219, 3650, 10381, 3647, 10443, 3695, 10484, 3735, 10535, 3754, 10538, 3765, 10532, 3774, 10532, 3798, 10532, 3807, 10574, 3810, 10567, 3777, 10600, 3745, 10613, 3745, 10646, 3769, 10649, 3804, 10725, 3811, 10731, 3799, 10740, 3802, 10746, 3995, 10294, 3982)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_43" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9937, 3999, 9936, 3995, 9935, 3991, 9935, 3986, 9935, 3981, 9935, 3976, 9937, 3971, 9941, 3968, 9943, 3965, 9944, 3961, 9944, 3956, 9944, 3951, 9944, 3947, 9943, 3942, 9943, 3936, 9943, 3929, 9944, 3925, 9946, 3920, 9947, 3916, 9947, 3910, 9947, 3905, 9947, 3899, 9947, 3894, 9947, 3890, 9947, 3883, 9947, 3878, 9947, 3873, 9946, 3869, 9943, 3866, 9941, 3862, 9940, 3858, 9938, 3854, 9937, 3850, 9935, 3846, 9934, 3840, 9933, 3836, 9931, 3832, 9928, 3828, 9924, 3826, 9919, 3825, 9915, 3823, 9910, 3824, 9910, 3828, 9909, 3833, 9908, 3837, 9909, 3841, 9913, 3843, 9916, 3846, 9919, 3850, 9920, 3854, 9920, 3859, 9920, 3864, 9920, 3869, 9920, 3874, 9919, 3878, 9919, 3883, 9919, 3887, 9917, 3891, 9913, 3894, 9909, 3895, 9905, 3896, 9899, 3896, 9895, 3893, 9891, 3890, 9890, 3885, 9890, 3880, 9890, 3875, 9889, 3870, 9887, 3867, 9884, 3864, 9884, 3859, 9884, 3854, 9885, 3850, 9887, 3846, 9890, 3843, 9893, 3840, 9895, 3836, 9895, 3832, 9895, 3826, 9895, 3822, 9892, 3819, 9891, 3815, 9891, 3810, 9895, 3807, 9900, 3807, 9905, 3807, 9909, 3808, 9913, 3809, 9917, 3810, 9921, 3811, 9926, 3811, 9931, 3810, 9935, 3809, 9939, 3807, 9941, 3803, 9945, 3801, 9950, 3797, 9954, 3797, 9958, 3798, 9961, 3801, 9964, 3805, 9967, 3808, 9971, 3810, 9976, 3810, 9981, 3812, 9981, 3816, 9981, 3821, 9981, 3825, 9978, 3828, 9975, 3830, 9975, 3835, 9975, 3839, 9975, 3843, 9974, 3847, 9973, 3851, 9972, 3855, 9969, 3858, 9967, 3862, 9965, 3866, 9963, 3870, 9961, 3874, 9961, 3879, 9961, 3884, 9961, 3888, 9961, 3893, 9961, 3898, 9961, 3902, 9961, 3908, 9961, 3912, 9961, 3917, 9961, 3922, 9961, 3927, 9961, 3931, 9961, 3935, 9961, 3940, 9961, 3945, 9961, 3949, 9961, 3954, 9961, 3959, 9961, 3963, 9962, 3968, 9965, 3971, 9968, 3974, 9968, 3979, 9968, 3984, 9968, 3989, 9968, 3993, 9966, 3998, 9963, 4001, 9959, 4004, 9955, 4005, 9950, 4005, 9946, 4004, 9942, 4002)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_44" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9489, 3774, 9489, 3767, 9490, 3762, 9490, 3757, 9491, 3753, 9494, 3749, 9494, 3744, 9494, 3740, 9494, 3735, 9494, 3731, 9494, 3726, 9494, 3721, 9494, 3717, 9494, 3713, 9494, 3708, 9494, 3703, 9494, 3697, 9494, 3693, 9494, 3689, 9494, 3685, 9494, 3680, 9494, 3675, 9493, 3671, 9490, 3667, 9487, 3662, 9485, 3659, 9483, 3653, 9483, 3649, 9483, 3645, 9484, 3641, 9485, 3636, 9485, 3632, 9483, 3628, 9481, 3624, 9483, 3620, 9487, 3618, 9493, 3616, 9497, 3616, 9498, 3612, 9502, 3609, 9507, 3612, 9510, 3615, 9513, 3618, 9515, 3622, 9519, 3622, 9523, 3623, 9525, 3627, 9525, 3631, 9523, 3636, 9521, 3640, 9521, 3644, 9521, 3649, 9522, 3653, 9522, 3658, 9520, 3662, 9518, 3666, 9518, 3670, 9515, 3673, 9510, 3673, 9509, 3678, 9510, 3682, 9510, 3687, 9510, 3691, 9511, 3695, 9511, 3699, 9511, 3704, 9511, 3708, 9511, 3712, 9511, 3716, 9511, 3721, 9511, 3725, 9511, 3729, 9510, 3733, 9510, 3737, 9510, 3742, 9511, 3746, 9512, 3750, 9515, 3754, 9516, 3758, 9516, 3762, 9516, 3767, 9516, 3771, 9515, 3775, 9511, 3776, 9506, 3776, 9502, 3776, 9497, 3776, 9492, 3777, 9488, 3777)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_45" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9265, 3650, 9337, 3650, 9337, 3716, 9265, 3716)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_46" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8693, 3774, 8693, 3770, 8693, 3764, 8693, 3760, 8693, 3756, 8693, 3751, 8694, 3747, 8698, 3744, 8701, 3741, 8701, 3736, 8700, 3730, 8699, 3725, 8699, 3721, 8700, 3716, 8701, 3710, 8701, 3706, 8701, 3701, 8701, 3697, 8701, 3693, 8701, 3688, 8701, 3684, 8701, 3679, 8701, 3674, 8701, 3670, 8698, 3667, 8694, 3665, 8692, 3660, 8690, 3656, 8690, 3652, 8690, 3647, 8689, 3643, 8688, 3638, 8688, 3633, 8688, 3629, 8688, 3625, 8691, 3621, 8695, 3619, 8699, 3616, 8701, 3612, 8707, 3611, 8711, 3611, 8715, 3614, 8717, 3618, 8721, 3620, 8725, 3622, 8728, 3625, 8729, 3629, 8729, 3633, 8729, 3638, 8728, 3642, 8728, 3646, 8727, 3651, 8726, 3655, 8724, 3660, 8721, 3664, 8718, 3667, 8717, 3672, 8717, 3676, 8717, 3681, 8717, 3685, 8717, 3690, 8717, 3694, 8717, 3700, 8717, 3704, 8717, 3708, 8717, 3713, 8717, 3717, 8717, 3722, 8717, 3727, 8718, 3731, 8718, 3735, 8719, 3740, 8722, 3743, 8722, 3748, 8722, 3752, 8722, 3756, 8722, 3761, 8722, 3765, 8722, 3770, 8721, 3775, 8717, 3777, 8712, 3779, 8707, 3782, 8701, 3783, 8694, 3783, 8690, 3783, 8686, 3783)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_47" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8172, 3776, 8173, 3769, 8173, 3762, 8173, 3757, 8173, 3752, 8175, 3748, 8178, 3744, 8180, 3740, 8180, 3735, 8180, 3730, 8180, 3724, 8181, 3720, 8181, 3714, 8181, 3710, 8181, 3705, 8181, 3700, 8181, 3694, 8182, 3690, 8182, 3684, 8182, 3679, 8182, 3675, 8178, 3670, 8175, 3667, 8172, 3663, 8171, 3658, 8170, 3654, 8170, 3649, 8170, 3645, 8170, 3639, 8168, 3634, 8167, 3630, 8168, 3625, 8170, 3621, 8175, 3619, 8180, 3617, 8184, 3615, 8185, 3611, 8190, 3611, 8194, 3612, 8198, 3616, 8201, 3619, 8204, 3622, 8208, 3623, 8210, 3627, 8210, 3632, 8210, 3636, 8210, 3641, 8209, 3646, 8208, 3650, 8207, 3654, 8206, 3659, 8204, 3663, 8202, 3667, 8199, 3669, 8197, 3674, 8197, 3679, 8197, 3685, 8197, 3689, 8197, 3694, 8196, 3699, 8196, 3703, 8196, 3708, 8196, 3714, 8196, 3718, 8196, 3723, 8196, 3728, 8196, 3733, 8196, 3738, 8196, 3742, 8200, 3744, 8204, 3747, 8204, 3751, 8204, 3756, 8204, 3761, 8204, 3766, 8206, 3770, 8208, 3774, 8209, 3778, 8205, 3782, 8200, 3783, 8194, 3783, 8188, 3782, 8184, 3780, 8180, 3780, 8176, 3780)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_48" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7377, 3618, 7381, 3617, 7387, 3616, 7391, 3615, 7393, 3611, 7396, 3608, 7400, 3609, 7403, 3613, 7406, 3617, 7410, 3617, 7414, 3619, 7415, 3623, 7415, 3627, 7415, 3632, 7412, 3635, 7411, 3639, 7412, 3643, 7412, 3649, 7412, 3654, 7412, 3659, 7411, 3663, 7409, 3667, 7406, 3670, 7405, 3675, 7404, 3679, 7403, 3683, 7402, 3687, 7402, 3693, 7402, 3698, 7403, 3702, 7404, 3707, 7404, 3713, 7404, 3717, 7405, 3721, 7405, 3727, 7405, 3732, 7405, 3736, 7405, 3741, 7406, 3745, 7407, 3749, 7410, 3752, 7410, 3756, 7410, 3761, 7410, 3766, 7411, 3770, 7409, 3774, 7403, 3774, 7399, 3776, 7394, 3776, 7389, 3776, 7383, 3776, 7379, 3774, 7377, 3770, 7377, 3765, 7379, 3760, 7380, 3756, 7383, 3752, 7386, 3749, 7387, 3745, 7387, 3740, 7388, 3735, 7388, 3730, 7388, 3726, 7388, 3721, 7388, 3717, 7388, 3712, 7388, 3706, 7387, 3701, 7387, 3695, 7387, 3690, 7386, 3686, 7386, 3680, 7386, 3676, 7386, 3671, 7382, 3668, 7379, 3665, 7378, 3661, 7378, 3656, 7377, 3652, 7374, 3649, 7374, 3645, 7374, 3639, 7373, 3635, 7371, 3631, 7371, 3627, 7372, 3623, 7375, 3620)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_49" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7379, 3764, 7411, 3764, 7411, 3780, 7379, 3780)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0"
+
+[node name="top_50" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8173, 6005, 8173, 5999, 8174, 5992, 8175, 5988, 8175, 5984, 8177, 5979, 8179, 5975, 8182, 5972, 8183, 5967, 8183, 5962, 8183, 5958, 8183, 5952, 8183, 5948, 8183, 5943, 8183, 5938, 8183, 5932, 8183, 5928, 8183, 5924, 8183, 5919, 8183, 5915, 8182, 5910, 8182, 5906, 8182, 5901, 8182, 5897, 8183, 5892, 8183, 5888, 8183, 5883, 8184, 5878, 8184, 5873, 8184, 5869, 8185, 5864, 8185, 5859, 8185, 5853, 8185, 5849, 8185, 5844, 8185, 5840, 8185, 5835, 8184, 5831, 8183, 5827, 8183, 5821, 8183, 5817, 8184, 5813, 8186, 5808, 8189, 5806, 8193, 5803, 8195, 5807, 8196, 5811, 8196, 5815, 8200, 5815, 8205, 5815, 8210, 5815, 8215, 5817, 8220, 5818, 8224, 5818, 8228, 5818, 8233, 5819, 8237, 5819, 8241, 5819, 8245, 5821, 8246, 5827, 8246, 5831, 8245, 5835, 8245, 5841, 8247, 5845, 8250, 5849, 8251, 5853, 8251, 5857, 8251, 5862, 8251, 5867, 8251, 5871, 8252, 5876, 8253, 5880, 8253, 5884, 8253, 5890, 8252, 5894, 8249, 5897, 8246, 5901, 8241, 5903, 8237, 5903, 8233, 5901, 8230, 5896, 8227, 5891, 8227, 5887, 8227, 5883, 8227, 5877, 8227, 5872, 8229, 5868, 8229, 5863, 8229, 5859, 8229, 5855, 8233, 5852, 8234, 5848, 8234, 5842, 8234, 5838, 8233, 5834, 8227, 5833, 8223, 5833, 8219, 5833, 8214, 5834, 8210, 5835, 8206, 5838, 8204, 5842, 8200, 5844, 8198, 5849, 8196, 5853, 8194, 5857, 8193, 5862, 8193, 5866, 8193, 5870, 8193, 5875, 8193, 5879, 8192, 5883, 8192, 5889, 8192, 5893, 8192, 5898, 8192, 5903, 8192, 5908, 8192, 5912, 8192, 5917, 8192, 5923, 8192, 5927, 8192, 5932, 8192, 5937, 8192, 5941, 8192, 5945, 8192, 5951, 8192, 5956, 8192, 5960, 8192, 5965, 8192, 5970, 8192, 5974, 8195, 5977, 8200, 5977, 8197, 5973, 8201, 5975, 8202, 5980, 8202, 5986, 8202, 5991, 8202, 5995, 8204, 5999, 8207, 6002, 8208, 6006, 8208, 6011, 8203, 6013, 8198, 6013, 8193, 6013, 8189, 6010, 8185, 6010, 8180, 6008, 8176, 6007, 8172, 6006)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_51" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8641, 5865, 8643, 5860, 8645, 5856, 8647, 5852, 8649, 5847, 8651, 5844, 8651, 5840, 8650, 5835, 8650, 5830, 8650, 5826, 8650, 5822, 8654, 5819, 8658, 5818, 8662, 5818, 8667, 5818, 8672, 5818, 8676, 5818, 8680, 5818, 8685, 5818, 8690, 5818, 8694, 5818, 8698, 5818, 8698, 5814, 8700, 5810, 8705, 5807, 8709, 5806, 8713, 5806, 8717, 5809, 8718, 5813, 8718, 5817, 8720, 5820, 8722, 5826, 8722, 5830, 8721, 5834, 8719, 5839, 8718, 5843, 8718, 5847, 8716, 5851, 8714, 5855, 8715, 5859, 8715, 5864, 8715, 5869, 8715, 5875, 8715, 5879, 8715, 5884, 8715, 5889, 8715, 5893, 8716, 5897, 8716, 5901, 8716, 5906, 8716, 5910, 8716, 5915, 8716, 5920, 8716, 5925, 8716, 5930, 8716, 5935, 8717, 5939, 8717, 5943, 8717, 5947, 8718, 5951, 8718, 5955, 8718, 5960, 8718, 5964, 8718, 5968, 8718, 5972, 8720, 5976, 8724, 5979, 8726, 5983, 8726, 5987, 8726, 5991, 8725, 5995, 8724, 5999, 8724, 6004, 8725, 6008, 8720, 6009, 8716, 6010, 8712, 6010, 8708, 6011, 8704, 6011, 8699, 6010, 8695, 6010, 8691, 6010, 8689, 6006, 8691, 6002, 8692, 5998, 8693, 5993, 8694, 5989, 8694, 5985, 8694, 5981, 8695, 5976, 8698, 5973, 8701, 5969, 8703, 5965, 8703, 5961, 8703, 5957, 8703, 5950, 8703, 5946, 8703, 5942, 8703, 5938, 8703, 5934, 8703, 5929, 8703, 5925, 8703, 5921, 8703, 5917, 8703, 5913, 8703, 5908, 8703, 5904, 8703, 5899, 8703, 5895, 8703, 5891, 8702, 5887, 8702, 5882, 8702, 5877, 8702, 5873, 8702, 5869, 8702, 5864, 8702, 5860, 8701, 5856, 8699, 5853, 8696, 5850, 8693, 5846, 8692, 5842, 8689, 5838, 8685, 5836, 8681, 5834, 8677, 5834, 8672, 5833, 8668, 5833, 8664, 5832, 8664, 5836, 8664, 5840, 8665, 5845, 8667, 5849, 8668, 5853, 8671, 5856, 8672, 5860, 8672, 5865, 8672, 5869, 8673, 5874, 8673, 5878, 8673, 5882, 8671, 5886, 8669, 5891, 8667, 5895, 8663, 5898, 8659, 5900, 8654, 5900, 8650, 5900, 8646, 5897, 8644, 5892, 8642, 5889, 8641, 5885, 8641, 5881, 8641, 5877, 8640, 5873, 8637, 5870, 8638, 5865)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_52" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8117, 5850, 8136, 5850, 8136, 5890, 8117, 5890)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_53" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7598, 5648, 7970, 5648, 7970, 5722, 7598, 5722)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_54" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7958, 5638, 7969, 5638, 7969, 5652, 7958, 5652)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_55" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7458, 5716, 7462, 5716, 7467, 5715, 7472, 5714, 7477, 5713, 7482, 5713, 7488, 5711, 7493, 5710, 7498, 5709, 7502, 5707, 7506, 5706, 7511, 5705, 7515, 5703, 7519, 5702, 7523, 5701, 7528, 5699, 7533, 5696, 7537, 5695, 7541, 5693, 7545, 5690, 7549, 5687, 7554, 5684, 7557, 5682, 7560, 5679, 7563, 5676, 7567, 5673, 7572, 5670, 7576, 5668, 7581, 5666, 7585, 5664, 7588, 5661, 7591, 5658, 7593, 5665, 7593, 5670, 7593, 5676, 7593, 5681, 7593, 5686, 7593, 5691, 7594, 5696, 7595, 5700, 7598, 5703, 7601, 5708, 7604, 5714, 7604, 5719)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_56" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7484, 5708, 7490, 5707, 7495, 5705, 7501, 5703, 7505, 5702, 7511, 5699, 7515, 5697, 7519, 5695, 7525, 5691, 7529, 5687, 7533, 5686, 7539, 5683, 7544, 5682, 7549, 5680, 7553, 5677, 7559, 5676, 7563, 5674, 7569, 5671, 7576, 5669, 7582, 5668, 7588, 5668, 7593, 5667, 7597, 5666)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_57" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7550, 5679, 7546, 5681, 7542, 5683, 7535, 5685, 7531, 5687, 7526, 5689, 7521, 5690, 7514, 5692, 7507, 5694, 7504, 5696, 7500, 5699, 7497, 5702, 7493, 5706, 7489, 5709, 7485, 5714, 7482, 5717, 7486, 5718, 7491, 5717, 7498, 5715, 7506, 5714, 7516, 5712, 7527, 5711, 7539, 5709, 7549, 5707, 7557, 5705, 7566, 5702, 7570, 5700, 7574, 5697, 7577, 5695, 7581, 5693, 7584, 5690, 7588, 5687, 7593, 5681, 7595, 5678, 7599, 5673, 7602, 5667, 7606, 5662, 7608, 5657, 7610, 5653, 7605, 5652, 7600, 5652, 7595, 5655, 7589, 5657, 7585, 5658, 7582, 5661, 7578, 5664, 7574, 5667, 7571, 5670, 7567, 5672, 7562, 5675, 7558, 5677)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_58" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7967, 5653, 7972, 5654, 7976, 5657, 7979, 5659, 7983, 5661, 7986, 5664, 7990, 5666, 7994, 5668, 7999, 5669, 8003, 5672, 8007, 5675, 8011, 5677, 8015, 5679, 8019, 5681, 8024, 5683, 8028, 5684, 8033, 5686, 8037, 5688, 8041, 5689, 8047, 5691, 8051, 5692, 8056, 5694, 8060, 5695, 8065, 5696, 8069, 5698, 8073, 5699, 8077, 5699, 8082, 5701, 8087, 5703, 8091, 5704, 8095, 5705, 8099, 5706, 8103, 5707, 8109, 5709, 8114, 5710, 8117, 5713, 8118, 5717, 8116, 5722, 8106, 5724, 8097, 5725, 8085, 5726, 8073, 5726, 8062, 5726, 8051, 5726, 8037, 5726, 8031, 5725, 8026, 5724, 8021, 5724, 8016, 5723, 8012, 5723, 8004, 5722, 8000, 5722, 7995, 5721, 7990, 5720, 7985, 5719, 7977, 5719, 7971, 5717, 7966, 5716, 7962, 5715, 7958, 5714, 7954, 5714, 7949, 5713, 7943, 5710, 7940, 5708, 7936, 5705, 7936, 5701, 7935, 5694, 7935, 5688, 7935, 5684)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_59" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7351, 5854, 7356, 5858, 7358, 5862, 7360, 5866, 7360, 5871, 7360, 5876, 7360, 5880, 7360, 5884, 7360, 5889, 7359, 5894, 7356, 5897, 7353, 5901, 7349, 5901, 7344, 5901, 7340, 5899, 7338, 5895, 7334, 5891, 7334, 5885, 7334, 5880, 7334, 5876, 7329, 5875, 7324, 5875, 7324, 5870, 7326, 5866, 7329, 5862, 7332, 5858, 7334, 5853, 7335, 5849, 7336, 5843, 7337, 5839, 7337, 5834, 7338, 5830, 7340, 5826, 7343, 5823, 7347, 5822, 7352, 5821, 7357, 5821, 7362, 5821, 7368, 5821, 7372, 5820, 7376, 5820, 7381, 5820, 7384, 5818, 7385, 5814, 7388, 5810, 7392, 5806, 7396, 5806, 7400, 5806, 7404, 5808, 7406, 5813, 7406, 5818, 7406, 5824, 7406, 5828, 7406, 5834, 7406, 5838, 7406, 5843, 7406, 5848, 7405, 5852, 7404, 5856, 7404, 5861, 7404, 5866, 7404, 5870, 7404, 5875, 7404, 5880, 7404, 5885, 7404, 5889, 7404, 5894, 7404, 5899, 7404, 5904, 7405, 5909, 7405, 5914, 7406, 5918, 7406, 5923, 7406, 5928, 7406, 5933, 7406, 5937, 7406, 5942, 7406, 5947, 7405, 5951, 7405, 5956, 7405, 5961, 7405, 5965, 7406, 5969, 7409, 5972, 7412, 5975, 7413, 5980, 7413, 5984, 7413, 5989, 7413, 5994, 7415, 5998, 7417, 6001, 7418, 6005, 7415, 6008, 7410, 6008, 7406, 6008, 7401, 6008, 7394, 6008, 7388, 6008, 7383, 6008, 7380, 6004, 7380, 5999, 7380, 5994, 7381, 5989, 7382, 5984, 7384, 5980, 7386, 5975, 7390, 5971, 7393, 5967, 7394, 5963, 7393, 5957, 7392, 5952, 7392, 5947, 7392, 5942, 7392, 5937, 7392, 5931, 7392, 5925, 7392, 5921, 7392, 5915, 7392, 5911, 7392, 5905, 7392, 5899, 7392, 5895, 7392, 5890, 7392, 5885, 7392, 5880, 7392, 5875, 7392, 5868, 7392, 5864, 7392, 5859, 7390, 5855, 7386, 5854, 7383, 5850, 7380, 5846, 7378, 5842, 7377, 5838, 7373, 5836, 7368, 5836, 7364, 5836, 7358, 5836, 7354, 5836, 7351, 5840, 7350, 5844, 7350, 5848, 7353, 5850)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_60" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6924, 6005, 6924, 5999, 6924, 5994, 6924, 5988, 6924, 5984, 6925, 5980, 6927, 5976, 6930, 5973, 6932, 5970, 6933, 5966, 6933, 5961, 6932, 5957, 6932, 5952, 6932, 5948, 6932, 5943, 6932, 5939, 6933, 5935, 6934, 5931, 6935, 5927, 6935, 5922, 6935, 5917, 6935, 5912, 6935, 5908, 6935, 5903, 6935, 5899, 6935, 5894, 6935, 5890, 6935, 5886, 6935, 5882, 6935, 5878, 6935, 5873, 6935, 5869, 6935, 5865, 6935, 5860, 6936, 5856, 6936, 5852, 6936, 5848, 6936, 5844, 6936, 5840, 6934, 5835, 6934, 5831, 6934, 5826, 6935, 5822, 6935, 5818, 6936, 5814, 6937, 5810, 6941, 5808, 6945, 5808, 6949, 5809, 6953, 5813, 6955, 5816, 6959, 5819, 6963, 5819, 6967, 5819, 6972, 5819, 6978, 5819, 6982, 5819, 6987, 5819, 6991, 5819, 6995, 5819, 6999, 5820, 6999, 5824, 6999, 5828, 6999, 5833, 6999, 5837, 7000, 5841, 7001, 5846, 7003, 5850, 7005, 5853, 7006, 5857, 7008, 5861, 7010, 5865, 7010, 5869, 7010, 5873, 7011, 5877, 7009, 5881, 7008, 5885, 7008, 5889, 7007, 5893, 7006, 5897, 7003, 5900, 6999, 5903, 6994, 5903, 6990, 5902, 6987, 5899, 6984, 5895, 6982, 5891, 6980, 5887, 6980, 5883, 6980, 5879, 6979, 5875, 6976, 5871, 6976, 5867, 6976, 5863, 6978, 5859, 6981, 5856, 6983, 5852, 6985, 5847, 6986, 5843, 6986, 5838, 6986, 5834, 6985, 5830, 6981, 5830, 6977, 5831, 6973, 5831, 6968, 5833, 6965, 5836, 6962, 5839, 6958, 5843, 6955, 5846, 6953, 5850, 6950, 5853, 6948, 5857, 6947, 5861, 6947, 5865, 6947, 5870, 6947, 5875, 6947, 5879, 6946, 5884, 6946, 5888, 6946, 5892, 6946, 5896, 6946, 5900, 6946, 5904, 6946, 5909, 6946, 5913, 6946, 5918, 6946, 5923, 6946, 5928, 6946, 5932, 6946, 5936, 6946, 5941, 6947, 5945, 6947, 5950, 6947, 5954, 6947, 5958, 6947, 5962, 6947, 5967, 6950, 5970, 6952, 5974, 6953, 5978, 6955, 5982, 6955, 5986, 6955, 5990, 6955, 5994, 6956, 5998, 6958, 6002, 6955, 6004, 6948, 6005, 6943, 6005, 6939, 6004, 6934, 6004, 6930, 6004)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_61" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(6923, 6006, 6961, 6006, 6961, 6012, 6923, 6012)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_62" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9494, 6001, 9492, 5996, 9491, 5992, 9491, 5988, 9491, 5983, 9491, 5978, 9491, 5974, 9494, 5971, 9498, 5968, 9498, 5964, 9498, 5960, 9498, 5955, 9498, 5951, 9499, 5946, 9499, 5941, 9499, 5936, 9499, 5931, 9499, 5926, 9500, 5922, 9500, 5918, 9501, 5913, 9501, 5909, 9502, 5905, 9502, 5900, 9503, 5896, 9503, 5892, 9503, 5886, 9503, 5881, 9503, 5877, 9503, 5871, 9503, 5866, 9503, 5862, 9503, 5857, 9502, 5852, 9500, 5848, 9498, 5844, 9498, 5838, 9498, 5834, 9498, 5829, 9497, 5824, 9497, 5820, 9496, 5816, 9496, 5810, 9499, 5807, 9503, 5805, 9507, 5804, 9512, 5804, 9516, 5808, 9519, 5811, 9521, 5816, 9526, 5816, 9530, 5816, 9534, 5816, 9539, 5816, 9544, 5817, 9548, 5817, 9554, 5818, 9558, 5818, 9562, 5818, 9567, 5818, 9570, 5821, 9571, 5825, 9571, 5830, 9571, 5834, 9571, 5838, 9572, 5844, 9573, 5848, 9575, 5851, 9577, 5856, 9577, 5860, 9577, 5864, 9577, 5870, 9575, 5873, 9574, 5878, 9574, 5882, 9574, 5886, 9574, 5892, 9572, 5896, 9569, 5899, 9565, 5900, 9559, 5901, 9554, 5901, 9549, 5900, 9548, 5896, 9548, 5892, 9548, 5886, 9548, 5881, 9550, 5877, 9546, 5874, 9541, 5872, 9540, 5868, 9540, 5864, 9541, 5859, 9543, 5856, 9545, 5851, 9548, 5849, 9551, 5844, 9552, 5840, 9551, 5836, 9549, 5831, 9545, 5831, 9540, 5832, 9535, 5834, 9532, 5837, 9529, 5840, 9526, 5843, 9522, 5845, 9520, 5849, 9518, 5853, 9517, 5858, 9517, 5862, 9516, 5866, 9516, 5871, 9515, 5875, 9514, 5880, 9514, 5885, 9514, 5889, 9514, 5893, 9514, 5898, 9514, 5902, 9514, 5906, 9514, 5912, 9514, 5916, 9514, 5921, 9514, 5926, 9514, 5931, 9514, 5935, 9514, 5940, 9514, 5945, 9514, 5949, 9514, 5953, 9514, 5958, 9514, 5962, 9514, 5967, 9516, 5971, 9521, 5972, 9524, 5974, 9525, 5980, 9525, 5984, 9525, 5988, 9525, 5993, 9525, 5997, 9521, 6001, 9516, 6001, 9512, 6002, 9507, 6002, 9501, 6002)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_63" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9886, 5877, 9887, 5881, 9888, 5886, 9890, 5890, 9891, 5894, 9894, 5897, 9898, 5900, 9902, 5901, 9907, 5900, 9910, 5898, 9914, 5896, 9917, 5892, 9918, 5887, 9919, 5883, 9919, 5877, 9920, 5873, 9920, 5868, 9920, 5864, 9917, 5859, 9914, 5856, 9911, 5852, 9908, 5847, 9907, 5843, 9907, 5839, 9909, 5835, 9911, 5832, 9915, 5831, 9920, 5831, 9924, 5832, 9928, 5835, 9931, 5839, 9934, 5843, 9936, 5847, 9940, 5850, 9942, 5854, 9942, 5858, 9943, 5862, 9943, 5866, 9943, 5871, 9944, 5875, 9944, 5880, 9944, 5884, 9944, 5889, 9944, 5893, 9944, 5897, 9944, 5901, 9944, 5906, 9944, 5911, 9944, 5915, 9944, 5919, 9944, 5923, 9944, 5927, 9944, 5932, 9944, 5936, 9944, 5940, 9944, 5944, 9944, 5949, 9944, 5953, 9945, 5958, 9945, 5962, 9945, 5966, 9941, 5968, 9938, 5971, 9936, 5976, 9936, 5980, 9937, 5984, 9938, 5988, 9937, 5992, 9935, 5996, 9935, 6000, 9935, 6005, 9940, 6007, 9946, 6007, 9951, 6007, 9956, 6007, 9961, 6007, 9965, 6007, 9969, 6007, 9973, 6005, 9972, 6000, 9970, 5995, 9969, 5990, 9968, 5986, 9968, 5982, 9968, 5978, 9967, 5973, 9963, 5971, 9960, 5966, 9959, 5962, 9958, 5957, 9958, 5953, 9957, 5948, 9957, 5943, 9957, 5939, 9957, 5935, 9956, 5931, 9956, 5927, 9956, 5922, 9956, 5918, 9956, 5912, 9956, 5908, 9956, 5903, 9956, 5899, 9956, 5895, 9956, 5891, 9956, 5887, 9956, 5882, 9956, 5878, 9956, 5874, 9956, 5870, 9956, 5865, 9956, 5861, 9957, 5856, 9958, 5852, 9960, 5848, 9961, 5844, 9964, 5840, 9967, 5837, 9970, 5834, 9970, 5830, 9968, 5826, 9966, 5822, 9965, 5818, 9964, 5813, 9962, 5809, 9959, 5806, 9955, 5806, 9951, 5807, 9946, 5808, 9942, 5809, 9940, 5813, 9938, 5817, 9935, 5821, 9931, 5821, 9926, 5821, 9921, 5821, 9917, 5821, 9913, 5821, 9908, 5821, 9903, 5820, 9899, 5819, 9896, 5822, 9895, 5827, 9894, 5832, 9893, 5836, 9893, 5840, 9893, 5844, 9893, 5848, 9891, 5853, 9887, 5856, 9884, 5859, 9881, 5863, 9881, 5867, 9881, 5872, 9881, 5876, 9881, 5881, 9881, 5885, 9882, 5889, 9885, 5892)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_64" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8771, 6068, 8879, 6068, 8879, 6140, 8771, 6140)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_65" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8867, 6176, 8935, 6176, 8935, 6201, 8867, 6201)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_66" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8953, 6178, 9049, 6178, 9049, 6203, 8953, 6203)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_67" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9036, 6105, 9110, 6105, 9110, 6152, 9036, 6152)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_68" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8908, 6033, 9019, 6033, 9019, 6114, 8908, 6114)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_69" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9175, 6078, 9242, 6078, 9242, 6131, 9175, 6131)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_70" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9254, 6060, 9430, 6060, 9430, 6111, 9254, 6111)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_71" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9267, 6005, 9407, 6005, 9407, 6061, 9267, 6061)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_72" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8777, 5723, 9480, 5723, 9480, 5790, 8777, 5790)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_73" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8773, 5783, 8785, 5783, 8785, 5815, 8773, 5815)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_74" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8792, 5717, 9482, 5717, 9482, 5734, 8792, 5734)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_75" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9360, 5661, 9416, 5661, 9416, 5720, 9360, 5720)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_76" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8841, 5716, 8848, 5715, 8855, 5714, 8861, 5714, 8865, 5712, 8870, 5709, 8874, 5707, 8876, 5703)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_77" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8842, 5717, 8846, 5714, 8852, 5711, 8855, 5709, 8860, 5707, 8865, 5705, 8869, 5703, 8874, 5701, 8878, 5700, 8882, 5698, 8886, 5697, 8890, 5694, 8893, 5691, 8898, 5687, 8902, 5685, 8905, 5682, 8909, 5681, 8914, 5678, 8918, 5676, 8922, 5674, 8928, 5671, 8932, 5667, 8936, 5664, 8940, 5661, 8943, 5658, 8947, 5653, 8950, 5649, 8952, 5646, 8955, 5643, 8959, 5640, 8961, 5637, 8964, 5633, 8968, 5630, 8973, 5629, 8978, 5629, 8983, 5629, 8987, 5629, 8991, 5631, 8994, 5635, 8997, 5638, 9000, 5641, 9003, 5644, 9006, 5648, 9009, 5651, 9012, 5654, 9016, 5657, 9019, 5660, 9023, 5662, 9027, 5664, 9031, 5667, 9035, 5670, 9039, 5672, 9045, 5675, 9049, 5677, 9053, 5680, 9057, 5682, 9061, 5685, 9065, 5687, 9069, 5690, 9073, 5691, 9078, 5693, 9081, 5696, 9086, 5698, 9089, 5700, 9094, 5703, 9098, 5705, 9104, 5707, 9108, 5709, 9111, 5710, 9114, 5714, 9114, 5718)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_78" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7520, 6547, 7566, 6547, 7566, 6571, 7520, 6571)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_79" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7747, 6550, 7811, 6550, 7811, 6569, 7747, 6569)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_80" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7842, 6548, 7935, 6548, 7935, 6569, 7842, 6569)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_81" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7964, 6549, 8062, 6549, 8062, 6570, 7964, 6570)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_82" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8077, 6529, 8169, 6529, 8169, 6548, 8077, 6548)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_83" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8053, 6345, 8056, 6342, 8059, 6337, 8060, 6333, 8064, 6330, 8068, 6329, 8072, 6328, 8077, 6327, 8081, 6326, 8085, 6327, 8089, 6329, 8093, 6331, 8097, 6334, 8100, 6337, 8103, 6341, 8106, 6343, 8108, 6347)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_84" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7508, 6345, 7515, 6343, 7519, 6342, 7524, 6341, 7528, 6340, 7530, 6335, 7533, 6333, 7537, 6331, 7541, 6330, 7545, 6329, 7549, 6329, 7554, 6329, 7558, 6330, 7562, 6331, 7566, 6332, 7570, 6334, 7572, 6338, 7577, 6341, 7581, 6341, 7585, 6342, 7589, 6342, 7593, 6345, 7597, 6348, 7599, 6351)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_85" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7619, 6346, 7623, 6344, 7628, 6341, 7632, 6340, 7636, 6340, 7641, 6341, 7646, 6341, 7650, 6342, 7655, 6343, 7661, 6343, 7666, 6343, 7671, 6343, 7675, 6342, 7679, 6342, 7684, 6342, 7690, 6341, 7694, 6341, 7698, 6341, 7703, 6341, 7706, 6344, 7710, 6346)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "free"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_86" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(9361, 6196, 9455, 6196, 9455, 6216, 9361, 6216)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_87" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8616, 6621, 8687, 6621, 8687, 6650, 8616, 6650)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_88" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8709, 6580, 8817, 6580, 8817, 6629, 8709, 6629)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_89" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8847, 6631, 8934, 6631, 8934, 6652, 8847, 6652)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_90" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8749, 6811, 8832, 6811, 8832, 6836, 8749, 6836)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_91" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(8853, 6813, 8927, 6813, 8927, 6836, 8853, 6836)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "rectangle"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_92" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7467, 7010, 7471, 6986, 7484, 6963, 7488, 6928, 7530, 6886, 7571, 6872, 7601, 6876, 7637, 6889, 7666, 6920, 7673, 6945, 7674, 6961, 7693, 6978, 7694, 7013)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0.85"
+
+[node name="top_93" type="Polygon2D" parent="Annotations/top"]
+polygon = PackedVector2Array(7473, 7007, 7454, 7016, 7554, 7011)
+color = Color(0.058824, 0.623529, 0.560784, 0.28)
+metadata/mode = "polygon"
+metadata/map_stitch_tile_key = "0,0.85"

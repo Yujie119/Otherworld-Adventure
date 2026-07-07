@@ -1,0 +1,86 @@
+[
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      66,
+      18,
+      190,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "slug": "2b",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_085aac35c103a07c016a4c689cfa1081999ba0681723971570.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\尼尔机械纪元\\2b\\形态01_常态\\2b.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      84,
+      20,
+      171,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "slug": "9s",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_085aac35c103a07c016a4c68dd2d5481998eea8773a6ea930e.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\尼尔机械纪元\\9s\\形态01_常态\\9s.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      73,
+      16,
+      183,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "slug": "a2",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_085aac35c103a07c016a4c6927b5e48199a1a57ffc965936c4.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\尼尔机械纪元\\a2\\形态01_常态\\a2.png"
+  },
+  {
+    "size": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      72,
+      52,
+      184,
+      240
+    ],
+    "bbox_bottom": 240,
+    "max_edge_alpha": 0,
+    "green_key": 0,
+    "greenish_residual": 0,
+    "magenta_key": 0,
+    "slug": "pascal",
+    "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_085aac35c103a07c016a4c6978fbf081999683db15c8e947ac.png",
+    "final": "D:\\游戏\\earth-online\\main\\assets\\character\\尼尔机械纪元\\pascal\\形态01_常态\\pascal.png"
+  }
+]

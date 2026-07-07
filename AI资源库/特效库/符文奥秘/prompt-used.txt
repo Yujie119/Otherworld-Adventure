@@ -1,0 +1,1 @@
+Create a 2D game map VFX sprite sheet for mysterious rune magic, 7-frame horizontal strip, cyan-violet rune circle, magenta background.

@@ -1,0 +1,21 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    66,
+    18,
+    190,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "slug": "2b",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_085aac35c103a07c016a4c689cfa1081999ba0681723971570.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\尼尔机械纪元\\2b\\形态01_常态\\2b.png"
+}

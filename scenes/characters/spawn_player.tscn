@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://dhlabdsrrsagg"]
+
+[ext_resource type="Script" uid="uid://chb3q2tpc5c1l" path="res://scripts/map/spawn_player_controller.gd" id="1_player"]
+[ext_resource type="Texture2D" uid="uid://ccp60pnohjeu6" path="res://ifmap/map/TINA.png" id="2_tina"]
+[ext_resource type="Script" uid="uid://cwdsms4q7v6ma" path="res://scripts/map/spawn_foot_shadow.gd" id="3_shadow"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_feet"]
+size = Vector2(36, 22)
+
+[node name="SpawnPlayer" type="CharacterBody2D" unique_id=1858656208]
+collision_layer = 2
+motion_mode = 1
+script = ExtResource("1_player")
+zoom_step = 0.1
+
+[node name="Shadow" type="Node2D" parent="." unique_id=296590535]
+z_index = -1
+script = ExtResource("3_shadow")
+shadow_size = Vector2i(76, 26)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1046580072]
+z_index = 1
+texture_filter = 1
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("2_tina")
+region_enabled = true
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1306237729]
+zoom = Vector2(0.55, 0.55)
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1071571762]
+position = Vector2(0, -5)
+shape = SubResource("RectangleShape2D_feet")

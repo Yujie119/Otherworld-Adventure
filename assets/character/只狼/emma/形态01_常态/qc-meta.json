@@ -1,0 +1,23 @@
+{
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGBA",
+  "bbox": [
+    86,
+    22,
+    169,
+    240
+  ],
+  "bbox_bottom": 240,
+  "max_edge_alpha": 0,
+  "green_key": 0,
+  "greenish_residual": 0,
+  "magenta_key": 0,
+  "magenta_residual": 0,
+  "slug": "emma",
+  "label": "Emma",
+  "source": "D:\\codex\\generated_images\\019f387e-cf1e-71a2-9560-b5b79b4d5712\\ig_0e1e6408d7c36202016a4c7a0f89b0819ba5c123e85d554de3.png",
+  "final": "D:\\游戏\\earth-online\\main\\assets\\character\\只狼\\emma\\形态01_常态\\emma.png"
+}

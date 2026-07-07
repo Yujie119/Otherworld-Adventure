@@ -1,0 +1,1 @@
+Create a 2D game map VFX sprite sheet for small fire burning, 7-frame horizontal strip, compact flame and embers, magenta background.
