@@ -2,7 +2,6 @@
 extends EditorPlugin
 
 const DockScene := preload("res://addons/npc_library_tool/ui/npc_library_dock_v2.gd")
-
 var _dock: Control
 ## 主工作区内部名（2D / 3D / Script 等）。拖放仅在 2D 时完成，避免误在脚本等界面松手仍生成。
 var _editor_main_screen_name := "2D"
@@ -12,8 +11,9 @@ var _pending_auto_save_edited_scene := false
 func _enter_tree() -> void:
 	set_process_input(true)
 	set_process(true)
+	set_force_draw_over_forwarding_enabled()
 	_dock = DockScene.new()
-	_dock.name = "AI资源库"
+	_dock.name = "像素游戏工具"
 	if _dock.has_method("setup"):
 		_dock.setup(get_editor_interface(), self)
 	add_control_to_dock(DOCK_SLOT_RIGHT_UL, _dock)
@@ -28,6 +28,14 @@ func _on_editor_main_screen_changed(screen_name: String) -> void:
 func _input(event: InputEvent) -> void:
 	if _dock == null:
 		return
+	if event is InputEventKey:
+		if _editor_main_screen_name != "2D":
+			return
+		if _is_text_entry_focused():
+			return
+		if _dock.has_method("canvas_shortcut_input") and bool(_dock.call("canvas_shortcut_input", event)):
+			get_viewport().set_input_as_handled()
+		return
 	if not event is InputEventMouseButton:
 		return
 	var mb := event as InputEventMouseButton
@@ -41,8 +49,42 @@ func _input(event: InputEvent) -> void:
 		_dock.complete_npc_drag_if_over_2d_viewport()
 
 
+func _is_text_entry_focused() -> bool:
+	var focus_owner: Control = get_viewport().gui_get_focus_owner()
+	return focus_owner is LineEdit or focus_owner is TextEdit or focus_owner is SpinBox
+
+
 func request_schedule_auto_save_edited_scene() -> void:
 	_pending_auto_save_edited_scene = true
+
+
+func _handles(_object: Object) -> bool:
+	return _dock != null and _dock.has_method("wants_canvas_input") and bool(_dock.call("wants_canvas_input"))
+
+
+func _forward_canvas_gui_input(event: InputEvent) -> bool:
+	if _dock == null:
+		return false
+	if not _dock.has_method("canvas_gui_input"):
+		return false
+	var handled: bool = bool(_dock.call("canvas_gui_input", event))
+	if handled:
+		update_overlays()
+	return handled
+
+
+func _forward_canvas_draw_over_viewport(viewport_control: Control) -> void:
+	if _dock == null:
+		return
+	if _dock.has_method("draw_canvas_overlay"):
+		_dock.call("draw_canvas_overlay", viewport_control)
+
+
+func _forward_canvas_force_draw_over_viewport(viewport_control: Control) -> void:
+	if _dock == null:
+		return
+	if _dock.has_method("draw_canvas_overlay"):
+		_dock.call("draw_canvas_overlay", viewport_control)
 
 
 func _process(_delta: float) -> void:
@@ -54,7 +96,7 @@ func _process(_delta: float) -> void:
 		return
 	var err: Error = ei.save_scene()
 	if err != OK:
-		push_warning("[AI资源库] 自动保存当前场景失败：%s" % error_string(err))
+		push_warning("[像素游戏工具] 自动保存当前场景失败：%s" % error_string(err))
 		if is_instance_valid(_dock) and _dock.has_method("_set_status"):
 			_dock._set_status("实例已放入场景，但自动保存失败，请手动 Ctrl+S（%s）" % error_string(err))
 

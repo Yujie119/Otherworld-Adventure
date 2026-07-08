@@ -1162,7 +1162,7 @@
       "id": "top",
       "label": "最上层",
       "folder": "top",
-      "visible": true,
+      "visible": false,
       "order": 160,
       "tiles": [
         {

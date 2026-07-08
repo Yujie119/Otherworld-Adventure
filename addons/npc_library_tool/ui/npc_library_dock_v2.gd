@@ -4,20 +4,13 @@ extends ScrollContainer
 const RepoScript := preload("res://addons/npc_library_tool/core/npc_repository.gd")
 const DragCardButtonScript := preload("res://addons/npc_library_tool/ui/npc_library_drag_card_button.gd")
 const DragPreviewRectScript := preload("res://addons/npc_library_tool/ui/npc_library_drag_preview_rect.gd")
+const MapRegionToolScript := preload("res://addons/npc_library_tool/ui/map_region_dock.gd")
 ## 拖到 2D 视图时 gui_get_drag_data 字典中的标记键（与插件转发配合）
 const NPC_DRAG_DICT_KEY := "npc_library_tool"
 const DIALOG_ASSET_BASE := "res://addons/npc_library_tool/runtime/dialogue/assets/"
 const DIALOG_ASSET_DIALOG_BG := DIALOG_ASSET_BASE + "对话框底图.png"
 const DIALOG_ASSET_PORTRAIT_FRAME := DIALOG_ASSET_BASE + "特效小块.png"
 const DIALOG_ASSET_NAME_PLATE := DIALOG_ASSET_BASE + "玩家与NPC名字条.png"
-const CONTACT_TEXT := "联系方式：QQ 719937402\n收费版插件 / AI 像素技术培训 / 游戏资源解包培训 / 挂机脚本培训 / Godot 快速入门\n1、像素素材生成培训：角色到地形流程，含常规视频没有的技巧，2 小时远程桌面加语音。\n2、UE5 / Unity 像素游戏资源提取培训：经验之谈，外界无参考教程，1~2 小时。\n3、安卓模拟器游戏挂机脚本培训：熟悉工作室脚本流程，帮助快速上手自动化脚本。\n4、Godot 快速入门培训：AI 结合 Godot 开发技巧。\n5、满血版插件：带新模板，支持 HD2D 版本。"
-const AD_DIALOGUE_LINES: Array[String] = [
-	"广告：联系 QQ 719937402，可咨询收费版插件、AI 像素技术培训、游戏资源解包培训。",
-	"像素素材生成培训：从像素角色生成流程到地形生成流程，除基础教学外会给常规视频里没有的技巧；2 小时，远程桌面加语音，效果是能独立定制自己的像素风格（有限）。",
-	"像素资源提取培训：对 UE5 和 Unity 像素游戏提取做简单培训，完全经验之谈，外界无参考教程；1~2 小时，远程桌面加语音。",
-	"游戏挂机脚本培训：安卓模拟器自动化写脚本，本人熟悉工作室脚本流程，帮助学员快速上手安卓游戏自动化脚本编写，常规游戏可自己写挂机脚本。",
-	"Godot 快速入门培训：AI 结合 Godot 开发技巧；另有满血版插件，带新模板并支持 HD2D 版本。"
-]
 ## 运行时与「UI框编辑」当前使用的对话界面场景（可被预设覆盖）
 const DIALOGUE_UI_SCENE_PATH := "res://addons/npc_library_tool/runtime/dialogue/dialogue_ui_default.tscn"
 ## 插件内置「恢复默认」用的只读副本（首次与 dialogue_ui_default 一致；更新插件时可替换此文件）
@@ -87,6 +80,7 @@ var _editor_interface: EditorInterface
 var _editor_plugin: EditorPlugin
 var _repo: RefCounted
 var _main_column: VBoxContainer
+var _map_region_tool: Control
 var _search_edit: LineEdit
 var _resource_type_option: OptionButton
 var _suppress_resource_type_change := false
@@ -222,6 +216,8 @@ func setup(editor_interface: EditorInterface, editor_plugin: EditorPlugin = null
 	_editor_plugin = editor_plugin
 	_repo = RepoScript.new()
 	_build_ui()
+	if _map_region_tool != null and _map_region_tool.has_method("setup"):
+		_map_region_tool.setup(_editor_interface, _editor_plugin)
 	_load_resource_type_from_editor_settings()
 	set_process(true)
 	call_deferred("_apply_dock_content_width")
@@ -251,6 +247,21 @@ func _exit_tree() -> void:
 			w.queue_free()
 
 
+func wants_canvas_input() -> bool:
+	return _map_region_tool != null and _map_region_tool.has_method("wants_canvas_input") and bool(_map_region_tool.call("wants_canvas_input"))
+
+
+func canvas_gui_input(event: InputEvent) -> bool:
+	if _map_region_tool == null or not _map_region_tool.has_method("canvas_gui_input"):
+		return false
+	return bool(_map_region_tool.call("canvas_gui_input", event))
+
+
+func draw_canvas_overlay(viewport_control: Control) -> void:
+	if _map_region_tool != null and _map_region_tool.has_method("draw_canvas_overlay"):
+		_map_region_tool.call("draw_canvas_overlay", viewport_control)
+
+
 func _build_ui() -> void:
 	# 横向铺满 Dock，不强制大于槽位的最小宽度，避免出现底部横向滚动条
 	size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -265,33 +276,6 @@ func _build_ui() -> void:
 	main.add_theme_constant_override("separation", 4)
 	add_child(main)
 	_main_column = main
-
-	var ad_panel := PanelContainer.new()
-	ad_panel.custom_minimum_size = Vector2(0, 320)
-	ad_panel.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	var ad_style := StyleBoxFlat.new()
-	ad_style.bg_color = Color(0.92, 0.28, 0.08, 0.96)
-	ad_style.border_color = Color(1.0, 0.84, 0.28, 1.0)
-	ad_style.set_border_width_all(2)
-	ad_style.set_corner_radius_all(6)
-	ad_style.content_margin_left = 8
-	ad_style.content_margin_right = 8
-	ad_style.content_margin_top = 8
-	ad_style.content_margin_bottom = 8
-	ad_panel.add_theme_stylebox_override("panel", ad_style)
-	main.add_child(ad_panel)
-
-	var contact_label := Label.new()
-	contact_label.text = CONTACT_TEXT
-	contact_label.tooltip_text = CONTACT_TEXT
-	contact_label.custom_minimum_size = Vector2(0, 304)
-	contact_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	contact_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
-	contact_label.vertical_alignment = VERTICAL_ALIGNMENT_TOP
-	contact_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	contact_label.add_theme_font_size_override("font_size", 13)
-	contact_label.add_theme_color_override("font_color", Color(1, 1, 1))
-	ad_panel.add_child(contact_label)
 
 	var top_bar := HBoxContainer.new()
 	top_bar.size_flags_horizontal = Control.SIZE_EXPAND_FILL
@@ -337,6 +321,13 @@ func _build_ui() -> void:
 	_ui_skin_btn.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
 	_ui_skin_btn.pressed.connect(_open_ui_skin_editor)
 	top_bar.add_child(_ui_skin_btn)
+
+	var map_panel := PanelContainer.new()
+	map_panel.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	main.add_child(map_panel)
+	_map_region_tool = MapRegionToolScript.new()
+	_map_region_tool.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	map_panel.add_child(_map_region_tool)
 
 	# 单行：「资源过滤」+ 下拉靠左；右侧状态文案（扫描结果等）右对齐
 	var nav_filter_row := HBoxContainer.new()
@@ -1209,7 +1200,7 @@ func _attach_rpgmaker_protagonist_driver(npc_root: Node2D, edited_scene_root: No
 	if prompt is CanvasItem:
 		(prompt as CanvasItem).visible = false
 	if not ResourceLoader.exists(RPGMAKER_PROTAGONIST_DRIVER_SCRIPT):
-		push_warning("[AI资源库] 缺少主角控制脚本：%s" % RPGMAKER_PROTAGONIST_DRIVER_SCRIPT)
+		push_warning("[像素游戏工具] 缺少主角控制脚本：%s" % RPGMAKER_PROTAGONIST_DRIVER_SCRIPT)
 		return
 	var scr := load(RPGMAKER_PROTAGONIST_DRIVER_SCRIPT) as GDScript
 	if scr == null:
@@ -1684,7 +1675,7 @@ func _schedule_save_edited_scene_after_spawn() -> void:
 	if _editor_plugin != null and _editor_plugin.has_method("request_schedule_auto_save_edited_scene"):
 		_editor_plugin.request_schedule_auto_save_edited_scene()
 		return
-	push_warning("[AI资源库] 无法调度自动保存（缺少 EditorPlugin 引用），请手动 Ctrl+S")
+	push_warning("[像素游戏工具] 无法调度自动保存（缺少 EditorPlugin 引用），请手动 Ctrl+S")
 
 
 func spawn_npc_by_source_index_at(source_index: int, canvas_pos: Vector2) -> void:
@@ -2073,9 +2064,9 @@ func _create_fx_spawn_node(item: Dictionary) -> Node:
 		if script_res is GDScript:
 			root.set_script(script_res)
 		else:
-			push_warning("[AI资源库] 特效脚本不是 GDScript：%s" % emitter_script_path)
+			push_warning("[像素游戏工具] 特效脚本不是 GDScript：%s" % emitter_script_path)
 	else:
-		push_warning("[AI资源库] 未找到特效脚本：%s" % emitter_script_path)
+		push_warning("[像素游戏工具] 未找到特效脚本：%s" % emitter_script_path)
 	_apply_spawn_metadata(root, item)
 	return root
 
@@ -4340,7 +4331,7 @@ func _set_status(text: String) -> void:
 	if _status_label != null:
 		_status_label.text = text
 	else:
-		push_warning("[AI资源库] %s" % text)
+		push_warning("[像素游戏工具] %s" % text)
 
 
 ## 弹窗限制在屏幕内（首次打开不会因固定像素超出可视区域）
@@ -5219,26 +5210,13 @@ func _save_dialogue_lines_from_editor() -> void:
 
 func _get_dialogue_lines_for_item(item: Dictionary) -> PackedStringArray:
 	if item.is_empty():
-		return PackedStringArray(AD_DIALOGUE_LINES)
+		return PackedStringArray()
 	var data: Dictionary = item.get("data", {})
 	var meta: Dictionary = data.get("meta", {})
 	var npc_id := String(meta.get("id", ""))
 	if npc_id != "" and _dialogue_lines_by_id.has(npc_id):
-		return _with_ad_dialogue_lines(PackedStringArray(_dialogue_lines_by_id[npc_id]))
-	var from_json := _dialogue_lines_zh_ordered_from_json(data)
-	return _with_ad_dialogue_lines(from_json)
-
-
-func _with_ad_dialogue_lines(lines: PackedStringArray) -> PackedStringArray:
-	var out := PackedStringArray()
-	for line in lines:
-		var t := String(line).strip_edges()
-		if t != "" and out.find(t) < 0:
-			out.append(t)
-	for ad in AD_DIALOGUE_LINES:
-		if out.find(ad) < 0:
-			out.append(ad)
-	return out
+		return PackedStringArray(_dialogue_lines_by_id[npc_id])
+	return _dialogue_lines_zh_ordered_from_json(data)
 
 
 func _get_dialogue_lines_for_current_item() -> PackedStringArray:

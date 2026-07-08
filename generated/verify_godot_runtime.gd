@@ -5,8 +5,7 @@ const REQUIRED_NODES := [
 	"Map",
 	"Player",
 	"MapElementsLayer/法阵球元素",
-	"EffectsLayer/雷电滋滋",
-	"EffectsLayer/火焰燃烧",
+	"EffectsLayer",
 ]
 
 var _frames_left: int = 300
