@@ -7,8 +7,8 @@ extends Node2D
 @export var player_layer_bit: int = 2
 @export var camera_padding: float = 96.0
 @export var player_clearance_radius: float = 28.0
-@export var include_top_layer_as_occlusion: bool = true
 @export var adjusted_player_z_index: int = -2
+@export var plugin_occluder_z_index: int = 160
 
 var _map: Node2D
 var _player: CharacterBody2D
@@ -16,6 +16,9 @@ var _collision_polygons: Array[CollisionPolygon2D] = []
 var _adjust_polygons: Array[CollisionPolygon2D] = []
 var _occlusion_polygons: Array[Polygon2D] = []
 var _top_polygons: Array[Polygon2D] = []
+var _overall_tile_records: Array[Dictionary] = []
+var _plugin_occluder_layer: Node2D
+var _plugin_occluder_visuals: Array[Dictionary] = []
 var _player_visual_state: Dictionary = {}
 var _map_rect: Rect2 = Rect2()
 var _player_adjusted := false
@@ -28,24 +31,27 @@ func _ready() -> void:
 		push_error("SpawnMapController requires Map and Player nodes.")
 		return
 	_map_rect = _read_map_canvas_rect()
+	_load_overall_tile_records()
 	_restore_annotations_from_json()
+	_configure_visual_occlusion_layers()
 	_enable_map_collisions()
 	_collect_adjust_polygons()
 	_collect_occlusion_polygons()
+	_rebuild_plugin_occluder_visuals()
 	_place_player()
 	_configure_player_camera()
+	_reset_player_occlusion_visual_state()
 	set_process(true)
 
 
 func _process(_delta: float) -> void:
 	if _player == null:
 		return
-	var player_point: Vector2 = _player.global_position
-	var in_top: bool = _is_point_inside_any_top(player_point)
-	var occluded: bool = _is_point_inside_any_occluder(player_point) or in_top
-	if _player.has_method(&"set_occluded"):
-		_player.call(&"set_occluded", occluded)
-	_apply_player_depth_adjustment(_is_point_inside_any_adjust(player_point) or in_top)
+	var foot_point: Vector2 = _player.global_position
+	var active_occluder_source_ids: Dictionary = _active_occluder_source_ids_at(foot_point)
+	_sync_plugin_occluder_visibility(active_occluder_source_ids)
+	var should_depth_adjust: bool = not active_occluder_source_ids.is_empty() or _point_inside_any_collision_polygon(foot_point, _adjust_polygons)
+	_apply_player_depth_adjustment(should_depth_adjust)
 
 
 func _enable_map_collisions() -> void:
@@ -73,19 +79,11 @@ func _enable_map_collisions() -> void:
 func _collect_occlusion_polygons() -> void:
 	_occlusion_polygons.clear()
 	_top_polygons.clear()
-	var roots: Array[Node] = []
-	var occlusion_paths: Array[NodePath] = [NodePath("Annotations/occlusion")]
-	if include_top_layer_as_occlusion:
-		occlusion_paths.append(NodePath("Annotations/top"))
-	for path: NodePath in occlusion_paths:
-		var root: Node = _map.get_node_or_null(path)
-		if root != null:
-			roots.append(root)
-	if roots.is_empty():
+	var occlusion_root: Node = _map.get_node_or_null("Annotations/occlusion")
+	if occlusion_root == null:
 		push_warning("Spawn map has no Annotations/occlusion node.")
-		return
-	for root: Node in roots:
-		for child: Node in root.find_children("*", "Polygon2D", true, false):
+	else:
+		for child: Node in occlusion_root.find_children("*", "Polygon2D", true, false):
 			var polygon: Polygon2D = child as Polygon2D
 			_occlusion_polygons.append(polygon)
 	var top_root: Node = _map.get_node_or_null("Annotations/top")
@@ -165,6 +163,10 @@ func _is_point_inside_any_occluder(global_point: Vector2) -> bool:
 	return false
 
 
+func _player_overlaps_any_occluder() -> bool:
+	return _point_inside_any_polygon2d(_player.global_position, _occlusion_polygons)
+
+
 func _is_point_inside_any_top(global_point: Vector2) -> bool:
 	for polygon: Polygon2D in _top_polygons:
 		if polygon == null or not is_instance_valid(polygon):
@@ -174,8 +176,55 @@ func _is_point_inside_any_top(global_point: Vector2) -> bool:
 	return false
 
 
+func _player_overlaps_any_top() -> bool:
+	return _point_inside_any_polygon2d(_player.global_position, _top_polygons)
+
+
 func _is_point_inside_any_adjust(global_point: Vector2) -> bool:
 	for polygon: CollisionPolygon2D in _adjust_polygons:
+		if polygon == null or not is_instance_valid(polygon):
+			continue
+		if Geometry2D.is_point_in_polygon(polygon.to_local(global_point), polygon.polygon):
+			return true
+	return false
+
+
+func _player_overlaps_any_adjust() -> bool:
+	return _point_inside_any_collision_polygon(_player.global_position, _adjust_polygons)
+
+
+func _player_foot_inside_depth_region() -> bool:
+	if _player == null:
+		return false
+	var foot_point: Vector2 = _player.global_position
+	return not _active_occluder_source_ids_at(foot_point).is_empty() or _point_inside_any_collision_polygon(foot_point, _adjust_polygons)
+
+
+func _active_occluder_source_ids_at(global_point: Vector2) -> Dictionary:
+	var active_ids: Dictionary = {}
+	_add_active_polygon_source_ids(global_point, _occlusion_polygons, active_ids)
+	return active_ids
+
+
+func _add_active_polygon_source_ids(global_point: Vector2, polygons: Array[Polygon2D], active_ids: Dictionary) -> void:
+	for polygon: Polygon2D in polygons:
+		if polygon == null or not is_instance_valid(polygon):
+			continue
+		if Geometry2D.is_point_in_polygon(polygon.to_local(global_point), polygon.polygon):
+			active_ids[int(polygon.get_instance_id())] = true
+
+
+func _point_inside_any_polygon2d(global_point: Vector2, polygons: Array[Polygon2D]) -> bool:
+	for polygon: Polygon2D in polygons:
+		if polygon == null or not is_instance_valid(polygon):
+			continue
+		if Geometry2D.is_point_in_polygon(polygon.to_local(global_point), polygon.polygon):
+			return true
+	return false
+
+
+func _point_inside_any_collision_polygon(global_point: Vector2, polygons: Array[CollisionPolygon2D]) -> bool:
+	for polygon: CollisionPolygon2D in polygons:
 		if polygon == null or not is_instance_valid(polygon):
 			continue
 		if Geometry2D.is_point_in_polygon(polygon.to_local(global_point), polygon.polygon):
@@ -215,11 +264,157 @@ func _player_visual_targets() -> Array[CanvasItem]:
 		return targets
 	if _player is CanvasItem:
 		targets.append(_player as CanvasItem)
-	for child: Node in _player.find_children("*", "CanvasItem", true, false):
-		var canvas_item: CanvasItem = child as CanvasItem
-		if canvas_item != null:
-			targets.append(canvas_item)
 	return targets
+
+
+func _reset_player_occlusion_visual_state() -> void:
+	if _player == null:
+		return
+	if _player.has_method(&"set_occlusion_strength"):
+		_player.call(&"set_occlusion_strength", 0.0)
+	elif _player.has_method(&"set_occluded"):
+		_player.call(&"set_occluded", false)
+
+
+func _configure_visual_occlusion_layers() -> void:
+	var top_layer: CanvasItem = _map.get_node_or_null("top") as CanvasItem
+	if top_layer != null:
+		top_layer.visible = false
+	_force_map_layer_tiles_visible("top", false)
+	_ensure_plugin_occluder_layer()
+
+
+func _force_map_layer_tiles_visible(layer_id: String, visible: bool) -> void:
+	var records_value: Variant = _map.get("_tile_records")
+	if not records_value is Array:
+		return
+	var records: Array = records_value as Array
+	for index: int in range(records.size()):
+		var record_value: Variant = records[index]
+		if not record_value is Dictionary:
+			continue
+		var record: Dictionary = record_value as Dictionary
+		if String(record.get("layer", "")) != layer_id:
+			continue
+		record["visible"] = visible
+		record["wanted"] = visible
+		var sprite: CanvasItem = record.get("sprite", null) as CanvasItem
+		if sprite != null and is_instance_valid(sprite):
+			sprite.visible = visible
+		records[index] = record
+	_map.set("_tile_records", records)
+	if _map.has_method(&"_update_visible_tiles"):
+		_map.call_deferred(&"_update_visible_tiles", true)
+
+
+func _ensure_plugin_occluder_layer() -> void:
+	_plugin_occluder_layer = _map.get_node_or_null("PluginOccluders") as Node2D
+	if _plugin_occluder_layer == null:
+		_plugin_occluder_layer = Node2D.new()
+		_plugin_occluder_layer.name = "PluginOccluders"
+		_map.add_child(_plugin_occluder_layer)
+	_plugin_occluder_layer.visible = true
+	_plugin_occluder_layer.z_index = plugin_occluder_z_index
+
+
+func _rebuild_plugin_occluder_visuals() -> void:
+	_ensure_plugin_occluder_layer()
+	_plugin_occluder_visuals.clear()
+	for child: Node in _plugin_occluder_layer.get_children():
+		_plugin_occluder_layer.remove_child(child)
+		child.free()
+	var used_source_ids: Dictionary = {}
+	for polygon: Polygon2D in _occlusion_polygons:
+		_create_plugin_occluder_visual_if_new(polygon, false, used_source_ids)
+	for polygon: Polygon2D in _top_polygons:
+		_create_plugin_occluder_visual_if_new(polygon, true, used_source_ids)
+
+
+func _create_plugin_occluder_visual_if_new(source_polygon: Polygon2D, always_visible: bool, used_source_ids: Dictionary) -> void:
+	if source_polygon == null or not is_instance_valid(source_polygon):
+		return
+	var source_id: int = int(source_polygon.get_instance_id())
+	if used_source_ids.has(source_id):
+		return
+	used_source_ids[source_id] = true
+	_create_plugin_occluder_visual(source_polygon, always_visible)
+
+
+func _create_plugin_occluder_visual(source_polygon: Polygon2D, always_visible: bool) -> void:
+	if source_polygon.polygon.size() < 3:
+		return
+	var tile_record: Dictionary = _overall_tile_record_for_polygon(source_polygon)
+	if tile_record.is_empty():
+		return
+	var texture_path: String = String(tile_record.get("path", ""))
+	var texture: Texture2D = ResourceLoader.load(texture_path, "Texture2D") as Texture2D
+	if texture == null:
+		return
+	var rect: Rect2 = tile_record.get("rect", Rect2()) as Rect2
+	var visual: Polygon2D = Polygon2D.new()
+	visual.name = "%s_PluginOccluder" % String(source_polygon.name)
+	visual.polygon = source_polygon.polygon
+	visual.uv = _polygon_uv_for_rect(source_polygon.polygon, rect)
+	visual.texture = texture
+	visual.color = Color.WHITE
+	visual.z_index = plugin_occluder_z_index
+	visual.visible = always_visible
+	visual.set_meta("pixel_game_tool_occluder_visual", true)
+	visual.set_meta("pixel_game_tool_source_polygon_id", int(source_polygon.get_instance_id()))
+	visual.set_meta("pixel_game_tool_always_visible", always_visible)
+	_plugin_occluder_layer.add_child(visual)
+	_plugin_occluder_visuals.append({
+		"visual": visual,
+		"source_id": int(source_polygon.get_instance_id()),
+		"always_visible": always_visible,
+	})
+
+
+func _sync_plugin_occluder_visibility(active_source_ids: Dictionary) -> void:
+	for record: Dictionary in _plugin_occluder_visuals:
+		var visual: CanvasItem = record.get("visual", null) as CanvasItem
+		if visual == null or not is_instance_valid(visual):
+			continue
+		if bool(record.get("always_visible", false)):
+			visual.visible = true
+			continue
+		var source_id: int = int(record.get("source_id", -1))
+		visual.visible = active_source_ids.has(source_id)
+
+
+func _polygon_uv_for_rect(points: PackedVector2Array, rect: Rect2) -> PackedVector2Array:
+	var uv_points: PackedVector2Array = PackedVector2Array()
+	for point: Vector2 in points:
+		uv_points.append(point - rect.position)
+	return uv_points
+
+
+func _overall_tile_record_for_polygon(polygon: Polygon2D) -> Dictionary:
+	var tile_key: String = String(polygon.get_meta("map_stitch_tile_key", ""))
+	if not tile_key.is_empty():
+		for record: Dictionary in _overall_tile_records:
+			if String(record.get("key", "")) == tile_key:
+				return record
+	var bounds: Rect2 = _polygon_bounds(polygon.polygon)
+	var center: Vector2 = bounds.get_center()
+	for record: Dictionary in _overall_tile_records:
+		var rect: Rect2 = record.get("rect", Rect2()) as Rect2
+		if rect.has_point(center):
+			return record
+	return {}
+
+
+func _polygon_bounds(points: PackedVector2Array) -> Rect2:
+	if points.is_empty():
+		return Rect2()
+	var min_point: Vector2 = points[0]
+	var max_point: Vector2 = points[0]
+	for point: Vector2 in points:
+		min_point.x = minf(min_point.x, point.x)
+		min_point.y = minf(min_point.y, point.y)
+		max_point.x = maxf(max_point.x, point.x)
+		max_point.y = maxf(max_point.y, point.y)
+	return Rect2(min_point, max_point - min_point)
 
 
 func _configure_player_camera() -> void:
@@ -245,6 +440,57 @@ func _read_map_canvas_rect() -> Rect2:
 	if size.x <= 0.0 or size.y <= 0.0:
 		return Rect2()
 	return Rect2(Vector2.ZERO, size)
+
+
+func _load_overall_tile_records() -> void:
+	_overall_tile_records.clear()
+	var manifest_path: String = String(_map.get_meta("map_stitch_manifest_path", ""))
+	if manifest_path.is_empty() or not FileAccess.file_exists(manifest_path):
+		return
+	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(manifest_path))
+	if not parsed is Dictionary:
+		return
+	var manifest: Dictionary = parsed as Dictionary
+	var resource_root: String = String(manifest.get("resource_root", ""))
+	var layers: Variant = manifest.get("layers", [])
+	if resource_root.is_empty() or not layers is Array:
+		return
+	for layer_variant: Variant in layers as Array:
+		if not layer_variant is Dictionary:
+			continue
+		var layer_data: Dictionary = layer_variant as Dictionary
+		if String(layer_data.get("id", "")) != "overall":
+			continue
+		var tiles: Variant = layer_data.get("tiles", [])
+		if not tiles is Array:
+			return
+		for tile_variant: Variant in tiles as Array:
+			if not tile_variant is Dictionary:
+				continue
+			var tile_data: Dictionary = tile_variant as Dictionary
+			var pixel_value: Variant = tile_data.get("pixel", {})
+			if not pixel_value is Dictionary:
+				continue
+			var pixel: Dictionary = pixel_value as Dictionary
+			var rect: Rect2 = Rect2(
+				Vector2(float(pixel.get("x", 0.0)), float(pixel.get("y", 0.0))),
+				Vector2(float(pixel.get("width", 0.0)), float(pixel.get("height", 0.0)))
+			)
+			var image_path: String = _manifest_resource_path(resource_root, String(tile_data.get("image", "")))
+			if rect.has_area() and not image_path.is_empty():
+				_overall_tile_records.append({
+					"key": String(tile_data.get("key", "")),
+					"rect": rect,
+					"path": image_path,
+				})
+
+
+func _manifest_resource_path(resource_root: String, image_path: String) -> String:
+	if image_path.is_empty():
+		return ""
+	if image_path.begins_with("res://") or image_path.begins_with("user://"):
+		return image_path
+	return "res://%s/%s" % [resource_root, image_path]
 
 
 func _restore_annotations_from_json() -> void:

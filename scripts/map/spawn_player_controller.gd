@@ -15,6 +15,7 @@ var _frame_idx: int = 0
 var _anim_accum: float = 0.0
 var _anim_defs: Dictionary = {}
 var _is_occluded := false
+var _occlusion_strength: float = 0.0
 
 @onready var _sprite: Sprite2D = $Sprite2D
 @onready var _camera: Camera2D = $Camera2D
@@ -70,6 +71,16 @@ func set_occluded(value: bool) -> void:
 	if _is_occluded == value:
 		return
 	_is_occluded = value
+	_occlusion_strength = 1.0 if value else 0.0
+	_apply_occlusion_visual()
+
+
+func set_occlusion_strength(value: float) -> void:
+	var next_strength: float = clampf(value, 0.0, 1.0)
+	if is_equal_approx(_occlusion_strength, next_strength):
+		return
+	_occlusion_strength = next_strength
+	_is_occluded = _occlusion_strength > 0.01
 	_apply_occlusion_visual()
 
 
@@ -137,5 +148,4 @@ func _apply_tina_frame() -> void:
 
 
 func _apply_occlusion_visual() -> void:
-	var alpha := occluded_alpha if _is_occluded else 1.0
-	_sprite.modulate = Color(1.0, 1.0, 1.0, alpha)
+	_sprite.modulate = Color(1.0, 1.0, 1.0, 1.0)

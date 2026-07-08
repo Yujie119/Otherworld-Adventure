@@ -3,7 +3,7 @@ extends VBoxContainer
 
 const LAYER_DEFS: Array[Dictionary] = [
 	{"id": "occlusion", "label": "遮挡层", "order": 100, "color": Color(0.949020, 0.788235, 0.298039, 0.28)},
-	{"id": "collision", "label": "碰撞层", "order": 110, "color": Color(0.843137, 0.227451, 0.286275, 0.20)},
+	{"id": "collision", "label": "碰撞层", "order": 110, "color": Color(1.0, 0.0, 0.0, 0.36)},
 	{"id": "adjust", "label": "调节层", "order": 120, "color": Color(0.478431, 0.243137, 0.694118, 0.20)},
 	{"id": "top", "label": "最上层", "order": 130, "color": Color(0.058824, 0.623529, 0.560784, 0.28)},
 ]
@@ -16,6 +16,8 @@ const MODE_DEFS: Array[Dictionary] = [
 const DEFAULT_TILE_KEY := "0,0"
 const DEFAULT_COLLISION_LAYER := 1
 const DEFAULT_COLLISION_MASK := 0
+const COLLISION_VISUAL_NAME := "__CollisionVisual"
+const COLLISION_VISUAL_COLOR := Color(1.0, 0.06, 0.08, 0.46)
 const SELECT_FILL_COLOR := Color(0.18, 0.58, 1.0, 0.34)
 const SELECT_LINE_COLOR := Color(0.18, 0.72, 1.0, 0.92)
 const SELECT_RECT_COLOR := Color(0.18, 0.72, 1.0, 0.18)
@@ -279,6 +281,7 @@ func _set_map_node(node: Node2D) -> void:
 	_ensure_annotation_roots()
 	_load_tile_bounds()
 	var restored_count: int = _restore_annotations_from_json()
+	_refresh_collision_visuals()
 	_map_label.text = "地图：%s" % _map_node.get_path()
 	var annotations: CanvasItem = _map_node.get_node_or_null("Annotations") as CanvasItem
 	if annotations != null:
@@ -651,6 +654,7 @@ func _create_shape_node(layer_id: String, shape_name: String, typed_points: Arra
 		polygon.disabled = false
 		body.add_child(polygon)
 		_set_owned(polygon)
+		_sync_collision_visual(body, polygon.polygon)
 		return body
 	if layer_id == "adjust":
 		var area: Area2D = Area2D.new()
@@ -678,6 +682,35 @@ func _create_shape_node(layer_id: String, shape_name: String, typed_points: Arra
 	root.add_child(polygon2d)
 	_set_owned(polygon2d)
 	return polygon2d
+
+
+func _refresh_collision_visuals() -> void:
+	var root: Node2D = _layer_root("collision")
+	if root == null:
+		return
+	for child: Node in root.get_children():
+		if child is StaticBody2D:
+			var collision_polygon: CollisionPolygon2D = child.get_node_or_null("CollisionPolygon2D") as CollisionPolygon2D
+			if collision_polygon != null:
+				_sync_collision_visual(child, collision_polygon.polygon)
+		elif child is Polygon2D:
+			var polygon2d: Polygon2D = child as Polygon2D
+			polygon2d.color = COLLISION_VISUAL_COLOR
+
+
+func _sync_collision_visual(parent: Node, points: PackedVector2Array) -> void:
+	if parent == null or points.size() < 3:
+		return
+	var visual: Polygon2D = parent.get_node_or_null(COLLISION_VISUAL_NAME) as Polygon2D
+	if visual == null:
+		visual = Polygon2D.new()
+		visual.name = COLLISION_VISUAL_NAME
+		parent.add_child(visual)
+		_set_owned(visual)
+	visual.polygon = points
+	visual.color = COLLISION_VISUAL_COLOR
+	visual.z_index = -1
+	visual.z_as_relative = true
 
 
 func _push_undo_action(action: Dictionary) -> void:

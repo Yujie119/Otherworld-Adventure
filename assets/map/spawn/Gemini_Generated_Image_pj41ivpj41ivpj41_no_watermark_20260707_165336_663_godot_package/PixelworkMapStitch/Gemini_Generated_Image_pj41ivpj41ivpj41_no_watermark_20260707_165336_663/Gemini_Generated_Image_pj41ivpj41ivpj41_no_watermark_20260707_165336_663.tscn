@@ -13,10 +13,6 @@ metadata/map_stitch_manifest_path = "res://assets/map/spawn/Gemini_Generated_Ima
 visible = true
 z_index = -10
 
-[node name="top" type="Node2D" parent="."]
-visible = false
-z_index = 160
-
 [node name="Annotations" type="Node2D" parent="."]
 visible = false
 
